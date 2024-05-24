@@ -1,0 +1,1 @@
+This directory should contain the Silva databaases required for taxonomic classification during the bioinformatics stage.
