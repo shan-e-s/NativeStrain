@@ -1,0 +1,2654 @@
+locus_tag	ftype	length_bp	gene	EC_number	COG	product
+54138_Lkimchicus_00001	tRNA	75				tRNA-Asn(gtt)
+54138_Lkimchicus_00002	tRNA	94				tRNA-Ser(gga)
+54138_Lkimchicus_00003	tRNA	74				tRNA-Glu(ttc)
+54138_Lkimchicus_00004	tRNA	75				tRNA-Val(tac)
+54138_Lkimchicus_00005	tRNA	76				tRNA-Asp(gtc)
+54138_Lkimchicus_00006	tRNA	75				tRNA-Phe(gaa)
+54138_Lkimchicus_00007	tRNA	86				tRNA-Tyr(gta)
+54138_Lkimchicus_00008	tRNA	73				tRNA-Trp(cca)
+54138_Lkimchicus_00009	tRNA	76				tRNA-His(gtg)
+54138_Lkimchicus_00010	tRNA	74				tRNA-Gln(ttg)
+54138_Lkimchicus_00011	tRNA	71				tRNA-Cys(gca)
+54138_Lkimchicus_00012	tRNA	88				tRNA-Leu(caa)
+54138_Lkimchicus_00013	CDS	414				hypothetical protein
+54138_Lkimchicus_00014	CDS	387				hypothetical protein
+54138_Lkimchicus_00015	CDS	726				hypothetical protein
+54138_Lkimchicus_00016	CDS	1206	metK	2.5.1.6		S-adenosylmethionine synthase
+54138_Lkimchicus_00017	CDS	1467	bmr3_1			Multidrug resistance protein 3
+54138_Lkimchicus_00018	CDS	246				hypothetical protein
+54138_Lkimchicus_00019	CDS	567				hypothetical protein
+54138_Lkimchicus_00020	CDS	2421	leuS	6.1.1.4		Leucine--tRNA ligase
+54138_Lkimchicus_00021	CDS	480	purE	5.4.99.18	COG0041	N5-carboxyaminoimidazole ribonucleotide mutase
+54138_Lkimchicus_00022	CDS	1122	purK_1	6.3.4.18		N5-carboxyaminoimidazole ribonucleotide synthase
+54138_Lkimchicus_00023	CDS	723	purC	6.3.2.6		Phosphoribosylaminoimidazole-succinocarboxamide synthase
+54138_Lkimchicus_00024	CDS	261	purS	6.3.5.3	COG1828	Phosphoribosylformylglycinamidine synthase subunit PurS
+54138_Lkimchicus_00025	CDS	672	purQ	6.3.5.3	COG0047	Phosphoribosylformylglycinamidine synthase subunit PurQ
+54138_Lkimchicus_00026	CDS	2211	purL	6.3.5.3	COG0046	Phosphoribosylformylglycinamidine synthase subunit PurL
+54138_Lkimchicus_00027	CDS	1449	purF	2.4.2.14	COG0034	Amidophosphoribosyltransferase
+54138_Lkimchicus_00028	CDS	1023	purM	6.3.3.1	COG0150	Phosphoribosylformylglycinamidine cyclo-ligase
+54138_Lkimchicus_00029	CDS	579	purN	2.1.2.2		Phosphoribosylglycinamide formyltransferase
+54138_Lkimchicus_00030	CDS	1527	purH			Bifunctional purine biosynthesis protein PurH
+54138_Lkimchicus_00031	CDS	1251	purD	6.3.4.13	COG0151	Phosphoribosylamine--glycine ligase
+54138_Lkimchicus_00032	CDS	900				hypothetical protein
+54138_Lkimchicus_00033	CDS	564	lemA		COG1704	Protein LemA
+54138_Lkimchicus_00034	CDS	888	htpX	3.4.24.-	COG0501	Protease HtpX homolog
+54138_Lkimchicus_00035	CDS	717				hypothetical protein
+54138_Lkimchicus_00036	CDS	1665	murJ		COG2244	Lipid II flippase MurJ
+54138_Lkimchicus_00037	CDS	831	nnrD	4.2.1.136	COG0063	ADP-dependent (S)-NAD(P)H-hydrate dehydratase
+54138_Lkimchicus_00038	CDS	1413		3.4.13.-	COG0624	Putative dipeptidase SACOL1801
+54138_Lkimchicus_00039	CDS	483				Putative universal stress protein SA1532
+54138_Lkimchicus_00040	CDS	660		2.7.1.113	COG1428	Deoxyguanosine kinase
+54138_Lkimchicus_00041	CDS	771		3.1.3.-		Putative phosphatase M6_Spy0533
+54138_Lkimchicus_00042	CDS	1242	mdtG_1			Multidrug resistance protein MdtG
+54138_Lkimchicus_00043	CDS	678	yvdM	5.4.2.6	COG0637	Beta-phosphoglucomutase
+54138_Lkimchicus_00044	CDS	2715	trePP	2.4.1.216	COG1554	Trehalose 6-phosphate phosphorylase
+54138_Lkimchicus_00045	CDS	654	treP_1	2.4.1.64		Alpha,alpha-trehalose phosphorylase
+54138_Lkimchicus_00046	CDS	1479	treP_2	2.4.1.64		Alpha,alpha-trehalose phosphorylase
+54138_Lkimchicus_00047	CDS	372	mscL		COG1970	Large-conductance mechanosensitive channel
+54138_Lkimchicus_00048	CDS	597				hypothetical protein
+54138_Lkimchicus_00049	CDS	234				hypothetical protein
+54138_Lkimchicus_00050	CDS	699				hypothetical protein
+54138_Lkimchicus_00051	CDS	468				hypothetical protein
+54138_Lkimchicus_00052	CDS	120				hypothetical protein
+54138_Lkimchicus_00053	CDS	369				hypothetical protein
+54138_Lkimchicus_00054	CDS	411				hypothetical protein
+54138_Lkimchicus_00055	CDS	405				hypothetical protein
+54138_Lkimchicus_00056	CDS	282				hypothetical protein
+54138_Lkimchicus_00057	tRNA	86				tRNA-Leu(cag)
+54138_Lkimchicus_00058	CDS	1137	xerC_1			Tyrosine recombinase XerC
+54138_Lkimchicus_00059	CDS	264				hypothetical protein
+54138_Lkimchicus_00060	CDS	1476				hypothetical protein
+54138_Lkimchicus_00061	CDS	414				hypothetical protein
+54138_Lkimchicus_00062	CDS	360				hypothetical protein
+54138_Lkimchicus_00063	CDS	246				hypothetical protein
+54138_Lkimchicus_00064	CDS	174				hypothetical protein
+54138_Lkimchicus_00065	CDS	255				hypothetical protein
+54138_Lkimchicus_00066	CDS	294				hypothetical protein
+54138_Lkimchicus_00067	CDS	171				hypothetical protein
+54138_Lkimchicus_00068	CDS	174				hypothetical protein
+54138_Lkimchicus_00069	CDS	987				hypothetical protein
+54138_Lkimchicus_00070	CDS	378				hypothetical protein
+54138_Lkimchicus_00071	CDS	237				hypothetical protein
+54138_Lkimchicus_00072	CDS	321				hypothetical protein
+54138_Lkimchicus_00073	CDS	522				hypothetical protein
+54138_Lkimchicus_00074	CDS	321				hypothetical protein
+54138_Lkimchicus_00075	CDS	198				hypothetical protein
+54138_Lkimchicus_00076	CDS	108				hypothetical protein
+54138_Lkimchicus_00077	CDS	291				hypothetical protein
+54138_Lkimchicus_00078	CDS	180				hypothetical protein
+54138_Lkimchicus_00079	CDS	303				hypothetical protein
+54138_Lkimchicus_00080	CDS	783				hypothetical protein
+54138_Lkimchicus_00081	CDS	690				hypothetical protein
+54138_Lkimchicus_00082	CDS	816				hypothetical protein
+54138_Lkimchicus_00083	CDS	897				hypothetical protein
+54138_Lkimchicus_00084	CDS	240				hypothetical protein
+54138_Lkimchicus_00085	CDS	486				hypothetical protein
+54138_Lkimchicus_00086	CDS	429				hypothetical protein
+54138_Lkimchicus_00087	CDS	432				hypothetical protein
+54138_Lkimchicus_00088	CDS	1167				hypothetical protein
+54138_Lkimchicus_00089	CDS	141				hypothetical protein
+54138_Lkimchicus_00090	CDS	219				hypothetical protein
+54138_Lkimchicus_00091	CDS	462				hypothetical protein
+54138_Lkimchicus_00092	CDS	1341				hypothetical protein
+54138_Lkimchicus_00093	CDS	1524				hypothetical protein
+54138_Lkimchicus_00094	CDS	882				hypothetical protein
+54138_Lkimchicus_00095	CDS	681				hypothetical protein
+54138_Lkimchicus_00096	CDS	261				hypothetical protein
+54138_Lkimchicus_00097	CDS	177				hypothetical protein
+54138_Lkimchicus_00098	CDS	339				hypothetical protein
+54138_Lkimchicus_00099	CDS	1053				hypothetical protein
+54138_Lkimchicus_00100	CDS	498				hypothetical protein
+54138_Lkimchicus_00101	CDS	195				hypothetical protein
+54138_Lkimchicus_00102	CDS	348				hypothetical protein
+54138_Lkimchicus_00103	CDS	567				hypothetical protein
+54138_Lkimchicus_00104	CDS	405				hypothetical protein
+54138_Lkimchicus_00105	CDS	486				hypothetical protein
+54138_Lkimchicus_00106	CDS	1152				hypothetical protein
+54138_Lkimchicus_00107	CDS	483				hypothetical protein
+54138_Lkimchicus_00108	CDS	591				hypothetical protein
+54138_Lkimchicus_00109	CDS	5691				hypothetical protein
+54138_Lkimchicus_00110	CDS	1221				hypothetical protein
+54138_Lkimchicus_00111	CDS	348				hypothetical protein
+54138_Lkimchicus_00112	CDS	945				hypothetical protein
+54138_Lkimchicus_00113	CDS	381				hypothetical protein
+54138_Lkimchicus_00114	CDS	366				hypothetical protein
+54138_Lkimchicus_00115	CDS	1233				hypothetical protein
+54138_Lkimchicus_00116	CDS	720				hypothetical protein
+54138_Lkimchicus_00117	CDS	1161				hypothetical protein
+54138_Lkimchicus_00118	CDS	432				hypothetical protein
+54138_Lkimchicus_00119	CDS	453				hypothetical protein
+54138_Lkimchicus_00120	CDS	144				hypothetical protein
+54138_Lkimchicus_00121	CDS	318				hypothetical protein
+54138_Lkimchicus_00122	CDS	276				hypothetical protein
+54138_Lkimchicus_00123	CDS	747				hypothetical protein
+54138_Lkimchicus_00124	CDS	2331				hypothetical protein
+54138_Lkimchicus_00125	CDS	1104	ftsH_1	3.4.24.-		ATP-dependent zinc metalloprotease FtsH
+54138_Lkimchicus_00126	CDS	180				hypothetical protein
+54138_Lkimchicus_00127	CDS	366				hypothetical protein
+54138_Lkimchicus_00128	CDS	291				hypothetical protein
+54138_Lkimchicus_00129	CDS	360				hypothetical protein
+54138_Lkimchicus_00130	CDS	309				hypothetical protein
+54138_Lkimchicus_00131	CDS	165				hypothetical protein
+54138_Lkimchicus_00132	CDS	519				hypothetical protein
+54138_Lkimchicus_00133	CDS	489	crtK-2		COG3476	Tryptophan-rich protein TspO
+54138_Lkimchicus_00134	CDS	477	ndk	2.7.4.6	COG0105	Nucleoside diphosphate kinase
+54138_Lkimchicus_00135	CDS	441				hypothetical protein
+54138_Lkimchicus_00136	CDS	399				hypothetical protein
+54138_Lkimchicus_00137	CDS	225				hypothetical protein
+54138_Lkimchicus_00138	CDS	285				hypothetical protein
+54138_Lkimchicus_00139	CDS	237				hypothetical protein
+54138_Lkimchicus_00140	CDS	1902	asnB	6.3.5.4	COG0367	Asparagine synthetase [glutamine-hydrolyzing] 1
+54138_Lkimchicus_00141	CDS	1533	murE	6.3.2.7	COG0769	UDP-N-acetylmuramoyl-L-alanyl-D-glutamate--L-lysine ligase
+54138_Lkimchicus_00142	CDS	1260		6.3.1.12		D-aspartate ligase
+54138_Lkimchicus_00143	CDS	726		5.1.1.13		Aspartate racemase
+54138_Lkimchicus_00144	CDS	345				hypothetical protein
+54138_Lkimchicus_00145	CDS	213				hypothetical protein
+54138_Lkimchicus_00146	tRNA	71				tRNA-Gly(ccc)
+54138_Lkimchicus_00147	CDS	231				hypothetical protein
+54138_Lkimchicus_00148	CDS	216				hypothetical protein
+54138_Lkimchicus_00149	CDS	780	yfcA		COG0730	Probable membrane transporter protein YfcA
+54138_Lkimchicus_00150	CDS	171	rpmF_1		COG0333	50S ribosomal protein L32
+54138_Lkimchicus_00151	CDS	1356				hypothetical protein
+54138_Lkimchicus_00152	CDS	582				hypothetical protein
+54138_Lkimchicus_00153	CDS	714				hypothetical protein
+54138_Lkimchicus_00154	CDS	456				hypothetical protein
+54138_Lkimchicus_00155	CDS	2100				hypothetical protein
+54138_Lkimchicus_00156	CDS	525				IS3 family transposase ISWci1
+54138_Lkimchicus_00157	CDS	717				IS3 family transposase ISWci1
+54138_Lkimchicus_00158	CDS	165				hypothetical protein
+54138_Lkimchicus_00159	CDS	1992	feoB		COG0370	Fe(2+) transporter FeoB
+54138_Lkimchicus_00160	CDS	228				hypothetical protein
+54138_Lkimchicus_00161	CDS	795	sufC		COG0396	Vegetative protein 296
+54138_Lkimchicus_00162	CDS	1302				UPF0051 protein SA0778
+54138_Lkimchicus_00163	CDS	1248	sufS	2.8.1.7	COG0520	Cysteine desulfurase SufS
+54138_Lkimchicus_00164	CDS	462	iscU		COG0822	Iron-sulfur cluster assembly scaffold protein IscU
+54138_Lkimchicus_00165	CDS	1407				UPF0051 protein SA0778
+54138_Lkimchicus_00166	CDS	2172	nrdD	1.1.98.6	COG1328	Anaerobic ribonucleoside-triphosphate reductase
+54138_Lkimchicus_00167	CDS	585				hypothetical protein
+54138_Lkimchicus_00168	CDS	798			COG1120	Uncharacterized ABC transporter ATP-binding protein HI_1470
+54138_Lkimchicus_00169	CDS	1002			COG0609	Probable ABC transporter permease protein HI_1471
+54138_Lkimchicus_00170	CDS	483	cysJ	1.8.1.2	COG0369	Sulfite reductase [NADPH] flavoprotein alpha-component
+54138_Lkimchicus_00171	CDS	402	moaE1	2.8.1.12	COG0314	Molybdopterin synthase catalytic subunit 1
+54138_Lkimchicus_00172	CDS	252				hypothetical protein
+54138_Lkimchicus_00173	CDS	999	moaA1	4.1.99.22	COG2896	GTP 3',8-cyclase 1
+54138_Lkimchicus_00174	CDS	1191	narT		COG2223	Probable nitrate transporter NarT
+54138_Lkimchicus_00175	CDS	300				hypothetical protein
+54138_Lkimchicus_00176	CDS	333				hypothetical protein
+54138_Lkimchicus_00177	CDS	897				hypothetical protein
+54138_Lkimchicus_00178	CDS	894				hypothetical protein
+54138_Lkimchicus_00179	CDS	1002				hypothetical protein
+54138_Lkimchicus_00180	CDS	294				hypothetical protein
+54138_Lkimchicus_00181	CDS	654	nreC_1		COG2197	Oxygen regulatory protein NreC
+54138_Lkimchicus_00182	CDS	1029	nreB	2.7.13.3		Oxygen sensor histidine kinase NreB
+54138_Lkimchicus_00183	CDS	435				hypothetical protein
+54138_Lkimchicus_00184	CDS	258				hypothetical protein
+54138_Lkimchicus_00185	CDS	588	mobA	2.7.7.77		Molybdenum cofactor guanylyltransferase
+54138_Lkimchicus_00186	CDS	486	moaC	4.6.1.17	COG0315	Cyclic pyranopterin monophosphate synthase
+54138_Lkimchicus_00187	CDS	492				hypothetical protein
+54138_Lkimchicus_00188	CDS	1221	moeA	2.10.1.1		Molybdopterin molybdenumtransferase
+54138_Lkimchicus_00189	CDS	468	moaB			Molybdenum cofactor biosynthesis protein B
+54138_Lkimchicus_00190	CDS	1020				hypothetical protein
+54138_Lkimchicus_00191	CDS	3669	narG	1.7.99.4	COG5013	Respiratory nitrate reductase 1 alpha chain
+54138_Lkimchicus_00192	CDS	1560	narH	1.7.99.4	COG1140	Respiratory nitrate reductase 1 beta chain
+54138_Lkimchicus_00193	CDS	588				hypothetical protein
+54138_Lkimchicus_00194	CDS	690	narX	1.7.99.4		Nitrate reductase-like protein NarX
+54138_Lkimchicus_00195	CDS	966				hypothetical protein
+54138_Lkimchicus_00196	CDS	411				hypothetical protein
+54138_Lkimchicus_00197	CDS	366	menI	3.1.2.28		1,4-dihydroxy-2-naphthoyl-CoA hydrolase
+54138_Lkimchicus_00198	CDS	822	menB	4.1.3.36	COG0447	1,4-dihydroxy-2-naphthoyl-CoA synthase
+54138_Lkimchicus_00199	CDS	1434	menE	6.2.1.26	COG0318	2-succinylbenzoate--CoA ligase
+54138_Lkimchicus_00200	CDS	1692	argS	6.1.1.19	COG0018	Arginine--tRNA ligase
+54138_Lkimchicus_00201	CDS	468	argR_1			Arginine repressor
+54138_Lkimchicus_00202	CDS	2133	pbpF		COG0744	Penicillin-binding protein 1F
+54138_Lkimchicus_00203	CDS	342				UPF0342 protein SA1663
+54138_Lkimchicus_00204	CDS	1227				hypothetical protein
+54138_Lkimchicus_00205	CDS	2631				hypothetical protein
+54138_Lkimchicus_00206	CDS	1014	yhaM	3.1.-.-	COG3481	3'-5' exoribonuclease YhaM
+54138_Lkimchicus_00207	CDS	894	prsA	5.2.1.8		Foldase protein PrsA
+54138_Lkimchicus_00208	CDS	339				hypothetical protein
+54138_Lkimchicus_00209	CDS	441	hit		COG0537	Protein hit
+54138_Lkimchicus_00210	CDS	735	ecsA		COG1131	ABC-type transporter ATP-binding protein EcsA
+54138_Lkimchicus_00211	CDS	1212				hypothetical protein
+54138_Lkimchicus_00212	CDS	645	trmB	2.1.1.33	COG0220	tRNA (guanine-N(7)-)-methyltransferase
+54138_Lkimchicus_00213	CDS	318	ytpP			Thioredoxin-like protein YtpP
+54138_Lkimchicus_00214	CDS	636	pheT_1	6.1.1.20		Phenylalanine--tRNA ligase beta subunit
+54138_Lkimchicus_00215	CDS	2439				hypothetical protein
+54138_Lkimchicus_00216	CDS	1332	murC	6.3.2.8		UDP-N-acetylmuramate--L-alanine ligase
+54138_Lkimchicus_00217	CDS	702	ybhL		COG0670	Inner membrane protein YbhL
+54138_Lkimchicus_00218	CDS	2655	polA	2.7.7.7		DNA polymerase I
+54138_Lkimchicus_00219	CDS	1461	mutM	4.2.99.18		Formamidopyrimidine-DNA glycosylase
+54138_Lkimchicus_00220	CDS	483	nrdR		COG1327	Transcriptional repressor NrdR
+54138_Lkimchicus_00221	CDS	1410	dnaB		COG3611	Replication initiation and membrane attachment protein
+54138_Lkimchicus_00222	CDS	927	dnaI		COG1484	Primosomal protein DnaI
+54138_Lkimchicus_00223	CDS	1941	thrS	6.1.1.3	COG0441	Threonine--tRNA ligase
+54138_Lkimchicus_00224	CDS	522	infC			Translation initiation factor IF-3
+54138_Lkimchicus_00225	CDS	198	rpmI		COG0291	50S ribosomal protein L35
+54138_Lkimchicus_00226	CDS	354	rplT		COG0292	50S ribosomal protein L20
+54138_Lkimchicus_00227	CDS	927				hypothetical protein
+54138_Lkimchicus_00228	CDS	549				hypothetical protein
+54138_Lkimchicus_00229	CDS	1137	yqeH		COG1161	Uncharacterized protein YqeH
+54138_Lkimchicus_00230	CDS	312			COG1534	RNA-binding protein HI_1333
+54138_Lkimchicus_00231	CDS	633	nadD	2.7.7.18	COG1057	Nicotinate-nucleotide adenylyltransferase
+54138_Lkimchicus_00232	CDS	624				hypothetical protein
+54138_Lkimchicus_00233	CDS	357	rsfS		COG0799	Ribosomal silencing factor RsfS
+54138_Lkimchicus_00234	CDS	741	ubiE	2.1.1.163		Ubiquinone/menaquinone biosynthesis C-methyltransferase UbiE
+54138_Lkimchicus_00235	CDS	1140			COG1323	UPF0348 protein SP_1742
+54138_Lkimchicus_00236	CDS	543				hypothetical protein
+54138_Lkimchicus_00237	CDS	1020	adhA_1	1.1.1.1		Alcohol dehydrogenase 1
+54138_Lkimchicus_00238	CDS	690	arlR_1		COG0745	Response regulator ArlR
+54138_Lkimchicus_00239	CDS	1665	sasA_1	2.7.-.-		Adaptive-response sensory-kinase SasA
+54138_Lkimchicus_00240	CDS	933	yidC			Membrane protein insertase YidC
+54138_Lkimchicus_00241	CDS	273	acyP	3.6.1.7	COG1254	Acylphosphatase
+54138_Lkimchicus_00242	CDS	783		2.1.1.-		Putative TrmH family tRNA/rRNA methyltransferase
+54138_Lkimchicus_00243	CDS	519				hypothetical protein
+54138_Lkimchicus_00244	CDS	387				hypothetical protein
+54138_Lkimchicus_00245	CDS	1047	pheS	6.1.1.20	COG0016	Phenylalanine--tRNA ligase alpha subunit
+54138_Lkimchicus_00246	CDS	2412	pheT_2	6.1.1.20		Phenylalanine--tRNA ligase beta subunit
+54138_Lkimchicus_00247	CDS	1137	mltG	4.2.2.-		Endolytic murein transglycosylase
+54138_Lkimchicus_00248	CDS	660	udk	2.7.1.48	COG0572	Uridine kinase
+54138_Lkimchicus_00249	CDS	483	greA_1		COG0782	Transcription elongation factor GreA
+54138_Lkimchicus_00250	CDS	306				hypothetical protein
+54138_Lkimchicus_00251	CDS	2655				hypothetical protein
+54138_Lkimchicus_00252	CDS	2070	penA		COG0768	Penicillin-binding protein 2B
+54138_Lkimchicus_00253	CDS	150	rpmGA			50S ribosomal protein L33 1
+54138_Lkimchicus_00254	CDS	540	yqgN		COG0212	Uncharacterized protein YqgN
+54138_Lkimchicus_00255	CDS	675	gluP	3.4.21.105	COG0705	Rhomboid protease GluP
+54138_Lkimchicus_00256	CDS	219	yqgQ		COG4483	Uncharacterized protein YqgQ
+54138_Lkimchicus_00257	CDS	972	glcK	2.7.1.2	COG1940	Glucokinase
+54138_Lkimchicus_00258	CDS	408	glpE	2.8.1.1		Thiosulfate sulfurtransferase GlpE
+54138_Lkimchicus_00259	CDS	177				hypothetical protein
+54138_Lkimchicus_00260	CDS	927	miaA	2.5.1.75	COG0324	tRNA dimethylallyltransferase
+54138_Lkimchicus_00261	CDS	393	glnR		COG0789	HTH-type transcriptional regulator GlnR
+54138_Lkimchicus_00262	CDS	1341	glnA	6.3.1.2	COG0174	Glutamine synthetase
+54138_Lkimchicus_00263	CDS	888				hypothetical protein
+54138_Lkimchicus_00264	CDS	939				hypothetical protein
+54138_Lkimchicus_00265	CDS	495				hypothetical protein
+54138_Lkimchicus_00266	tRNA	76				tRNA-Arg(tct)
+54138_Lkimchicus_00267	CDS	156				hypothetical protein
+54138_Lkimchicus_00268	CDS	321			COG0393	UPF0145 protein BC_1012
+54138_Lkimchicus_00269	CDS	432				hypothetical protein
+54138_Lkimchicus_00270	CDS	645				hypothetical protein
+54138_Lkimchicus_00271	CDS	309	rplU		COG0261	50S ribosomal protein L21
+54138_Lkimchicus_00272	CDS	330				hypothetical protein
+54138_Lkimchicus_00273	CDS	297	rpmA		COG0211	50S ribosomal protein L27
+54138_Lkimchicus_00274	CDS	1068	ypdF	3.4.11.-	COG0006	Aminopeptidase YpdF
+54138_Lkimchicus_00275	CDS	561	efp			Elongation factor P
+54138_Lkimchicus_00276	CDS	441				Uncharacterized protein Spy1535
+54138_Lkimchicus_00277	CDS	372				hypothetical protein
+54138_Lkimchicus_00278	CDS	864	folD		COG0190	Bifunctional protein FolD
+54138_Lkimchicus_00279	CDS	1359	xseA	3.1.11.6	COG1570	Exodeoxyribonuclease 7 large subunit
+54138_Lkimchicus_00280	CDS	255	xseB	3.1.11.6		Exodeoxyribonuclease 7 small subunit
+54138_Lkimchicus_00281	CDS	900		2.5.1.10		Farnesyl diphosphate synthase
+54138_Lkimchicus_00282	CDS	816	tlyA		COG1189	Hemolysin A
+54138_Lkimchicus_00283	CDS	453	argR_2		COG1438	Arginine repressor
+54138_Lkimchicus_00284	CDS	1701	recN		COG0497	DNA repair protein RecN
+54138_Lkimchicus_00285	CDS	294				hypothetical protein
+54138_Lkimchicus_00286	CDS	618	gmk_1	2.7.4.8	COG0194	Guanylate kinase
+54138_Lkimchicus_00287	CDS	213	rpoZ	2.7.7.6		DNA-directed RNA polymerase subunit omega
+54138_Lkimchicus_00288	CDS	1218	coaBC		COG0452	Coenzyme A biosynthesis bifunctional protein CoaBC
+54138_Lkimchicus_00289	CDS	2412	priA	3.6.4.-		primosomal protein N'
+54138_Lkimchicus_00290	CDS	948	fmt	2.1.2.9		Methionyl-tRNA formyltransferase
+54138_Lkimchicus_00291	CDS	1347	rsmB	2.1.1.176	COG0144	Ribosomal RNA small subunit methyltransferase B
+54138_Lkimchicus_00292	CDS	747		3.1.3.16		Putative protein phosphatase 2C-type
+54138_Lkimchicus_00293	CDS	1980	prkC	2.7.11.1	COG0515	Serine/threonine-protein kinase PrkC
+54138_Lkimchicus_00294	CDS	897	rsgA_1	3.6.1.-	COG1162	Small ribosomal subunit biogenesis GTPase RsgA
+54138_Lkimchicus_00295	CDS	651	rpe	5.1.3.1		Ribulose-phosphate 3-epimerase
+54138_Lkimchicus_00296	CDS	648	thiN	2.7.6.2	COG1564	Thiamine pyrophosphokinase
+54138_Lkimchicus_00297	CDS	186	rpmB			50S ribosomal protein L28
+54138_Lkimchicus_00298	CDS	363				Uncharacterized protein Spy1614
+54138_Lkimchicus_00299	CDS	1701				Uncharacterized protein SA1069
+54138_Lkimchicus_00300	CDS	2031	recG	3.6.4.12		ATP-dependent DNA helicase RecG
+54138_Lkimchicus_00301	CDS	1041	plsX	2.3.1.-	COG0416	Phosphate acyltransferase
+54138_Lkimchicus_00302	CDS	246	acpA		COG0236	Acyl carrier protein
+54138_Lkimchicus_00303	CDS	699	rnc	3.1.26.3	COG0571	Ribonuclease 3
+54138_Lkimchicus_00304	CDS	3555	smc_1		COG1196	Chromosome partition protein Smc
+54138_Lkimchicus_00305	CDS	1458	ftsY			Signal recognition particle receptor FtsY
+54138_Lkimchicus_00306	CDS	342			COG2739	UPF0122 protein SPy_1201/M5005_Spy0916
+54138_Lkimchicus_00307	CDS	1449	ffh		COG0541	Signal recognition particle protein
+54138_Lkimchicus_00308	CDS	1161				hypothetical protein
+54138_Lkimchicus_00309	CDS	180				hypothetical protein
+54138_Lkimchicus_00310	CDS	618				hypothetical protein
+54138_Lkimchicus_00311	CDS	519				hypothetical protein
+54138_Lkimchicus_00312	CDS	198				hypothetical protein
+54138_Lkimchicus_00313	CDS	276	rpsP		COG0228	30S ribosomal protein S16
+54138_Lkimchicus_00314	CDS	258				hypothetical protein
+54138_Lkimchicus_00315	CDS	522	rimM			Ribosome maturation factor RimM
+54138_Lkimchicus_00316	CDS	765	trmD	2.1.1.228		tRNA (guanine-N(1)-)-methyltransferase
+54138_Lkimchicus_00317	CDS	363	rplS		COG0335	50S ribosomal protein L19
+54138_Lkimchicus_00318	CDS	1425	pepDA_1	3.4.-.-	COG4690	Dipeptidase A
+54138_Lkimchicus_00319	CDS	894				hypothetical protein
+54138_Lkimchicus_00320	CDS	189		5.3.2.-		Probable tautomerase SA1195.1
+54138_Lkimchicus_00321	CDS	1509	glpK_1	2.7.1.30	COG0554	Glycerol kinase
+54138_Lkimchicus_00322	CDS	978	rfbB	4.2.1.46	COG1088	dTDP-glucose 4,6-dehydratase
+54138_Lkimchicus_00323	CDS	813	yitU	3.1.3.104	COG0561	5-amino-6-(5-phospho-D-ribitylamino)uracil phosphatase YitU
+54138_Lkimchicus_00324	CDS	1365	rsmF	2.1.1.-	COG0144	Ribosomal RNA small subunit methyltransferase F
+54138_Lkimchicus_00325	CDS	1026	fni	5.3.3.2		Isopentenyl-diphosphate delta-isomerase
+54138_Lkimchicus_00326	CDS	1083		2.7.4.2		Phosphomevalonate kinase
+54138_Lkimchicus_00327	CDS	1026	thrB_1	2.7.1.39		Homoserine kinase
+54138_Lkimchicus_00328	CDS	963	galK_1	2.7.1.6		Galactokinase
+54138_Lkimchicus_00329	CDS	2796	dinG	3.6.4.12	COG0847	Probable ATP-dependent helicase DinG homolog
+54138_Lkimchicus_00330	CDS	507				hypothetical protein
+54138_Lkimchicus_00331	CDS	1185	aspB	2.6.1.14	COG0436	Asparagine--oxo-acid transaminase
+54138_Lkimchicus_00332	CDS	1296	asnS	6.1.1.22		Asparagine--tRNA ligase
+54138_Lkimchicus_00333	CDS	729	dnaD		COG3935	DNA replication protein DnaD
+54138_Lkimchicus_00334	CDS	2334	ponA		COG0744	Penicillin-binding protein 1A
+54138_Lkimchicus_00335	CDS	615	recU	3.1.22.-	COG3331	Holliday junction resolvase RecU
+54138_Lkimchicus_00336	CDS	570	ypsA		COG4474	UPF0398 protein YpsA
+54138_Lkimchicus_00337	CDS	351	gpsB_1		COG3599	Cell cycle protein GpsB
+54138_Lkimchicus_00338	CDS	231				hypothetical protein
+54138_Lkimchicus_00339	CDS	1128	rlmL	2.1.1.173	COG0116	Ribosomal RNA large subunit methyltransferase L
+54138_Lkimchicus_00340	CDS	1326	amt			Ammonia channel
+54138_Lkimchicus_00341	CDS	483				hypothetical protein
+54138_Lkimchicus_00342	CDS	663				hypothetical protein
+54138_Lkimchicus_00343	CDS	603				hypothetical protein
+54138_Lkimchicus_00344	CDS	1113	mnmC	1.5.-.-		tRNA 5-methylaminomethyl-2-thiouridine biosynthesis bifunctional protein MnmC
+54138_Lkimchicus_00345	CDS	396	rnhA_1		COG0328	14.7 kDa ribonuclease H-like protein
+54138_Lkimchicus_00346	CDS	354				hypothetical protein
+54138_Lkimchicus_00347	CDS	1662	fhs1	6.3.4.3		Formate--tetrahydrofolate ligase 1
+54138_Lkimchicus_00348	CDS	447	lspA	3.4.23.36	COG0597	Lipoprotein signal peptidase
+54138_Lkimchicus_00349	CDS	915	rluD_1	5.4.99.23	COG0564	Ribosomal large subunit pseudouridine synthase D
+54138_Lkimchicus_00350	CDS	537	pyrR			Bifunctional protein PyrR
+54138_Lkimchicus_00351	CDS	1074	carA_1	6.3.5.5		Carbamoyl-phosphate synthase small chain
+54138_Lkimchicus_00352	CDS	2523				hypothetical protein
+54138_Lkimchicus_00353	CDS	1710	yloA		COG1293	Uncharacterized protein YloA
+54138_Lkimchicus_00354	CDS	423	slyA_1			Transcriptional regulator SlyA
+54138_Lkimchicus_00355	CDS	870	degV_1		COG1307	Protein DegV
+54138_Lkimchicus_00356	CDS	366				hypothetical protein
+54138_Lkimchicus_00357	CDS	573	msrA_1	1.8.4.11	COG0225	Peptide methionine sulfoxide reductase MsrA
+54138_Lkimchicus_00358	CDS	441	msrB	1.8.4.12		Peptide methionine sulfoxide reductase MsrB
+54138_Lkimchicus_00359	CDS	930	ppaC	3.6.1.1	COG1227	Manganese-dependent inorganic pyrophosphatase
+54138_Lkimchicus_00360	CDS	963	hdfR_1			HTH-type transcriptional regulator HdfR
+54138_Lkimchicus_00361	CDS	2451	parC	5.99.1.3	COG0188	DNA topoisomerase 4 subunit A
+54138_Lkimchicus_00362	CDS	1983	parE	5.99.1.3	COG0187	DNA topoisomerase 4 subunit B
+54138_Lkimchicus_00363	CDS	609	plsY	2.3.1.-	COG0344	Glycerol-3-phosphate acyltransferase
+54138_Lkimchicus_00364	CDS	882	lacX_1			Protein LacX, plasmid
+54138_Lkimchicus_00365	CDS	1428	clpY		COG1220	ATP-dependent protease ATPase subunit ClpY
+54138_Lkimchicus_00366	CDS	543	hslV	3.4.25.2		ATP-dependent protease subunit HslV
+54138_Lkimchicus_00367	CDS	912	xerC_2		COG4974	Tyrosine recombinase XerC
+54138_Lkimchicus_00368	CDS	2100	topA	5.99.1.2		DNA topoisomerase 1
+54138_Lkimchicus_00369	CDS	876				hypothetical protein
+54138_Lkimchicus_00370	CDS	789	rnhB	3.1.26.4	COG0164	Ribonuclease HII
+54138_Lkimchicus_00371	CDS	858	rbgA		COG1161	Ribosome biogenesis GTPase A
+54138_Lkimchicus_00372	CDS	219	yozE		COG4479	UPF0346 protein YozE
+54138_Lkimchicus_00373	CDS	603				hypothetical protein
+54138_Lkimchicus_00374	CDS	915				hypothetical protein
+54138_Lkimchicus_00375	CDS	840			COG1307	DegV domain-containing protein SP_1112
+54138_Lkimchicus_00376	CDS	672	yqfA		COG1272	UPF0073 inner membrane protein YqfA
+54138_Lkimchicus_00377	CDS	495	dfrA	1.5.1.3	COG0262	Dihydrofolate reductase
+54138_Lkimchicus_00378	CDS	951	thyA	2.1.1.45		Thymidylate synthase
+54138_Lkimchicus_00379	CDS	1893	btuD_1	3.6.3.33		Vitamin B12 import ATP-binding protein BtuD
+54138_Lkimchicus_00380	CDS	1200	cca	2.7.7.72		CCA-adding enzyme
+54138_Lkimchicus_00381	CDS	894				hypothetical protein
+54138_Lkimchicus_00382	CDS	1275	lapB			Lipopolysaccharide assembly protein B
+54138_Lkimchicus_00383	CDS	276	hup			DNA-binding protein HU
+54138_Lkimchicus_00384	CDS	1311	der		COG1160	GTPase Der
+54138_Lkimchicus_00385	CDS	1242	rps1		COG0539	30S ribosomal protein S1
+54138_Lkimchicus_00386	CDS	669	cmk	2.7.4.25	COG0283	Cytidylate kinase
+54138_Lkimchicus_00387	CDS	603				hypothetical protein
+54138_Lkimchicus_00388	CDS	1443	recQ_1	3.6.4.12	COG0514	ATP-dependent DNA helicase RecQ
+54138_Lkimchicus_00389	CDS	1059				hypothetical protein
+54138_Lkimchicus_00390	CDS	594	ribU			Riboflavin transporter RibU
+54138_Lkimchicus_00391	CDS	732	rluB	5.4.99.22	COG1187	Ribosomal large subunit pseudouridine synthase B
+54138_Lkimchicus_00392	CDS	594	scpB		COG1386	Segregation and condensation protein B
+54138_Lkimchicus_00393	CDS	753	scpA		COG1354	Segregation and condensation protein A
+54138_Lkimchicus_00394	CDS	357	ribT	2.3.1.-		Protein RibT
+54138_Lkimchicus_00395	CDS	888	xerD			Tyrosine recombinase XerD
+54138_Lkimchicus_00396	CDS	903	cvfB			Conserved virulence factor B
+54138_Lkimchicus_00397	CDS	2892	smc_2			Chromosome partition protein Smc
+54138_Lkimchicus_00398	CDS	1758	pyk	2.7.1.40	COG0469	Pyruvate kinase
+54138_Lkimchicus_00399	CDS	3375	dnaE	2.7.7.7	COG0587	DNA polymerase III subunit alpha
+54138_Lkimchicus_00400	CDS	201				hypothetical protein
+54138_Lkimchicus_00401	CDS	2598	clpB		COG0542	Chaperone protein ClpB
+54138_Lkimchicus_00402	CDS	1239	pepT	3.4.11.4		Peptidase T
+54138_Lkimchicus_00403	CDS	1113			COG0327	GTP cyclohydrolase 1 type 2 homolog
+54138_Lkimchicus_00404	CDS	696	trmK	2.1.1.217	COG2384	tRNA (adenine(22)-N(1))-methyltransferase
+54138_Lkimchicus_00405	CDS	1122	sigA		COG0568	RNA polymerase sigma factor SigA
+54138_Lkimchicus_00406	CDS	1839	dnaG	2.7.7.-	COG0358	DNA primase
+54138_Lkimchicus_00407	CDS	2073	glyS	6.1.1.14	COG0751	Glycine--tRNA ligase beta subunit
+54138_Lkimchicus_00408	CDS	927	glyQ	6.1.1.14	COG0752	Glycine--tRNA ligase alpha subunit
+54138_Lkimchicus_00409	CDS	768	recO		COG1381	DNA repair protein RecO
+54138_Lkimchicus_00410	CDS	906	era		COG1159	GTPase Era
+54138_Lkimchicus_00411	CDS	390	dgkA	2.7.1.66	COG0818	Undecaprenol kinase
+54138_Lkimchicus_00412	CDS	486	ybeY	3.1.-.-		Endoribonuclease YbeY
+54138_Lkimchicus_00413	CDS	966			COG1702	PhoH-like protein
+54138_Lkimchicus_00414	CDS	447	yqeY		COG1610	Uncharacterized protein YqeY
+54138_Lkimchicus_00415	CDS	186	rpsU		COG0828	30S ribosomal protein S21
+54138_Lkimchicus_00416	CDS	831	yqfL	2.7.11.32	COG1806	Putative pyruvate, phosphate dikinase regulatory protein
+54138_Lkimchicus_00417	CDS	930	nfo	3.1.21.2	COG0648	Probable endonuclease 4
+54138_Lkimchicus_00418	CDS	1221	tarF	2.7.8.12		Teichoic acid poly(glycerol phosphate) polymerase
+54138_Lkimchicus_00419	CDS	807	tagG		COG1682	Teichoic acid translocation permease protein TagG
+54138_Lkimchicus_00420	CDS	1158	tagB	2.7.8.44	COG1887	Teichoic acid glycerol-phosphate primase
+54138_Lkimchicus_00421	CDS	876				hypothetical protein
+54138_Lkimchicus_00422	CDS	543	msrA_2	1.8.4.11	COG0225	Peptide methionine sulfoxide reductase MsrA
+54138_Lkimchicus_00423	CDS	1788	aspS	6.1.1.12		Aspartate--tRNA ligase
+54138_Lkimchicus_00424	CDS	1284	hisS	6.1.1.21		Histidine--tRNA ligase
+54138_Lkimchicus_00425	CDS	849				hypothetical protein
+54138_Lkimchicus_00426	CDS	840				hypothetical protein
+54138_Lkimchicus_00427	CDS	645	gph_1	3.1.3.18		Phosphoglycolate phosphatase
+54138_Lkimchicus_00428	CDS	447	dtd	3.1.1.96	COG1490	D-aminoacyl-tRNA deacylase
+54138_Lkimchicus_00429	CDS	2235	relA	2.7.6.5	COG0317	GTP pyrophosphokinase
+54138_Lkimchicus_00430	CDS	327				hypothetical protein
+54138_Lkimchicus_00431	CDS	747	rsmE	2.1.1.193	COG1385	Ribosomal RNA small subunit methyltransferase E
+54138_Lkimchicus_00432	CDS	960	prmA	2.1.1.-	COG2264	Ribosomal protein L11 methyltransferase
+54138_Lkimchicus_00433	CDS	402		3.2.2.-		Putative 3-methyladenine DNA glycosylase
+54138_Lkimchicus_00434	CDS	177		3.2.2.-		Putative 3-methyladenine DNA glycosylase
+54138_Lkimchicus_00435	CDS	300				hypothetical protein
+54138_Lkimchicus_00436	CDS	441				hypothetical protein
+54138_Lkimchicus_00437	CDS	525				hypothetical protein
+54138_Lkimchicus_00438	CDS	234				hypothetical protein
+54138_Lkimchicus_00439	CDS	120				hypothetical protein
+54138_Lkimchicus_00440	CDS	141				hypothetical protein
+54138_Lkimchicus_00441	CDS	186				hypothetical protein
+54138_Lkimchicus_00442	CDS	174				hypothetical protein
+54138_Lkimchicus_00443	CDS	270				hypothetical protein
+54138_Lkimchicus_00444	CDS	2217	agaA	3.2.1.22		Alpha-galactosidase AgaA
+54138_Lkimchicus_00445	CDS	1839	lepA_1	3.6.5.-		Elongation factor 4
+54138_Lkimchicus_00446	CDS	1152	dnaJ		COG0484	Chaperone protein DnaJ
+54138_Lkimchicus_00447	CDS	1875	dnaK		COG0443	Chaperone protein DnaK
+54138_Lkimchicus_00448	CDS	597	grpE			Protein GrpE
+54138_Lkimchicus_00449	CDS	1017	hrcA		COG1420	Heat-inducible transcription repressor HrcA
+54138_Lkimchicus_00450	CDS	969	ribF			Riboflavin biosynthesis protein RibF
+54138_Lkimchicus_00451	CDS	900	truB	5.4.99.25	COG0130	tRNA pseudouridine synthase B
+54138_Lkimchicus_00452	CDS	360	rbfA			Ribosome-binding factor A
+54138_Lkimchicus_00453	CDS	2511	lepA_2			Elongation factor 4
+54138_Lkimchicus_00454	CDS	351	rplGA		COG1358	Probable ribosomal protein YlxQ
+54138_Lkimchicus_00455	CDS	300				hypothetical protein
+54138_Lkimchicus_00456	CDS	1203	nusA		COG0195	Transcription termination/antitermination protein NusA
+54138_Lkimchicus_00457	CDS	474	rimP		COG0779	Ribosome maturation factor RimP
+54138_Lkimchicus_00458	CDS	4323	polC_1	2.7.7.7	COG2176	DNA polymerase III PolC-type
+54138_Lkimchicus_00459	CDS	1731	proS	6.1.1.15	COG0442	Proline--tRNA ligase
+54138_Lkimchicus_00460	CDS	1275	rasP	3.4.24.-	COG0750	Regulator of sigma-W protease RasP
+54138_Lkimchicus_00461	CDS	789				hypothetical protein
+54138_Lkimchicus_00462	CDS	780	uppS	2.5.1.31	COG0020	Ditrans,polycis-undecaprenyl-diphosphate synthase ((2E,6E)-farnesyl-diphosphate specific)
+54138_Lkimchicus_00463	CDS	420				hypothetical protein
+54138_Lkimchicus_00464	CDS	558	frr			Ribosome-recycling factor
+54138_Lkimchicus_00465	CDS	723	pyrH	2.7.4.22	COG0528	Uridylate kinase
+54138_Lkimchicus_00466	CDS	888	tsf			Elongation factor Ts
+54138_Lkimchicus_00467	CDS	786	rpsB		COG0052	30S ribosomal protein S2
+54138_Lkimchicus_00468	CDS	705	gph_2	3.1.3.18		Phosphoglycolate phosphatase
+54138_Lkimchicus_00469	CDS	999	ldhD_1	1.1.1.28	COG1052	D-lactate/D-glycerate dehydrogenase
+54138_Lkimchicus_00470	CDS	297			COG2827	UPF0213 protein EF_2693
+54138_Lkimchicus_00471	CDS	774	yfiC	2.1.1.223		tRNA1(Val) (adenine(37)-N6)-methyltransferase
+54138_Lkimchicus_00472	CDS	630	plsC	2.3.1.-	COG0204	1-acyl-sn-glycerol-3-phosphate acyltransferase
+54138_Lkimchicus_00473	CDS	225				UPF0154 protein SA1178
+54138_Lkimchicus_00474	CDS	246				UPF0291 protein SA1176
+54138_Lkimchicus_00475	CDS	630	lexA_1	3.4.21.88	COG1974	LexA repressor
+54138_Lkimchicus_00476	CDS	1167	mvaS	2.3.3.10	COG3425	Hydroxymethylglutaryl-CoA synthase
+54138_Lkimchicus_00477	CDS	216				hypothetical protein
+54138_Lkimchicus_00478	CDS	267	ptsH_1		COG1925	Phosphocarrier protein HPr
+54138_Lkimchicus_00479	CDS	333				hypothetical protein
+54138_Lkimchicus_00480	CDS	486				hypothetical protein
+54138_Lkimchicus_00481	CDS	138				hypothetical protein
+54138_Lkimchicus_00482	CDS	999				hypothetical protein
+54138_Lkimchicus_00483	CDS	441				Putative universal stress protein SA1532
+54138_Lkimchicus_00484	CDS	1026				hypothetical protein
+54138_Lkimchicus_00485	CDS	927	pld	3.1.4.4		Phospholipase D
+54138_Lkimchicus_00486	CDS	765				hypothetical protein
+54138_Lkimchicus_00487	CDS	150				hypothetical protein
+54138_Lkimchicus_00488	CDS	318				hypothetical protein
+54138_Lkimchicus_00489	CDS	264				hypothetical protein
+54138_Lkimchicus_00490	CDS	219				hypothetical protein
+54138_Lkimchicus_00491	CDS	426				hypothetical protein
+54138_Lkimchicus_00492	CDS	1167				hypothetical protein
+54138_Lkimchicus_00493	CDS	162				hypothetical protein
+54138_Lkimchicus_00494	CDS	1164				hypothetical protein
+54138_Lkimchicus_00495	CDS	2634				hypothetical protein
+54138_Lkimchicus_00496	CDS	1881				hypothetical protein
+54138_Lkimchicus_00497	CDS	5385				hypothetical protein
+54138_Lkimchicus_00498	CDS	399				hypothetical protein
+54138_Lkimchicus_00499	CDS	621				hypothetical protein
+54138_Lkimchicus_00500	CDS	375				hypothetical protein
+54138_Lkimchicus_00501	CDS	423				hypothetical protein
+54138_Lkimchicus_00502	CDS	354				hypothetical protein
+54138_Lkimchicus_00503	CDS	339				hypothetical protein
+54138_Lkimchicus_00504	CDS	690				hypothetical protein
+54138_Lkimchicus_00505	CDS	1206				hypothetical protein
+54138_Lkimchicus_00506	CDS	780	clpP_1	3.4.21.92		ATP-dependent Clp protease proteolytic subunit
+54138_Lkimchicus_00507	CDS	1167				hypothetical protein
+54138_Lkimchicus_00508	CDS	171				hypothetical protein
+54138_Lkimchicus_00509	CDS	1872				hypothetical protein
+54138_Lkimchicus_00510	CDS	456				hypothetical protein
+54138_Lkimchicus_00511	CDS	516				hypothetical protein
+54138_Lkimchicus_00512	CDS	321				hypothetical protein
+54138_Lkimchicus_00513	CDS	222				hypothetical protein
+54138_Lkimchicus_00514	CDS	435				hypothetical protein
+54138_Lkimchicus_00515	CDS	201				hypothetical protein
+54138_Lkimchicus_00516	CDS	282				hypothetical protein
+54138_Lkimchicus_00517	CDS	450				hypothetical protein
+54138_Lkimchicus_00518	CDS	210				hypothetical protein
+54138_Lkimchicus_00519	CDS	354				hypothetical protein
+54138_Lkimchicus_00520	CDS	234				hypothetical protein
+54138_Lkimchicus_00521	CDS	318				hypothetical protein
+54138_Lkimchicus_00522	CDS	1260				hypothetical protein
+54138_Lkimchicus_00523	CDS	798				hypothetical protein
+54138_Lkimchicus_00524	CDS	621				hypothetical protein
+54138_Lkimchicus_00525	CDS	720				hypothetical protein
+54138_Lkimchicus_00526	CDS	1374	radD_1	3.6.4.12	COG1061	Putative DNA repair helicase RadD
+54138_Lkimchicus_00527	CDS	195				hypothetical protein
+54138_Lkimchicus_00528	CDS	483				hypothetical protein
+54138_Lkimchicus_00529	CDS	123				hypothetical protein
+54138_Lkimchicus_00530	CDS	150				hypothetical protein
+54138_Lkimchicus_00531	CDS	105				hypothetical protein
+54138_Lkimchicus_00532	CDS	111				hypothetical protein
+54138_Lkimchicus_00533	CDS	261				hypothetical protein
+54138_Lkimchicus_00534	CDS	717				hypothetical protein
+54138_Lkimchicus_00535	CDS	207				hypothetical protein
+54138_Lkimchicus_00536	CDS	228				hypothetical protein
+54138_Lkimchicus_00537	CDS	336				hypothetical protein
+54138_Lkimchicus_00538	CDS	414				hypothetical protein
+54138_Lkimchicus_00539	CDS	453				hypothetical protein
+54138_Lkimchicus_00540	CDS	303				hypothetical protein
+54138_Lkimchicus_00541	CDS	1164	xerC_3			Tyrosine recombinase XerC
+54138_Lkimchicus_00542	tRNA	88				tRNA-Ser(cga)
+54138_Lkimchicus_00543	CDS	522	apt	2.4.2.7		Adenine phosphoribosyltransferase
+54138_Lkimchicus_00544	CDS	2328				hypothetical protein
+54138_Lkimchicus_00545	CDS	360				hypothetical protein
+54138_Lkimchicus_00546	CDS	942	rnz	3.1.26.11	COG1234	Ribonuclease Z
+54138_Lkimchicus_00547	CDS	273				hypothetical protein
+54138_Lkimchicus_00548	CDS	726				hypothetical protein
+54138_Lkimchicus_00549	CDS	1299	obg	3.6.5.-	COG0536	GTPase Obg
+54138_Lkimchicus_00550	CDS	1788	uvrC		COG0322	UvrABC system protein C
+54138_Lkimchicus_00551	CDS	750	artM		COG1126	Arginine transport ATP-binding protein ArtM
+54138_Lkimchicus_00552	CDS	1476	mltF_1			Membrane-bound lytic murein transglycosylase F
+54138_Lkimchicus_00553	CDS	171				hypothetical protein
+54138_Lkimchicus_00554	CDS	1380	argH	4.3.2.1	COG0165	Argininosuccinate lyase
+54138_Lkimchicus_00555	CDS	1296	argG	6.3.4.5		Argininosuccinate synthase
+54138_Lkimchicus_00556	CDS	288				hypothetical protein
+54138_Lkimchicus_00557	CDS	597	engB		COG0218	Probable GTP-binding protein EngB
+54138_Lkimchicus_00558	CDS	1251	clpX		COG1219	ATP-dependent Clp protease ATP-binding subunit ClpX
+54138_Lkimchicus_00559	CDS	1326	tig	5.2.1.8	COG0544	Trigger factor
+54138_Lkimchicus_00560	CDS	1188	tuf			Elongation factor Tu
+54138_Lkimchicus_00561	CDS	915				hypothetical protein
+54138_Lkimchicus_00562	CDS	1737	rnj2	3.1.-.-		Ribonuclease J 2
+54138_Lkimchicus_00563	CDS	270	rpsO		COG0184	30S ribosomal protein S15
+54138_Lkimchicus_00564	CDS	264	rpsT		COG0268	30S ribosomal protein S20
+54138_Lkimchicus_00565	CDS	1020	yqeN		COG1466	Uncharacterized protein YqeN
+54138_Lkimchicus_00566	CDS	1059	comEC		COG0658	ComE operon protein 3
+54138_Lkimchicus_00567	CDS	990				hypothetical protein
+54138_Lkimchicus_00568	CDS	483	tadA_1	3.5.4.33		tRNA-specific adenosine deaminase
+54138_Lkimchicus_00569	CDS	678	comEA		COG1555	ComE operon protein 1
+54138_Lkimchicus_00570	CDS	1050	ylbL		COG3480	Uncharacterized protein YlbL
+54138_Lkimchicus_00571	CDS	483	coaD	2.7.7.3	COG0669	Phosphopantetheine adenylyltransferase
+54138_Lkimchicus_00572	CDS	561	rsmD	2.1.1.171	COG0742	Ribosomal RNA small subunit methyltransferase D
+54138_Lkimchicus_00573	CDS	291				hypothetical protein
+54138_Lkimchicus_00574	CDS	1188	ftsW	2.4.1.129	COG0772	Probable peptidoglycan glycosyltransferase FtsW
+54138_Lkimchicus_00575	CDS	1842	typA		COG1217	GTP-binding protein TypA/BipA
+54138_Lkimchicus_00576	CDS	786	suhB	3.1.3.11	COG0483	Fructose-1,6-bisphosphatase/inositol-1-monophosphatase
+54138_Lkimchicus_00577	CDS	282			COG4476	UPF0223 protein BH2638
+54138_Lkimchicus_00578	CDS	1425	pdhD	1.8.1.4		Dihydrolipoyl dehydrogenase
+54138_Lkimchicus_00579	CDS	1299	pdhC	2.3.1.12		Dihydrolipoyllysine-residue acetyltransferase component of pyruvate dehydrogenase complex
+54138_Lkimchicus_00580	CDS	978	pdhB	1.2.4.1		Pyruvate dehydrogenase E1 component subunit beta
+54138_Lkimchicus_00581	CDS	1116	pdhA	1.2.4.1		Pyruvate dehydrogenase E1 component subunit alpha
+54138_Lkimchicus_00582	CDS	561	def	3.5.1.88	COG0242	Peptide deformylase
+54138_Lkimchicus_00583	CDS	495				hypothetical protein
+54138_Lkimchicus_00584	CDS	219				UPF0356 protein M6_Spy1605
+54138_Lkimchicus_00585	CDS	1677	rnj1	3.1.-.-		Ribonuclease J 1
+54138_Lkimchicus_00586	CDS	957	ytlR	2.7.1.-	COG1597	Putative lipid kinase YtlR
+54138_Lkimchicus_00587	CDS	165				hypothetical protein
+54138_Lkimchicus_00588	CDS	306				IS200/IS605 family transposase ISStin10
+54138_Lkimchicus_00589	CDS	207				hypothetical protein
+54138_Lkimchicus_00590	CDS	963	lytE	3.4.-.-		Probable peptidoglycan endopeptidase LytE
+54138_Lkimchicus_00591	CDS	744				hypothetical protein
+54138_Lkimchicus_00592	CDS	891	ykfC	3.4.14.13	COG0791	Gamma-D-glutamyl-L-lysine dipeptidyl-peptidase
+54138_Lkimchicus_00593	CDS	1113	ykfB_1	5.1.1.20	COG4948	L-Ala-D/L-Glu epimerase
+54138_Lkimchicus_00594	CDS	396	argR_3			Arginine repressor
+54138_Lkimchicus_00595	CDS	702	ntcA			Global nitrogen regulator
+54138_Lkimchicus_00596	CDS	966	arcC1	2.7.2.2	COG0549	Carbamate kinase 1
+54138_Lkimchicus_00597	CDS	1029	arcB_1	2.1.3.3		Ornithine carbamoyltransferase, catabolic
+54138_Lkimchicus_00598	CDS	1122	arcA_1	3.5.3.6		Arginine deiminase
+54138_Lkimchicus_00599	CDS	1023	rbsR		COG1609	Ribose operon repressor
+54138_Lkimchicus_00600	CDS	993	gpr_1	1.1.1.-	COG0667	L-glyceraldehyde 3-phosphate reductase
+54138_Lkimchicus_00601	CDS	903	murQ	4.2.1.126	COG2103	N-acetylmuramic acid 6-phosphate etherase
+54138_Lkimchicus_00602	CDS	987	prs_1	2.7.6.1	COG0462	Ribose-phosphate pyrophosphokinase
+54138_Lkimchicus_00603	CDS	2520	recD2	3.6.4.12	COG0507	ATP-dependent RecD-like DNA helicase
+54138_Lkimchicus_00604	CDS	684				hypothetical protein
+54138_Lkimchicus_00605	CDS	666	gpgP	3.1.3.85	COG0406	Glucosyl-3-phosphoglycerate phosphatase
+54138_Lkimchicus_00606	CDS	1125	mnmA	2.8.1.13	COG0482	tRNA-specific 2-thiouridylase MnmA
+54138_Lkimchicus_00607	CDS	348				hypothetical protein
+54138_Lkimchicus_00608	CDS	1167	iscS_1	2.8.1.7		Cysteine desulfurase IscS
+54138_Lkimchicus_00609	CDS	666	mtnN	3.2.2.9	COG0775	5'-methylthioadenosine/S-adenosylhomocysteine nucleosidase
+54138_Lkimchicus_00610	CDS	312				hypothetical protein
+54138_Lkimchicus_00611	CDS	555	nudF_1	3.6.1.13	COG0494	ADP-ribose pyrophosphatase
+54138_Lkimchicus_00612	CDS	228	csp_1		COG1278	Cold shock-like protein
+54138_Lkimchicus_00613	CDS	2808	ileS	6.1.1.5	COG0060	Isoleucine--tRNA ligase
+54138_Lkimchicus_00614	CDS	726	gpsB_2			Cell cycle protein GpsB
+54138_Lkimchicus_00615	CDS	783				hypothetical protein
+54138_Lkimchicus_00616	CDS	282				hypothetical protein
+54138_Lkimchicus_00617	CDS	441	sepF		COG1799	Cell division protein SepF
+54138_Lkimchicus_00618	CDS	1233	ftsZ		COG0206	Cell division protein FtsZ
+54138_Lkimchicus_00619	CDS	1329	ftsA		COG0849	Cell division protein FtsA
+54138_Lkimchicus_00620	CDS	840	divIB		COG1589	Cell division protein DivIB
+54138_Lkimchicus_00621	CDS	1098	murG	2.4.1.227	COG0707	UDP-N-acetylglucosamine--N-acetylmuramyl-(pentapeptide) pyrophosphoryl-undecaprenol N-acetylglucosamine transferase
+54138_Lkimchicus_00622	CDS	1380	murD	6.3.2.9		UDP-N-acetylmuramoylalanine--D-glutamate ligase
+54138_Lkimchicus_00623	CDS	957	mraY	2.7.8.13	COG0472	Phospho-N-acetylmuramoyl-pentapeptide-transferase
+54138_Lkimchicus_00624	CDS	2148	pbpB		COG0768	Penicillin-binding protein 2B
+54138_Lkimchicus_00625	CDS	390	ftsL			Cell division protein FtsL
+54138_Lkimchicus_00626	CDS	954	rsmH	2.1.1.199		Ribosomal RNA small subunit methyltransferase H
+54138_Lkimchicus_00627	CDS	432	mraZ			Transcriptional regulator MraZ
+54138_Lkimchicus_00628	CDS	351				hypothetical protein
+54138_Lkimchicus_00629	CDS	2322	spoIIIE		COG1674	DNA translocase SpoIIIE
+54138_Lkimchicus_00630	CDS	516	trmL	2.1.1.207	COG0219	tRNA (cytidine(34)-2'-O)-methyltransferase
+54138_Lkimchicus_00631	CDS	270	rpsN2		COG0199	Alternate 30S ribosomal protein S14
+54138_Lkimchicus_00632	CDS	1155				hypothetical protein
+54138_Lkimchicus_00633	CDS	600	cutC		COG3142	Copper homeostasis protein CutC
+54138_Lkimchicus_00634	CDS	903		5.4.99.-	COG0564	Uncharacterized RNA pseudouridine synthase Rv1540
+54138_Lkimchicus_00635	CDS	813	ppnKA	2.7.1.23	COG0061	NAD kinase 1
+54138_Lkimchicus_00636	CDS	648	yjbM	2.7.6.5	COG2357	GTP pyrophosphokinase YjbM
+54138_Lkimchicus_00637	CDS	612	yjbH		COG2761	UPF0413 protein YjbH
+54138_Lkimchicus_00638	CDS	468				IS3 family transposase ISWci1
+54138_Lkimchicus_00639	CDS	525				IS3 family transposase ISWci1
+54138_Lkimchicus_00640	CDS	1812	pepF1_1	3.4.24.-		Oligoendopeptidase F, plasmid
+54138_Lkimchicus_00641	CDS	204				hypothetical protein
+54138_Lkimchicus_00642	CDS	684	mecA		COG4862	Adapter protein MecA 1
+54138_Lkimchicus_00643	CDS	405	spxA_1		COG1393	Regulatory protein Spx
+54138_Lkimchicus_00644	CDS	738			COG1234	Uncharacterized protein Rv1339
+54138_Lkimchicus_00645	CDS	495				hypothetical protein
+54138_Lkimchicus_00646	CDS	1218				hypothetical protein
+54138_Lkimchicus_00647	tRNA	78				tRNA-Asp(gtc)
+54138_Lkimchicus_00648	tRNA	76				tRNA-Met(cat)
+54138_Lkimchicus_00649	tRNA	74				tRNA-Glu(ttc)
+54138_Lkimchicus_00650	tRNA	90				tRNA-Ser(gct)
+54138_Lkimchicus_00651	tRNA	76				tRNA-Ile(gat)
+54138_Lkimchicus_00652	tRNA	71				tRNA-Gly(tcc)
+54138_Lkimchicus_00653	tRNA	75				tRNA-Phe(gaa)
+54138_Lkimchicus_00654	tRNA	75				tRNA-Asp(gtc)
+54138_Lkimchicus_00655	tRNA	76				tRNA-Met(cat)
+54138_Lkimchicus_00656	tRNA	90				tRNA-Ser(tga)
+54138_Lkimchicus_00657	tRNA	74				tRNA-Met(cat)
+54138_Lkimchicus_00658	tRNA	76				tRNA-Met(cat)
+54138_Lkimchicus_00659	tRNA	74				tRNA-Pro(tgg)
+54138_Lkimchicus_00660	tRNA	74				tRNA-Arg(acg)
+54138_Lkimchicus_00661	tRNA	86				tRNA-Leu(taa)
+54138_Lkimchicus_00662	tRNA	72				tRNA-Gly(gcc)
+54138_Lkimchicus_00663	tRNA	75				tRNA-Thr(tgt)
+54138_Lkimchicus_00664	tRNA	75				tRNA-Lys(ttt)
+54138_Lkimchicus_00665	tRNA	75				tRNA-Val(tac)
+54138_Lkimchicus_00666	CDS	591				hypothetical protein
+54138_Lkimchicus_00667	CDS	1395		1.-.-.-	COG0277	Uncharacterized FAD-linked oxidoreductase Rv2280
+54138_Lkimchicus_00668	CDS	1296	ydjE_1			Inner membrane metabolite transport protein YdjE
+54138_Lkimchicus_00669	CDS	585	leuD	4.2.1.33	COG0066	3-isopropylmalate dehydratase small subunit
+54138_Lkimchicus_00670	CDS	1374	leuC	4.2.1.33	COG0065	3-isopropylmalate dehydratase large subunit
+54138_Lkimchicus_00671	CDS	1080	leuB	1.1.1.85	COG0473	3-isopropylmalate dehydrogenase
+54138_Lkimchicus_00672	CDS	1164	leuA	2.3.3.13		2-isopropylmalate synthase
+54138_Lkimchicus_00673	CDS	594	spsB_1	3.4.21.89		Signal peptidase IB
+54138_Lkimchicus_00674	CDS	1182	bcr			Bicyclomycin resistance protein
+54138_Lkimchicus_00675	CDS	315				hypothetical protein
+54138_Lkimchicus_00676	CDS	906	aes_1	3.1.1.-		Acetyl esterase
+54138_Lkimchicus_00677	CDS	102				hypothetical protein
+54138_Lkimchicus_00678	CDS	1764	pox5	1.2.3.3	COG0028	Pyruvate oxidase
+54138_Lkimchicus_00679	CDS	2667				hypothetical protein
+54138_Lkimchicus_00680	CDS	663	budC	1.1.1.304		Diacetyl reductase [(S)-acetoin forming]
+54138_Lkimchicus_00681	CDS	363				hypothetical protein
+54138_Lkimchicus_00682	CDS	510				hypothetical protein
+54138_Lkimchicus_00683	CDS	261	thiE_1	2.5.1.3	COG0352	Thiamine-phosphate synthase
+54138_Lkimchicus_00684	CDS	345	thiE_2	2.5.1.3		Thiamine-phosphate synthase
+54138_Lkimchicus_00685	CDS	201				hypothetical protein
+54138_Lkimchicus_00686	CDS	654				hypothetical protein
+54138_Lkimchicus_00687	CDS	777	thiG	2.8.1.10	COG2022	Thiazole synthase
+54138_Lkimchicus_00688	CDS	1215	pucF	3.5.3.9	COG0624	Allantoate amidohydrolase
+54138_Lkimchicus_00689	CDS	219				hypothetical protein
+54138_Lkimchicus_00690	CDS	1074	gltP		COG1301	Proton/glutamate-aspartate symporter
+54138_Lkimchicus_00691	CDS	225				hypothetical protein
+54138_Lkimchicus_00692	CDS	1914	mnmG			tRNA uridine 5-carboxymethylaminomethyl modification enzyme MnmG
+54138_Lkimchicus_00693	CDS	1392	mnmE	3.6.-.-	COG0486	tRNA modification GTPase MnmE
+54138_Lkimchicus_00694	CDS	747				hypothetical protein
+54138_Lkimchicus_00695	CDS	831	misCA		COG0706	Membrane protein insertase MisCA
+54138_Lkimchicus_00696	CDS	363	rnpA	3.1.26.5	COG0594	Ribonuclease P protein component
+54138_Lkimchicus_00697	CDS	1332	dnaA		COG0593	Chromosomal replication initiator protein DnaA
+54138_Lkimchicus_00698	CDS	1140	dnaN		COG0592	Beta sliding clamp
+54138_Lkimchicus_00699	CDS	228				hypothetical protein
+54138_Lkimchicus_00700	CDS	1125	recF		COG1195	DNA replication and repair protein RecF
+54138_Lkimchicus_00701	CDS	1941	gyrB	5.99.1.3	COG0187	DNA gyrase subunit B
+54138_Lkimchicus_00702	CDS	2517	gyrA	5.99.1.3	COG0188	DNA gyrase subunit A
+54138_Lkimchicus_00703	CDS	288	rpsF		COG0360	30S ribosomal protein S6
+54138_Lkimchicus_00704	CDS	540	ssbA		COG0629	Single-stranded DNA-binding protein A
+54138_Lkimchicus_00705	CDS	237	rpsR		COG0238	30S ribosomal protein S18
+54138_Lkimchicus_00706	CDS	408	hchA	4.2.1.130		Molecular chaperone Hsp31 and glyoxalase 3
+54138_Lkimchicus_00707	CDS	162				hypothetical protein
+54138_Lkimchicus_00708	CDS	342				hypothetical protein
+54138_Lkimchicus_00709	CDS	123				hypothetical protein
+54138_Lkimchicus_00710	CDS	153	rpmG1		COG0267	50S ribosomal protein L33 1
+54138_Lkimchicus_00711	CDS	369				hypothetical protein
+54138_Lkimchicus_00712	CDS	909	psaA		COG0803	Manganese ABC transporter substrate-binding lipoprotein
+54138_Lkimchicus_00713	CDS	1428	emrB_1			Multidrug export protein EmrB
+54138_Lkimchicus_00714	CDS	2025	gdpP	3.1.4.-	COG3887	Cyclic-di-AMP phosphodiesterase GdpP
+54138_Lkimchicus_00715	CDS	453	rplI			50S ribosomal protein L9
+54138_Lkimchicus_00716	CDS	1398	dnaC	3.6.4.12	COG0305	Replicative DNA helicase
+54138_Lkimchicus_00717	CDS	1176				hypothetical protein
+54138_Lkimchicus_00718	CDS	456			COG2153	UPF0039 protein Rv2851c
+54138_Lkimchicus_00719	CDS	1671	alsS	2.2.1.6	COG0028	Acetolactate synthase
+54138_Lkimchicus_00720	CDS	714	aldC	4.1.1.5	COG3527	Alpha-acetolactate decarboxylase
+54138_Lkimchicus_00721	CDS	1371	npr	1.11.1.1	COG0446	NADH peroxidase
+54138_Lkimchicus_00722	tRNA	75				tRNA-Lys(ctt)
+54138_Lkimchicus_00723	CDS	720	walR		COG0745	Transcriptional regulatory protein WalR
+54138_Lkimchicus_00724	CDS	1875	walK	2.7.13.3		Sensor histidine kinase WalK
+54138_Lkimchicus_00725	CDS	1299				hypothetical protein
+54138_Lkimchicus_00726	CDS	834				hypothetical protein
+54138_Lkimchicus_00727	CDS	807	yycJ	3.-.-.-	COG1235	Putative metallo-hydrolase YycJ
+54138_Lkimchicus_00728	CDS	1296	htrA	3.4.21.107	COG0265	Serine protease Do-like HtrA
+54138_Lkimchicus_00729	CDS	480	rlmH	2.1.1.177	COG1576	Ribosomal RNA large subunit methyltransferase H
+54138_Lkimchicus_00730	CDS	1872				hypothetical protein
+54138_Lkimchicus_00731	CDS	2424	smc_3			Chromosome partition protein Smc
+54138_Lkimchicus_00732	CDS	369				hypothetical protein
+54138_Lkimchicus_00733	CDS	1158				hypothetical protein
+54138_Lkimchicus_00734	CDS	606				hypothetical protein
+54138_Lkimchicus_00735	CDS	279				hypothetical protein
+54138_Lkimchicus_00736	CDS	354				hypothetical protein
+54138_Lkimchicus_00737	CDS	1761				hypothetical protein
+54138_Lkimchicus_00738	CDS	894	benM			HTH-type transcriptional regulator BenM
+54138_Lkimchicus_00739	CDS	375	ygeA	5.-.-.-	COG1794	Putative racemase YgeA
+54138_Lkimchicus_00740	CDS	180				hypothetical protein
+54138_Lkimchicus_00741	CDS	951		1.3.1.103		2-haloacrylate reductase
+54138_Lkimchicus_00742	CDS	111				hypothetical protein
+54138_Lkimchicus_00743	CDS	1254	clcB			Voltage-gated ClC-type chloride channel ClcB
+54138_Lkimchicus_00744	CDS	507				hypothetical protein
+54138_Lkimchicus_00745	CDS	378				hypothetical protein
+54138_Lkimchicus_00746	CDS	591				hypothetical protein
+54138_Lkimchicus_00747	CDS	1938	tetO			Tetracycline resistance protein TetO
+54138_Lkimchicus_00748	CDS	627	nth	4.2.99.18		Endonuclease III
+54138_Lkimchicus_00749	CDS	543				hypothetical protein
+54138_Lkimchicus_00750	CDS	1185		3.5.1.47		N-acetyldiaminopimelate deacetylase
+54138_Lkimchicus_00751	CDS	699	ydfK		COG1811	Uncharacterized membrane protein YdfK
+54138_Lkimchicus_00752	CDS	627	argO		COG1279	Arginine exporter protein ArgO
+54138_Lkimchicus_00753	CDS	828				hypothetical protein
+54138_Lkimchicus_00754	CDS	288	ycnE	1.-.-.-	COG1359	Putative monooxygenase YcnE
+54138_Lkimchicus_00755	CDS	438				hypothetical protein
+54138_Lkimchicus_00756	CDS	1623	ybiT_1		COG0488	Uncharacterized ABC transporter ATP-binding protein YbiT
+54138_Lkimchicus_00757	CDS	498				hypothetical protein
+54138_Lkimchicus_00758	CDS	1371	pepDA_2	3.4.-.-	COG4690	Dipeptidase A
+54138_Lkimchicus_00759	CDS	771		1.1.1.391	COG1028	3-beta-hydroxycholanate 3-dehydrogenase (NAD(+)) 2
+54138_Lkimchicus_00760	CDS	723	kdpB	3.6.3.12		Potassium-transporting ATPase ATP-binding subunit
+54138_Lkimchicus_00761	CDS	1083	ziaA	3.6.3.5		Zinc-transporting ATPase
+54138_Lkimchicus_00762	CDS	675				hypothetical protein
+54138_Lkimchicus_00763	CDS	690	qorB_1	1.6.5.2	COG0702	Quinone oxidoreductase 2
+54138_Lkimchicus_00764	CDS	186				hypothetical protein
+54138_Lkimchicus_00765	CDS	948	osmV	3.6.3.-	COG1125	Osmoprotectant import ATP-binding protein OsmV
+54138_Lkimchicus_00766	CDS	1533				hypothetical protein
+54138_Lkimchicus_00767	CDS	957		1.3.1.103		2-haloacrylate reductase
+54138_Lkimchicus_00768	CDS	927	rihC_1	3.2.-.-	COG1957	Non-specific ribonucleoside hydrolase RihC
+54138_Lkimchicus_00769	CDS	267				hypothetical protein
+54138_Lkimchicus_00770	CDS	270	yoeB	3.1.-.-	COG4115	Toxin YoeB
+54138_Lkimchicus_00771	CDS	339				hypothetical protein
+54138_Lkimchicus_00772	CDS	321				hypothetical protein
+54138_Lkimchicus_00773	CDS	1365	cycA_1		COG1113	D-serine/D-alanine/glycine transporter
+54138_Lkimchicus_00774	CDS	1191				hypothetical protein
+54138_Lkimchicus_00775	CDS	519				hypothetical protein
+54138_Lkimchicus_00776	CDS	432				hypothetical protein
+54138_Lkimchicus_00777	CDS	876	azoB	1.7.-.-		NAD(P)H azoreductase
+54138_Lkimchicus_00778	CDS	1347	gdh	1.4.1.4	COG0334	NADP-specific glutamate dehydrogenase
+54138_Lkimchicus_00779	CDS	1122	xylB_1	1.1.1.90		Aryl-alcohol dehydrogenase
+54138_Lkimchicus_00780	CDS	408				hypothetical protein
+54138_Lkimchicus_00781	CDS	732				hypothetical protein
+54138_Lkimchicus_00782	CDS	1329	brnQ_1		COG1114	Branched-chain amino acid transport system 2 carrier protein
+54138_Lkimchicus_00783	CDS	537				hypothetical protein
+54138_Lkimchicus_00784	CDS	639	betI			HTH-type transcriptional regulator BetI
+54138_Lkimchicus_00785	CDS	1149	ybhR		COG0842	Probable multidrug ABC transporter permease YbhR
+54138_Lkimchicus_00786	CDS	726	ybhF		COG1131	Probable multidrug ABC transporter ATP-binding protein YbhF
+54138_Lkimchicus_00787	CDS	1293	ydjE_2			Inner membrane metabolite transport protein YdjE
+54138_Lkimchicus_00788	CDS	900	Dml	4.1.3.32		2,3-dimethylmalate lyase
+54138_Lkimchicus_00789	CDS	918	prpB	4.1.3.30		2-methylisocitrate lyase
+54138_Lkimchicus_00790	CDS	714	msbA	3.6.3.-	COG1132	Lipid A export ATP-binding/permease protein MsbA
+54138_Lkimchicus_00791	CDS	1044			COG1132	Uncharacterized ABC transporter ATP-binding protein TM_0288
+54138_Lkimchicus_00792	CDS	801		4.3.2.3		Ureidoglycolate lyase
+54138_Lkimchicus_00793	CDS	816	msrA_3	1.8.4.11		Peptide methionine sulfoxide reductase MsrA
+54138_Lkimchicus_00794	CDS	1305	gltB	1.4.1.13	COG0493	Glutamate synthase [NADPH] small chain
+54138_Lkimchicus_00795	CDS	1182	gltA_1	1.4.1.13	COG0067	Glutamate synthase [NADPH] large chain
+54138_Lkimchicus_00796	CDS	1557	gltA_2	1.4.1.13	COG0067	Glutamate synthase [NADPH] large chain
+54138_Lkimchicus_00797	CDS	540				hypothetical protein
+54138_Lkimchicus_00798	CDS	228				hypothetical protein
+54138_Lkimchicus_00799	CDS	1908	cadA	3.6.3.3		Cadmium-transporting ATPase
+54138_Lkimchicus_00800	CDS	1179				hypothetical protein
+54138_Lkimchicus_00801	CDS	306				hypothetical protein
+54138_Lkimchicus_00802	CDS	1623	dppE_1		COG4166	Dipeptide-binding protein DppE
+54138_Lkimchicus_00803	CDS	894	yghA	1.-.-.-		Uncharacterized oxidoreductase YghA
+54138_Lkimchicus_00804	CDS	891				hypothetical protein
+54138_Lkimchicus_00805	CDS	969		3.2.1.55	COG3940	Extracellular exo-alpha-(1->5)-L-arabinofuranosidase
+54138_Lkimchicus_00806	CDS	1248	rafB			Raffinose permease
+54138_Lkimchicus_00807	CDS	216				hypothetical protein
+54138_Lkimchicus_00808	CDS	1374		1.-.-.-	COG0277	Uncharacterized FAD-linked oxidoreductase Rv2280
+54138_Lkimchicus_00809	CDS	1176	bacF	2.6.1.-	COG0436	Transaminase BacF
+54138_Lkimchicus_00810	CDS	663	metP_1		COG2011	Methionine import system permease protein MetP
+54138_Lkimchicus_00811	CDS	1023	metN	3.6.3.-	COG1135	Methionine import ATP-binding protein MetN
+54138_Lkimchicus_00812	CDS	837	metQ_1		COG1464	Methionine-binding lipoprotein MetQ
+54138_Lkimchicus_00813	CDS	1326	kgtP			Alpha-ketoglutarate permease
+54138_Lkimchicus_00814	CDS	1344	pucK_1		COG2233	Uric acid permease PucK
+54138_Lkimchicus_00815	CDS	807				hypothetical protein
+54138_Lkimchicus_00816	CDS	834				hypothetical protein
+54138_Lkimchicus_00817	CDS	828				hypothetical protein
+54138_Lkimchicus_00818	CDS	840	dkgB	1.1.1.274		2,5-diketo-D-gluconic acid reductase B
+54138_Lkimchicus_00819	CDS	915	yicL		COG0697	Uncharacterized inner membrane transporter YicL
+54138_Lkimchicus_00820	CDS	270				hypothetical protein
+54138_Lkimchicus_00821	CDS	579				hypothetical protein
+54138_Lkimchicus_00822	CDS	1806				hypothetical protein
+54138_Lkimchicus_00823	CDS	312				hypothetical protein
+54138_Lkimchicus_00824	CDS	324				hypothetical protein
+54138_Lkimchicus_00825	CDS	1218		1.-.-.-		NADH oxidase
+54138_Lkimchicus_00826	CDS	1062		6.3.1.20		Lipoate--protein ligase 2
+54138_Lkimchicus_00827	CDS	843				hypothetical protein
+54138_Lkimchicus_00828	CDS	285				hypothetical protein
+54138_Lkimchicus_00829	CDS	558				hypothetical protein
+54138_Lkimchicus_00830	CDS	1365				hypothetical protein
+54138_Lkimchicus_00831	CDS	1101	hcxA	1.1.1.-	COG0371	Hydroxycarboxylate dehydrogenase A
+54138_Lkimchicus_00832	CDS	183				hypothetical protein
+54138_Lkimchicus_00833	CDS	690				hypothetical protein
+54138_Lkimchicus_00834	CDS	1695	ilvB	2.2.1.6	COG0028	Acetolactate synthase large subunit
+54138_Lkimchicus_00835	CDS	1023	ilvC	1.1.1.86	COG0059	Ketol-acid reductoisomerase (NADP(+))
+54138_Lkimchicus_00836	CDS	783	ylmA	3.6.3.-	COG1119	Uncharacterized ABC transporter ATP-binding protein YlmA
+54138_Lkimchicus_00837	CDS	1341	yhjE			Inner membrane metabolite transport protein YhjE
+54138_Lkimchicus_00838	CDS	1743	ilvD	4.2.1.9	COG0129	Dihydroxy-acid dehydratase
+54138_Lkimchicus_00839	CDS	345				hypothetical protein
+54138_Lkimchicus_00840	CDS	969	panS		COG0385	Pantothenate precursors transporter PanS
+54138_Lkimchicus_00841	CDS	1230	yjhB			Putative metabolite transport protein YjhB
+54138_Lkimchicus_00842	CDS	735		1.-.-.-		Uncharacterized oxidoreductase SA2266
+54138_Lkimchicus_00843	CDS	1335	gntP		COG2610	High-affinity gluconate transporter
+54138_Lkimchicus_00844	CDS	1188	rhaR_1			HTH-type transcriptional activator RhaR
+54138_Lkimchicus_00845	CDS	1818	uidA_1	3.2.1.31	COG3250	Beta-glucuronidase
+54138_Lkimchicus_00846	CDS	759	kdgR_1			Pectin degradation repressor protein KdgR
+54138_Lkimchicus_00847	CDS	816	kduD_1	1.1.1.127		2-dehydro-3-deoxy-D-gluconate 5-dehydrogenase
+54138_Lkimchicus_00848	CDS	276	kdgK_1	2.7.1.45	COG0524	2-dehydro-3-deoxygluconokinase
+54138_Lkimchicus_00849	CDS	672	kdgK_2	2.7.1.45	COG0524	2-dehydro-3-deoxygluconokinase
+54138_Lkimchicus_00850	CDS	651	kdgA		COG0800	KHG/KDPG aldolase
+54138_Lkimchicus_00851	CDS	1383	gatC_1		COG3775	PTS system galactitol-specific EIIC component
+54138_Lkimchicus_00852	CDS	171				hypothetical protein
+54138_Lkimchicus_00853	CDS	249				hypothetical protein
+54138_Lkimchicus_00854	CDS	1107	xylB_2	1.1.1.90		Aryl-alcohol dehydrogenase
+54138_Lkimchicus_00855	CDS	177				hypothetical protein
+54138_Lkimchicus_00856	CDS	381				hypothetical protein
+54138_Lkimchicus_00857	CDS	1467				hypothetical protein
+54138_Lkimchicus_00858	CDS	564	ahpC	1.11.1.15	COG0450	Alkyl hydroperoxide reductase C
+54138_Lkimchicus_00859	CDS	327				hypothetical protein
+54138_Lkimchicus_00860	CDS	1452	xylP_1			Isoprimeverose transporter
+54138_Lkimchicus_00861	CDS	2130	xylQ	3.2.1.177		Alpha-xylosidase XylQ
+54138_Lkimchicus_00862	CDS	831	rhaS_1			HTH-type transcriptional activator RhaS
+54138_Lkimchicus_00863	CDS	423				hypothetical protein
+54138_Lkimchicus_00864	CDS	585				hypothetical protein
+54138_Lkimchicus_00865	CDS	966	rhaR_2			HTH-type transcriptional activator RhaR
+54138_Lkimchicus_00866	CDS	918	yjmB_1		COG2211	Uncharacterized symporter YjmB
+54138_Lkimchicus_00867	CDS	357				hypothetical protein
+54138_Lkimchicus_00868	CDS	1854				hypothetical protein
+54138_Lkimchicus_00869	CDS	795				hypothetical protein
+54138_Lkimchicus_00870	CDS	483				hypothetical protein
+54138_Lkimchicus_00871	CDS	825				hypothetical protein
+54138_Lkimchicus_00872	CDS	624				hypothetical protein
+54138_Lkimchicus_00873	CDS	696				hypothetical protein
+54138_Lkimchicus_00874	CDS	1296				hypothetical protein
+54138_Lkimchicus_00875	CDS	597				hypothetical protein
+54138_Lkimchicus_00876	CDS	1794	uidA_2	3.2.1.31	COG3250	Beta-glucuronidase
+54138_Lkimchicus_00877	CDS	291				hypothetical protein
+54138_Lkimchicus_00878	CDS	1086	hsrA_1			Probable transport protein HsrA
+54138_Lkimchicus_00879	CDS	996	lacR_1		COG1609	HTH-type transcriptional regulator LacR
+54138_Lkimchicus_00880	CDS	1392				hypothetical protein
+54138_Lkimchicus_00881	CDS	1119				hypothetical protein
+54138_Lkimchicus_00882	CDS	1476	manR		COG1762	Transcriptional regulator ManR
+54138_Lkimchicus_00883	CDS	423				hypothetical protein
+54138_Lkimchicus_00884	CDS	456				hypothetical protein
+54138_Lkimchicus_00885	CDS	1365	gatC_2		COG3775	PTS system galactitol-specific EIIC component
+54138_Lkimchicus_00886	CDS	291				hypothetical protein
+54138_Lkimchicus_00887	CDS	207				hypothetical protein
+54138_Lkimchicus_00888	CDS	1437	uidB		COG2211	Glucuronide carrier protein homolog
+54138_Lkimchicus_00889	CDS	2496				hypothetical protein
+54138_Lkimchicus_00890	CDS	1431	uxaC_1	5.3.1.12	COG1904	Uronate isomerase
+54138_Lkimchicus_00891	CDS	882	lacX_2			Protein LacX, plasmid
+54138_Lkimchicus_00892	CDS	1344				hypothetical protein
+54138_Lkimchicus_00893	CDS	1647	por	1.1.1.-	COG0246	Polyol:NADP oxidoreductase
+54138_Lkimchicus_00894	CDS	993		1.1.1.81	COG0111	Hydroxypyruvate reductase
+54138_Lkimchicus_00895	CDS	675	rspR		COG1802	HTH-type transcriptional repressor RspR
+54138_Lkimchicus_00896	CDS	1545	xylB_3	2.7.1.17	COG1070	Xylulose kinase
+54138_Lkimchicus_00897	CDS	945	kdgK_3	2.7.1.45	COG0524	2-dehydro-3-deoxygluconokinase
+54138_Lkimchicus_00898	CDS	1074	uxuA	4.2.1.8	COG1312	Mannonate dehydratase
+54138_Lkimchicus_00899	CDS	549				hypothetical protein
+54138_Lkimchicus_00900	CDS	207				hypothetical protein
+54138_Lkimchicus_00901	CDS	693				hypothetical protein
+54138_Lkimchicus_00902	CDS	900		1.1.1.343	COG1023	6-phosphogluconate dehydrogenase, NAD(+)-dependent, decarboxylating
+54138_Lkimchicus_00903	CDS	1440	yjmB_2		COG2211	Uncharacterized symporter YjmB
+54138_Lkimchicus_00904	CDS	1599				hypothetical protein
+54138_Lkimchicus_00905	CDS	1419	uxaC_2	5.3.1.12	COG1904	Uronate isomerase
+54138_Lkimchicus_00906	CDS	996	exuR		COG1609	Probable HTH-type transcriptional repressor ExuR
+54138_Lkimchicus_00907	CDS	216				hypothetical protein
+54138_Lkimchicus_00908	CDS	1116				hypothetical protein
+54138_Lkimchicus_00909	CDS	807			COG0834	Probable amino-acid ABC transporter-binding protein HI_1080
+54138_Lkimchicus_00910	CDS	1251	dapE_1	3.5.1.18		Probable succinyl-diaminopimelate desuccinylase
+54138_Lkimchicus_00911	CDS	759	yxeP_1	3.-.-.-	COG1473	Uncharacterized hydrolase YxeP
+54138_Lkimchicus_00912	CDS	438	yxeP_2	3.-.-.-	COG1473	Uncharacterized hydrolase YxeP
+54138_Lkimchicus_00913	CDS	1335	dapE_2	3.5.1.18		Succinyl-diaminopimelate desuccinylase
+54138_Lkimchicus_00914	CDS	1605	oppA_1		COG4166	Oligopeptide-binding protein OppA
+54138_Lkimchicus_00915	CDS	1191			COG1228	Uncharacterized protein Rv2915c
+54138_Lkimchicus_00916	CDS	381				hypothetical protein
+54138_Lkimchicus_00917	CDS	498				hypothetical protein
+54138_Lkimchicus_00918	CDS	783	yxeN_1			Probable amino-acid permease protein YxeN
+54138_Lkimchicus_00919	CDS	750	tcyN_1	3.6.3.-	COG1126	L-cystine import ATP-binding protein TcyN
+54138_Lkimchicus_00920	CDS	453		2.3.1.-		Acetyltransferase SACOL1063
+54138_Lkimchicus_00921	CDS	1329	garB	1.8.1.16		Glutathione amide reductase
+54138_Lkimchicus_00922	CDS	462				hypothetical protein
+54138_Lkimchicus_00923	CDS	1980	macB_1	3.6.3.-		Macrolide export ATP-binding/permease protein MacB
+54138_Lkimchicus_00924	CDS	1308	umuC		COG0389	Protein UmuC
+54138_Lkimchicus_00925	CDS	156				hypothetical protein
+54138_Lkimchicus_00926	CDS	165				hypothetical protein
+54138_Lkimchicus_00927	CDS	384				hypothetical protein
+54138_Lkimchicus_00928	CDS	957	tdh	1.1.1.103		L-threonine 3-dehydrogenase
+54138_Lkimchicus_00929	CDS	981	iolS_1	1.1.1.-	COG0667	Aldo-keto reductase IolS
+54138_Lkimchicus_00930	CDS	111				hypothetical protein
+54138_Lkimchicus_00931	CDS	1626	dppE_2		COG4166	Dipeptide-binding protein DppE
+54138_Lkimchicus_00932	CDS	525				hypothetical protein
+54138_Lkimchicus_00933	CDS	558			COG1228	Uncharacterized protein Rv2915c
+54138_Lkimchicus_00934	CDS	204				hypothetical protein
+54138_Lkimchicus_00935	CDS	111				hypothetical protein
+54138_Lkimchicus_00936	CDS	2133	clpC_1			Probable ATP-dependent Clp protease ATP-binding subunit
+54138_Lkimchicus_00937	CDS	1725				hypothetical protein
+54138_Lkimchicus_00938	CDS	900	gshAB_1			Glutathione biosynthesis bifunctional protein GshAB
+54138_Lkimchicus_00939	CDS	384	gshAB_2		COG1181	Glutathione biosynthesis bifunctional protein GshAB
+54138_Lkimchicus_00940	CDS	276	cdr_1	1.8.1.14		Coenzyme A disulfide reductase
+54138_Lkimchicus_00941	CDS	951	cdr_2	1.8.1.14		Coenzyme A disulfide reductase
+54138_Lkimchicus_00942	CDS	528	bioY		COG1268	Biotin transporter BioY
+54138_Lkimchicus_00943	CDS	447	fabZ_1	4.2.1.59	COG0764	3-hydroxyacyl-[acyl-carrier-protein] dehydratase FabZ
+54138_Lkimchicus_00944	CDS	468				hypothetical protein
+54138_Lkimchicus_00945	CDS	978	fabH	2.3.1.180		3-oxoacyl-[acyl-carrier-protein] synthase 3
+54138_Lkimchicus_00946	CDS	246	acpP			Acyl carrier protein
+54138_Lkimchicus_00947	CDS	903	fabD	2.3.1.39	COG0331	Malonyl CoA-acyl carrier protein transacylase
+54138_Lkimchicus_00948	CDS	720	fabG	1.1.1.100		3-oxoacyl-[acyl-carrier-protein] reductase FabG
+54138_Lkimchicus_00949	CDS	1221	fabF	2.3.1.179	COG0304	3-oxoacyl-[acyl-carrier-protein] synthase 2
+54138_Lkimchicus_00950	CDS	426	accB			Biotin carboxyl carrier protein of acetyl-CoA carboxylase
+54138_Lkimchicus_00951	CDS	417	fabZ_2	4.2.1.59		3-hydroxyacyl-[acyl-carrier-protein] dehydratase FabZ
+54138_Lkimchicus_00952	CDS	1374	accC	6.3.4.14	COG0439	Biotin carboxylase
+54138_Lkimchicus_00953	CDS	831	accD	6.4.1.2	COG0777	Acetyl-coenzyme A carboxylase carboxyl transferase subunit beta
+54138_Lkimchicus_00954	CDS	771	accA	6.4.1.2	COG0825	Acetyl-coenzyme A carboxylase carboxyl transferase subunit alpha
+54138_Lkimchicus_00955	CDS	756	fabI	1.3.1.9	COG0623	Enoyl-[acyl-carrier-protein] reductase [NADH] FabI
+54138_Lkimchicus_00956	CDS	810	birA	6.3.4.15		Bifunctional ligase/repressor BirA
+54138_Lkimchicus_00957	CDS	1398	gshAB_3			Glutathione biosynthesis bifunctional protein GshAB
+54138_Lkimchicus_00958	CDS	1053				hypothetical protein
+54138_Lkimchicus_00959	CDS	759	cpnA	1.1.1.163		Cyclopentanol dehydrogenase
+54138_Lkimchicus_00960	CDS	402				hypothetical protein
+54138_Lkimchicus_00961	CDS	1581	mntH_1			Divalent metal cation transporter MntH
+54138_Lkimchicus_00962	CDS	507				hypothetical protein
+54138_Lkimchicus_00963	CDS	936				hypothetical protein
+54138_Lkimchicus_00964	CDS	372				hypothetical protein
+54138_Lkimchicus_00965	CDS	945		1.1.1.-		L-2-hydroxyisocaproate dehydrogenase
+54138_Lkimchicus_00966	CDS	1200	tetA_1			Tetracycline resistance protein, class B
+54138_Lkimchicus_00967	CDS	597	sipT	3.4.21.89	COG0681	Signal peptidase I T
+54138_Lkimchicus_00968	CDS	561	rlmA	2.1.1.187	COG0500	23S rRNA (guanine(745)-N(1))-methyltransferase
+54138_Lkimchicus_00969	CDS	597	tag_1	3.2.2.20	COG2818	DNA-3-methyladenine glycosylase 1
+54138_Lkimchicus_00970	CDS	921	rhaS_2			HTH-type transcriptional activator RhaS
+54138_Lkimchicus_00971	CDS	963				hypothetical protein
+54138_Lkimchicus_00972	CDS	1491				hypothetical protein
+54138_Lkimchicus_00973	CDS	462				hypothetical protein
+54138_Lkimchicus_00974	CDS	543				hypothetical protein
+54138_Lkimchicus_00975	CDS	549				hypothetical protein
+54138_Lkimchicus_00976	CDS	504	hypBA1_1	3.2.1.185		Non-reducing end beta-L-arabinofuranosidase
+54138_Lkimchicus_00977	CDS	282	hypBA1_2	3.2.1.185		Non-reducing end beta-L-arabinofuranosidase
+54138_Lkimchicus_00978	CDS	1236	hypBA1_3	3.2.1.185		Non-reducing end beta-L-arabinofuranosidase
+54138_Lkimchicus_00979	CDS	954				hypothetical protein
+54138_Lkimchicus_00980	CDS	1878			COG1132	Uncharacterized ABC transporter ATP-binding protein Rv1272c
+54138_Lkimchicus_00981	CDS	1737			COG1132	Uncharacterized ABC transporter ATP-binding protein Rv1273c
+54138_Lkimchicus_00982	CDS	369			COG4475	UPF0340 protein TT_C0214
+54138_Lkimchicus_00983	CDS	261				hypothetical protein
+54138_Lkimchicus_00984	CDS	435				hypothetical protein
+54138_Lkimchicus_00985	CDS	192				hypothetical protein
+54138_Lkimchicus_00986	CDS	2055				hypothetical protein
+54138_Lkimchicus_00987	CDS	453	ulaC		COG1762	Ascorbate-specific PTS system EIIA component
+54138_Lkimchicus_00988	CDS	297				hypothetical protein
+54138_Lkimchicus_00989	CDS	1377	ulaA		COG3037	Ascorbate-specific PTS system EIIC component
+54138_Lkimchicus_00990	CDS	1983	tkt_1	2.2.1.1		Transketolase
+54138_Lkimchicus_00991	CDS	756	tal	2.2.1.2	COG0176	Transaldolase
+54138_Lkimchicus_00992	CDS	2028	tkt_2	2.2.1.1		Transketolase
+54138_Lkimchicus_00993	CDS	708	glpF		COG0580	Glycerol uptake facilitator protein
+54138_Lkimchicus_00994	CDS	768	kduD_2	1.1.1.127		2-dehydro-3-deoxy-D-gluconate 5-dehydrogenase
+54138_Lkimchicus_00995	CDS	171	tenA_1	3.5.99.2	COG0819	Aminopyrimidine aminohydrolase
+54138_Lkimchicus_00996	CDS	240				hypothetical protein
+54138_Lkimchicus_00997	CDS	231	tenA_2	3.5.99.2	COG0819	Aminopyrimidine aminohydrolase
+54138_Lkimchicus_00998	CDS	825	ybjI_1	3.1.3.104	COG0561	5-amino-6-(5-phospho-D-ribitylamino)uracil phosphatase YbjI
+54138_Lkimchicus_00999	CDS	417				hypothetical protein
+54138_Lkimchicus_01000	CDS	987	kdgR_2		COG1609	HTH-type transcriptional regulator KdgR
+54138_Lkimchicus_01001	CDS	258				hypothetical protein
+54138_Lkimchicus_01002	CDS	750				hypothetical protein
+54138_Lkimchicus_01003	CDS	1293				hypothetical protein
+54138_Lkimchicus_01004	CDS	963	kdgK_4	2.7.1.45	COG0524	2-dehydro-3-deoxygluconokinase
+54138_Lkimchicus_01005	CDS	624		4.1.2.43		3-hexulose-6-phosphate synthase
+54138_Lkimchicus_01006	CDS	543	hxlB	5.3.1.27	COG0794	3-hexulose-6-phosphate isomerase
+54138_Lkimchicus_01007	CDS	624				hypothetical protein
+54138_Lkimchicus_01008	CDS	381				hypothetical protein
+54138_Lkimchicus_01009	CDS	1623				hypothetical protein
+54138_Lkimchicus_01010	CDS	912	nosF		COG1131	Probable ABC transporter ATP-binding protein NosF
+54138_Lkimchicus_01011	CDS	606				hypothetical protein
+54138_Lkimchicus_01012	CDS	1758	lmrA	3.6.3.44	COG1132	Multidrug resistance ABC transporter ATP-binding and permease protein
+54138_Lkimchicus_01013	CDS	681				hypothetical protein
+54138_Lkimchicus_01014	CDS	711				hypothetical protein
+54138_Lkimchicus_01015	CDS	1359	yifK_1		COG1113	Probable transport protein YifK
+54138_Lkimchicus_01016	CDS	939	corA		COG0598	Cobalt/magnesium transport protein CorA
+54138_Lkimchicus_01017	CDS	300				hypothetical protein
+54138_Lkimchicus_01018	CDS	999	panE_1	1.1.1.169	COG1893	2-dehydropantoate 2-reductase
+54138_Lkimchicus_01019	CDS	837	pheA		COG0077	P-protein
+54138_Lkimchicus_01020	CDS	387				hypothetical protein
+54138_Lkimchicus_01021	CDS	1044	dapE_3	3.5.1.18		Probable succinyl-diaminopimelate desuccinylase
+54138_Lkimchicus_01022	CDS	237	dapE_4	3.5.1.18		Probable succinyl-diaminopimelate desuccinylase
+54138_Lkimchicus_01023	CDS	747	glnQ_1	3.6.3.-	COG1126	Glutamine transport ATP-binding protein GlnQ
+54138_Lkimchicus_01024	CDS	1440	mltF_2			Membrane-bound lytic murein transglycosylase F
+54138_Lkimchicus_01025	CDS	819	tesE	4.2.1.132		2-hydroxyhexa-2,4-dienoate hydratase
+54138_Lkimchicus_01026	CDS	165				hypothetical protein
+54138_Lkimchicus_01027	CDS	1494				hypothetical protein
+54138_Lkimchicus_01028	CDS	975				hypothetical protein
+54138_Lkimchicus_01029	CDS	414				hypothetical protein
+54138_Lkimchicus_01030	CDS	723				hypothetical protein
+54138_Lkimchicus_01031	CDS	1359	arcD1		COG0531	Arginine/ornithine antiporter ArcD1
+54138_Lkimchicus_01032	CDS	1185				hypothetical protein
+54138_Lkimchicus_01033	CDS	1200				hypothetical protein
+54138_Lkimchicus_01034	CDS	849				hypothetical protein
+54138_Lkimchicus_01035	CDS	579				hypothetical protein
+54138_Lkimchicus_01036	CDS	240	iap	3.4.-.-	COG0791	Probable endopeptidase p60
+54138_Lkimchicus_01037	CDS	1029	argC	1.2.1.38		N-acetyl-gamma-glutamyl-phosphate reductase
+54138_Lkimchicus_01038	CDS	1212	argJ			Arginine biosynthesis bifunctional protein ArgJ
+54138_Lkimchicus_01039	CDS	741	argB	2.7.2.8	COG0548	Acetylglutamate kinase
+54138_Lkimchicus_01040	CDS	1146	argD	2.6.1.11	COG4992	Acetylornithine aminotransferase
+54138_Lkimchicus_01041	CDS	273				hypothetical protein
+54138_Lkimchicus_01042	CDS	318			COG2848	UPF0210 protein SP_0239
+54138_Lkimchicus_01043	CDS	1086			COG2848	UPF0210 protein SP_0239
+54138_Lkimchicus_01044	CDS	321				hypothetical protein
+54138_Lkimchicus_01045	CDS	621				hypothetical protein
+54138_Lkimchicus_01046	CDS	933				hypothetical protein
+54138_Lkimchicus_01047	CDS	378				hypothetical protein
+54138_Lkimchicus_01048	CDS	705				S-layer protein
+54138_Lkimchicus_01049	CDS	459				hypothetical protein
+54138_Lkimchicus_01050	CDS	1476	emrB_2			Multidrug export protein EmrB
+54138_Lkimchicus_01051	CDS	720				hypothetical protein
+54138_Lkimchicus_01052	CDS	1353	gshAB_4			Glutathione biosynthesis bifunctional protein GshAB
+54138_Lkimchicus_01053	CDS	1587	xylT_1			D-xylose transporter
+54138_Lkimchicus_01054	CDS	1170	nagC		COG1940	N-acetylglucosamine repressor
+54138_Lkimchicus_01055	CDS	1344	xylA	5.3.1.5	COG2115	Xylose isomerase
+54138_Lkimchicus_01056	CDS	1512	xylB_4	2.7.1.17	COG1070	Xylulose kinase
+54138_Lkimchicus_01057	CDS	906	rhaR_3			HTH-type transcriptional activator RhaR
+54138_Lkimchicus_01058	CDS	1479	xylP_2			Isoprimeverose transporter
+54138_Lkimchicus_01059	CDS	1623	xynB	3.2.1.37		Beta-xylosidase
+54138_Lkimchicus_01060	CDS	2277	metE	2.1.1.14	COG0620	5-methyltetrahydropteroyltriglutamate--homocysteine methyltransferase
+54138_Lkimchicus_01061	CDS	867	metF	1.5.1.20	COG0685	5,10-methylenetetrahydrofolate reductase
+54138_Lkimchicus_01062	CDS	831				hypothetical protein
+54138_Lkimchicus_01063	CDS	588	tag_2	3.2.2.20	COG2818	DNA-3-methyladenine glycosylase 1
+54138_Lkimchicus_01064	CDS	657				hypothetical protein
+54138_Lkimchicus_01065	CDS	588		2.4.-.-		Uncharacterized glycosyltransferase sll0501
+54138_Lkimchicus_01066	CDS	399		2.4.-.-		Uncharacterized glycosyltransferase sll0501
+54138_Lkimchicus_01067	CDS	2259				hypothetical protein
+54138_Lkimchicus_01068	CDS	411				hypothetical protein
+54138_Lkimchicus_01069	CDS	693	cusR		COG0745	Transcriptional regulatory protein CusR
+54138_Lkimchicus_01070	CDS	1314	sasA_2	2.7.-.-		Adaptive-response sensory-kinase SasA
+54138_Lkimchicus_01071	CDS	681				hypothetical protein
+54138_Lkimchicus_01072	CDS	732				hypothetical protein
+54138_Lkimchicus_01073	CDS	510	ribZ_1			Riboflavin transporter RibZ
+54138_Lkimchicus_01074	CDS	912	ribZ_2			Riboflavin transporter RibZ
+54138_Lkimchicus_01075	CDS	399				hypothetical protein
+54138_Lkimchicus_01076	CDS	510	yagU		COG3477	Inner membrane protein YagU
+54138_Lkimchicus_01077	CDS	780				hypothetical protein
+54138_Lkimchicus_01078	CDS	1440	cpdA_1	3.1.4.53		3',5'-cyclic adenosine monophosphate phosphodiesterase CpdA
+54138_Lkimchicus_01079	CDS	687				hypothetical protein
+54138_Lkimchicus_01080	CDS	165				hypothetical protein
+54138_Lkimchicus_01081	CDS	648				hypothetical protein
+54138_Lkimchicus_01082	CDS	1173	opuCA	3.6.3.32		Carnitine transport ATP-binding protein OpuCA
+54138_Lkimchicus_01083	CDS	630	opuCB			Carnitine transport permease protein OpuCB
+54138_Lkimchicus_01084	CDS	933	opuCC		COG1732	Glycine betaine/carnitine/choline-binding protein OpuCC
+54138_Lkimchicus_01085	CDS	651	opuCD			Carnitine transport permease protein OpuCD
+54138_Lkimchicus_01086	CDS	1290		4.4.1.11	COG0626	L-methionine gamma-lyase
+54138_Lkimchicus_01087	CDS	474	greA_2			Transcription elongation factor GreA
+54138_Lkimchicus_01088	CDS	555	rutB	3.5.1.110		Peroxyureidoacrylate/ureidoacrylate amidohydrolase RutB
+54138_Lkimchicus_01089	CDS	657	aqpZ2			Aquaporin Z 2
+54138_Lkimchicus_01090	CDS	432				hypothetical protein
+54138_Lkimchicus_01091	CDS	408				hypothetical protein
+54138_Lkimchicus_01092	CDS	483				hypothetical protein
+54138_Lkimchicus_01093	CDS	1623	dppE_3		COG4166	Dipeptide-binding protein DppE
+54138_Lkimchicus_01094	CDS	948				hypothetical protein
+54138_Lkimchicus_01095	CDS	1188	ackA_1	2.7.2.1	COG0282	Acetate kinase
+54138_Lkimchicus_01096	CDS	642	gpmA_1	5.4.2.11	COG0588	2,3-bisphosphoglycerate-dependent phosphoglycerate mutase
+54138_Lkimchicus_01097	CDS	786	yafV	3.5.1.3		Omega-amidase YafV
+54138_Lkimchicus_01098	CDS	477	luxS	4.4.1.21	COG1854	S-ribosylhomocysteine lyase
+54138_Lkimchicus_01099	CDS	696	phoU_1		COG0704	Phosphate-specific transport system accessory protein PhoU homolog
+54138_Lkimchicus_01100	CDS	753	pstB3_1	3.6.3.27	COG1117	Phosphate import ATP-binding protein PstB 3
+54138_Lkimchicus_01101	CDS	795	pstB3_2	3.6.3.27	COG1117	Phosphate import ATP-binding protein PstB 3
+54138_Lkimchicus_01102	CDS	894				hypothetical protein
+54138_Lkimchicus_01103	CDS	921				hypothetical protein
+54138_Lkimchicus_01104	CDS	885	pstS1_1		COG0226	Phosphate-binding protein PstS 1
+54138_Lkimchicus_01105	CDS	723				hypothetical protein
+54138_Lkimchicus_01106	CDS	642				hypothetical protein
+54138_Lkimchicus_01107	CDS	729	ribZ_3			Riboflavin transporter RibZ
+54138_Lkimchicus_01108	CDS	468				hypothetical protein
+54138_Lkimchicus_01109	CDS	1242				hypothetical protein
+54138_Lkimchicus_01110	CDS	1098		3.4.11.25		Beta-peptidyl aminopeptidase BapA
+54138_Lkimchicus_01111	CDS	606	ddpX_1	3.4.13.22	COG2173	D-alanyl-D-alanine dipeptidase
+54138_Lkimchicus_01112	CDS	747	hisK	3.1.3.15	COG1387	Histidinol-phosphatase
+54138_Lkimchicus_01113	CDS	1152	hisZ		COG3705	ATP phosphoribosyltransferase regulatory subunit
+54138_Lkimchicus_01114	CDS	651	hisG	2.4.2.17	COG0040	ATP phosphoribosyltransferase
+54138_Lkimchicus_01115	CDS	1299	hisD	1.1.1.23		Histidinol dehydrogenase
+54138_Lkimchicus_01116	CDS	585	hisB	4.2.1.19	COG0131	Imidazoleglycerol-phosphate dehydratase
+54138_Lkimchicus_01117	CDS	627	hisH	2.4.2.-	COG0118	Imidazole glycerol phosphate synthase subunit HisH
+54138_Lkimchicus_01118	CDS	729	hisA	5.3.1.16	COG0106	1-(5-phosphoribosyl)-5-[(5-phosphoribosylamino)methylideneamino] imidazole-4-carboxamide isomerase
+54138_Lkimchicus_01119	CDS	759	hisF	4.1.3.-	COG0107	Imidazole glycerol phosphate synthase subunit HisF
+54138_Lkimchicus_01120	CDS	321	hisI	3.5.4.19	COG0139	Phosphoribosyl-AMP cyclohydrolase
+54138_Lkimchicus_01121	CDS	321	hisE	3.6.1.31	COG0140	Phosphoribosyl-ATP pyrophosphatase
+54138_Lkimchicus_01122	CDS	1083	hisC	2.6.1.9		Histidinol-phosphate aminotransferase
+54138_Lkimchicus_01123	CDS	903	rhaS_3			HTH-type transcriptional activator RhaS
+54138_Lkimchicus_01124	CDS	1035		5.1.3.21	COG2017	Maltose epimerase
+54138_Lkimchicus_01125	CDS	1086	araR		COG1609	Arabinose metabolism transcriptional repressor
+54138_Lkimchicus_01126	CDS	1605	araB	2.7.1.16		Ribulokinase
+54138_Lkimchicus_01127	CDS	729	araD	5.1.3.4	COG0235	L-ribulose-5-phosphate 4-epimerase
+54138_Lkimchicus_01128	CDS	1425	araA	5.3.1.4		L-arabinose isomerase
+54138_Lkimchicus_01129	CDS	612				hypothetical protein
+54138_Lkimchicus_01130	CDS	669	serA	1.1.1.95	COG0111	D-3-phosphoglycerate dehydrogenase
+54138_Lkimchicus_01131	CDS	267				hypothetical protein
+54138_Lkimchicus_01132	CDS	699	vat	2.3.1.-		Virginiamycin A acetyltransferase
+54138_Lkimchicus_01133	CDS	921				hypothetical protein
+54138_Lkimchicus_01134	CDS	516				hypothetical protein
+54138_Lkimchicus_01135	CDS	1245	preA	1.3.1.1	COG0167	NAD-dependent dihydropyrimidine dehydrogenase subunit PreA
+54138_Lkimchicus_01136	CDS	1233	preT	1.3.1.1	COG0493	NAD-dependent dihydropyrimidine dehydrogenase subunit PreT
+54138_Lkimchicus_01137	CDS	330				hypothetical protein
+54138_Lkimchicus_01138	CDS	891				hypothetical protein
+54138_Lkimchicus_01139	CDS	654	nreC_2		COG2197	Oxygen regulatory protein NreC
+54138_Lkimchicus_01140	CDS	321	celD			PTS system cellobiose-specific EIIA component
+54138_Lkimchicus_01141	CDS	1308	pucK_2		COG2233	Uric acid permease PucK
+54138_Lkimchicus_01142	CDS	783	butA	1.1.1.304		Diacetyl reductase [(S)-acetoin forming]
+54138_Lkimchicus_01143	CDS	1092				hypothetical protein
+54138_Lkimchicus_01144	CDS	90				hypothetical protein
+54138_Lkimchicus_01145	CDS	708				hypothetical protein
+54138_Lkimchicus_01146	CDS	474	ntd	2.4.2.6		Nucleoside deoxyribosyltransferase
+54138_Lkimchicus_01147	CDS	1845				hypothetical protein
+54138_Lkimchicus_01148	CDS	981				hypothetical protein
+54138_Lkimchicus_01149	CDS	912				hypothetical protein
+54138_Lkimchicus_01150	CDS	630	mhqD	3.1.-.-	COG0400	Putative hydrolase MhqD
+54138_Lkimchicus_01151	CDS	972	mhqA_1	1.13.11.-	COG0346	Putative ring-cleaving dioxygenase MhqA
+54138_Lkimchicus_01152	CDS	903				hypothetical protein
+54138_Lkimchicus_01153	CDS	1173	patA_1	2.6.1.-	COG0436	Putative N-acetyl-LL-diaminopimelate aminotransferase
+54138_Lkimchicus_01154	CDS	969	ldhD_2	1.1.1.28	COG1052	D-lactate/D-glycerate dehydrogenase
+54138_Lkimchicus_01155	CDS	747	est_1	3.1.1.1		Carboxylesterase
+54138_Lkimchicus_01156	CDS	765				hypothetical protein
+54138_Lkimchicus_01157	CDS	612	udg	3.2.2.27	COG1573	Type-4 uracil-DNA glycosylase
+54138_Lkimchicus_01158	CDS	1179	pdxB	1.1.1.290		Erythronate-4-phosphate dehydrogenase
+54138_Lkimchicus_01159	CDS	1077	serC	2.6.1.52		Phosphoserine aminotransferase
+54138_Lkimchicus_01160	CDS	630	pspB	3.1.3.3	COG0406	Putative phosphoserine phosphatase 2
+54138_Lkimchicus_01161	CDS	1692				hypothetical protein
+54138_Lkimchicus_01162	CDS	882				hypothetical protein
+54138_Lkimchicus_01163	CDS	1095				hypothetical protein
+54138_Lkimchicus_01164	CDS	717				hypothetical protein
+54138_Lkimchicus_01165	CDS	825				hypothetical protein
+54138_Lkimchicus_01166	CDS	7200				hypothetical protein
+54138_Lkimchicus_01167	CDS	4797				hypothetical protein
+54138_Lkimchicus_01168	CDS	4725				hypothetical protein
+54138_Lkimchicus_01169	CDS	597				hypothetical protein
+54138_Lkimchicus_01170	tRNA	75				tRNA-Asn(gtt)
+54138_Lkimchicus_01171	tRNA	75				tRNA-Thr(cgt)
+54138_Lkimchicus_01172	CDS	306				hypothetical protein
+54138_Lkimchicus_01173	CDS	1479	dtpT		COG3104	Di-/tripeptide transporter
+54138_Lkimchicus_01174	CDS	114				hypothetical protein
+54138_Lkimchicus_01175	CDS	390				hypothetical protein
+54138_Lkimchicus_01176	CDS	153				hypothetical protein
+54138_Lkimchicus_01177	tRNA	85				tRNA-Tyr(gta)
+54138_Lkimchicus_01178	tRNA	74				tRNA-Gln(ttg)
+54138_Lkimchicus_01179	tRNA	83				tRNA-Tyr(gta)
+54138_Lkimchicus_01180	tRNA	73				tRNA-Gln(ttg)
+54138_Lkimchicus_01181	CDS	798	proC	1.5.1.2	COG0345	Pyrroline-5-carboxylate reductase
+54138_Lkimchicus_01182	CDS	1128	nagA	3.5.1.25	COG1820	N-acetylglucosamine-6-phosphate deacetylase
+54138_Lkimchicus_01183	CDS	702	yvoA		COG2188	HTH-type transcriptional repressor YvoA
+54138_Lkimchicus_01184	CDS	723	tagA	2.4.1.187	COG1922	N-acetylglucosaminyldiphosphoundecaprenol N-acetyl-beta-D-mannosaminyltransferase
+54138_Lkimchicus_01185	CDS	1470	pncB2	6.3.4.21		Nicotinate phosphoribosyltransferase pncB2
+54138_Lkimchicus_01186	CDS	825	nadE	6.3.1.5	COG0171	NH(3)-dependent NAD(+) synthetase
+54138_Lkimchicus_01187	CDS	2658		3.6.3.8		Calcium-transporting ATPase 1
+54138_Lkimchicus_01188	CDS	435				hypothetical protein
+54138_Lkimchicus_01189	CDS	2226	yhgF		COG2183	Protein YhgF
+54138_Lkimchicus_01190	CDS	477				Protein SprT-like
+54138_Lkimchicus_01191	CDS	258				hypothetical protein
+54138_Lkimchicus_01192	CDS	879	thrB_2	2.7.1.39	COG0083	Homoserine kinase
+54138_Lkimchicus_01193	tRNA	87				tRNA-Leu(aag)
+54138_Lkimchicus_01194	CDS	642		3.1.3.-	COG0637	Phosphorylated carbohydrates phosphatase TM_1254
+54138_Lkimchicus_01195	CDS	996	manX	2.7.1.191		PTS system mannose-specific EIIAB component
+54138_Lkimchicus_01196	CDS	816	sorA		COG3715	PTS system sorbose-specific EIIC component
+54138_Lkimchicus_01197	CDS	918	manZ		COG3716	PTS system mannose-specific EIID component
+54138_Lkimchicus_01198	CDS	381				hypothetical protein
+54138_Lkimchicus_01199	CDS	348				hypothetical protein
+54138_Lkimchicus_01200	CDS	1077	tagU	2.7.8.-	COG1316	Polyisoprenyl-teichoic acid--peptidoglycan teichoic acid transferase TagU
+54138_Lkimchicus_01201	CDS	954				hypothetical protein
+54138_Lkimchicus_01202	CDS	672	gpmA_2	5.4.2.11		2,3-bisphosphoglycerate-dependent phosphoglycerate mutase
+54138_Lkimchicus_01203	CDS	1356	pepC	3.4.22.40	COG3579	Aminopeptidase C
+54138_Lkimchicus_01204	CDS	537	dut	3.6.1.23	COG0756	Deoxyuridine 5'-triphosphate nucleotidohydrolase
+54138_Lkimchicus_01205	CDS	1371	radA	3.6.4.-	COG1066	DNA repair protein RadA
+54138_Lkimchicus_01206	CDS	1158	yacL	3.1.-.-	COG4956	Uncharacterized PIN and TRAM-domain containing protein YacL
+54138_Lkimchicus_01207	CDS	1494	gltX	6.1.1.17		Glutamate--tRNA ligase
+54138_Lkimchicus_01208	CDS	1410	cysS	6.1.1.16	COG0215	Cysteine--tRNA ligase
+54138_Lkimchicus_01209	CDS	417	mrnC	3.1.26.-	COG1939	Mini-ribonuclease 3
+54138_Lkimchicus_01210	CDS	774		2.1.1.-		Putative TrmH family tRNA/rRNA methyltransferase
+54138_Lkimchicus_01211	CDS	531	yacP		COG3688	Uncharacterized protein YacP
+54138_Lkimchicus_01212	CDS	573				hypothetical protein
+54138_Lkimchicus_01213	CDS	183	secE			Protein translocase subunit SecE
+54138_Lkimchicus_01214	CDS	549	nusG		COG0250	Transcription termination/antitermination protein NusG
+54138_Lkimchicus_01215	CDS	426	rplK			50S ribosomal protein L11
+54138_Lkimchicus_01216	CDS	693	rplA			50S ribosomal protein L1
+54138_Lkimchicus_01217	CDS	504	rplJ			50S ribosomal protein L10
+54138_Lkimchicus_01218	CDS	366	rplL		COG0222	50S ribosomal protein L7/L12
+54138_Lkimchicus_01219	CDS	1071	ykfB_2	5.1.1.20	COG4948	L-Ala-D/L-Glu epimerase
+54138_Lkimchicus_01220	CDS	567	mppA		COG4166	Periplasmic murein peptide-binding protein
+54138_Lkimchicus_01221	CDS	1020	dppE_4		COG4166	Dipeptide-binding protein DppE
+54138_Lkimchicus_01222	CDS	2049				hypothetical protein
+54138_Lkimchicus_01223	CDS	783		1.1.1.-		D-2-hydroxyisocaproate dehydrogenase
+54138_Lkimchicus_01224	CDS	195				hypothetical protein
+54138_Lkimchicus_01225	CDS	576	yvdD		COG1611	LOG family protein YvdD
+54138_Lkimchicus_01226	CDS	960	nrdF2	1.17.4.1	COG0208	Ribonucleoside-diphosphate reductase subunit beta nrdF2
+54138_Lkimchicus_01227	CDS	2172	nrdE1	1.17.4.1	COG0209	Ribonucleoside-diphosphate reductase subunit alpha 1
+54138_Lkimchicus_01228	CDS	228	nrdH		COG0695	Glutaredoxin-like protein NrdH
+54138_Lkimchicus_01229	CDS	495	tadA_2	3.5.4.33		tRNA-specific adenosine deaminase
+54138_Lkimchicus_01230	CDS	1743	ruvB_1	3.6.4.12		Holliday junction ATP-dependent DNA helicase RuvB
+54138_Lkimchicus_01231	CDS	333	ybaB		COG0718	Nucleoid-associated protein YbaB
+54138_Lkimchicus_01232	CDS	600	recR		COG0353	Recombination protein RecR
+54138_Lkimchicus_01233	CDS	243				hypothetical protein
+54138_Lkimchicus_01234	CDS	630	tmk	2.7.4.9	COG0125	Thymidylate kinase
+54138_Lkimchicus_01235	CDS	330	yaaQ		COG3870	Uncharacterized protein YaaQ
+54138_Lkimchicus_01236	CDS	1008				hypothetical protein
+54138_Lkimchicus_01237	CDS	324	yabA		COG4467	Initiation-control protein YabA
+54138_Lkimchicus_01238	CDS	882	rsmI	2.1.1.198	COG0313	Ribosomal RNA small subunit methyltransferase I
+54138_Lkimchicus_01239	CDS	768				hypothetical protein
+54138_Lkimchicus_01240	CDS	723	tsaB		COG1214	tRNA threonylcarbamoyladenosine biosynthesis protein TsaB
+54138_Lkimchicus_01241	CDS	573	mshD	2.3.1.189		Mycothiol acetyltransferase
+54138_Lkimchicus_01242	CDS	321	rimI	2.3.1.255	COG0456	N-alpha-acetyltransferase RimI
+54138_Lkimchicus_01243	CDS	1023	tsaD	2.3.1.234	COG0533	tRNA N6-adenosine threonylcarbamoyltransferase
+54138_Lkimchicus_01244	CDS	1950	yheS		COG0488	Uncharacterized ABC transporter ATP-binding protein YheS
+54138_Lkimchicus_01245	CDS	642	rex		COG2344	Redox-sensing transcriptional repressor Rex
+54138_Lkimchicus_01246	CDS	285	groS		COG0234	10 kDa chaperonin
+54138_Lkimchicus_01247	CDS	1623	groL		COG0459	60 kDa chaperonin
+54138_Lkimchicus_01248	CDS	1860				hypothetical protein
+54138_Lkimchicus_01249	CDS	765	lrgB		COG1346	Antiholin-like protein LrgB
+54138_Lkimchicus_01250	CDS	447	lrgA		COG1380	Antiholin-like protein LrgA
+54138_Lkimchicus_01251	CDS	1095	tagO	2.7.8.33	COG0472	Probable undecaprenyl-phosphate N-acetylglucosaminyl 1-phosphate transferase
+54138_Lkimchicus_01252	CDS	669	yigZ		COG1739	IMPACT family member YigZ
+54138_Lkimchicus_01253	CDS	1356	comFA	3.6.4.12	COG4098	ComF operon protein 1
+54138_Lkimchicus_01254	CDS	687				hypothetical protein
+54138_Lkimchicus_01255	CDS	567	hpf			Ribosome hibernation promotion factor
+54138_Lkimchicus_01256	CDS	2364	secA		COG0653	Protein translocase subunit SecA
+54138_Lkimchicus_01257	CDS	1077	prfB			Peptide chain release factor 2
+54138_Lkimchicus_01258	CDS	1152	minJ		COG0265	Cell division topological determinant MinJ
+54138_Lkimchicus_01259	CDS	717	phoP		COG0745	Alkaline phosphatase synthesis transcriptional regulatory protein PhoP
+54138_Lkimchicus_01260	CDS	1395	rcsC_1	2.7.13.3		Sensor histidine kinase RcsC
+54138_Lkimchicus_01261	CDS	873	pstS1_2		COG0226	Phosphate-binding protein PstS 1
+54138_Lkimchicus_01262	CDS	927	pstC1		COG0573	Phosphate transport system permease protein PstC 1
+54138_Lkimchicus_01263	CDS	888				hypothetical protein
+54138_Lkimchicus_01264	CDS	828	pstB3_3	3.6.3.27	COG1117	Phosphate import ATP-binding protein PstB 3
+54138_Lkimchicus_01265	CDS	756	pstB3_4	3.6.3.27	COG1117	Phosphate import ATP-binding protein PstB 3
+54138_Lkimchicus_01266	CDS	663	phoU_2		COG0704	Phosphate-specific transport system accessory protein PhoU homolog
+54138_Lkimchicus_01267	CDS	294				hypothetical protein
+54138_Lkimchicus_01268	CDS	360				hypothetical protein
+54138_Lkimchicus_01269	CDS	954	hprK	2.7.11.-	COG1493	HPr kinase/phosphorylase
+54138_Lkimchicus_01270	CDS	855	lgt	2.4.99.-	COG0682	Prolipoprotein diacylglyceryl transferase
+54138_Lkimchicus_01271	CDS	1014	gpsA	1.1.1.94		Glycerol-3-phosphate dehydrogenase [NAD(P)+]
+54138_Lkimchicus_01272	CDS	897	gtaB_1	2.7.7.9	COG1210	UTP--glucose-1-phosphate uridylyltransferase
+54138_Lkimchicus_01273	CDS	945	trxB	1.8.1.9	COG0492	Thioredoxin reductase
+54138_Lkimchicus_01274	CDS	405	yfbR	3.1.3.89		5'-deoxynucleotidase YfbR
+54138_Lkimchicus_01275	CDS	534				hypothetical protein
+54138_Lkimchicus_01276	CDS	2007	uvrB		COG0556	UvrABC system protein B
+54138_Lkimchicus_01277	CDS	2856	uvrA_1			UvrABC system protein A
+54138_Lkimchicus_01278	CDS	1026	yeiH		COG2855	UPF0324 inner membrane protein YeiH
+54138_Lkimchicus_01279	CDS	825	cysL		COG0583	HTH-type transcriptional regulator CysL
+54138_Lkimchicus_01280	CDS	537				hypothetical protein
+54138_Lkimchicus_01281	CDS	888	yvcJ		COG1660	Nucleotide-binding protein YvcJ
+54138_Lkimchicus_01282	CDS	1008			COG0391	Putative gluconeogenesis factor
+54138_Lkimchicus_01283	CDS	939	whiA		COG1481	Putative sporulation transcription regulator WhiA
+54138_Lkimchicus_01284	CDS	594	clpP_2	3.4.21.92	COG0740	ATP-dependent Clp protease proteolytic subunit
+54138_Lkimchicus_01285	CDS	483				hypothetical protein
+54138_Lkimchicus_01286	CDS	783				hypothetical protein
+54138_Lkimchicus_01287	tRNA	75				tRNA-Arg(ccg)
+54138_Lkimchicus_01288	CDS	1008	cggR		COG2390	Central glycolytic genes regulator
+54138_Lkimchicus_01289	CDS	1011	gapA1	1.2.1.12		Glyceraldehyde-3-phosphate dehydrogenase 1
+54138_Lkimchicus_01290	CDS	1203	pgk	2.7.2.3		Phosphoglycerate kinase
+54138_Lkimchicus_01291	CDS	759	tpiA	5.3.1.1		Triosephosphate isomerase
+54138_Lkimchicus_01292	CDS	1320	eno2	4.2.1.11	COG0148	Enolase 2
+54138_Lkimchicus_01293	CDS	1137				hypothetical protein
+54138_Lkimchicus_01294	CDS	1131	clcA		COG0038	H(+)/Cl(-) exchange transporter ClcA
+54138_Lkimchicus_01295	CDS	216				hypothetical protein
+54138_Lkimchicus_01296	CDS	237	secG		COG1314	Probable protein-export membrane protein SecG
+54138_Lkimchicus_01297	CDS	747	est_2	3.1.1.1		Carboxylesterase
+54138_Lkimchicus_01298	CDS	2364	rnr	3.1.13.1	COG0557	Ribonuclease R
+54138_Lkimchicus_01299	CDS	471	smpB		COG0691	SsrA-binding protein
+54138_Lkimchicus_01300	CDS	579				hypothetical protein
+54138_Lkimchicus_01301	CDS	705	ung	3.2.2.27	COG0692	Uracil-DNA glycosylase
+54138_Lkimchicus_01302	CDS	984	pta	2.3.1.8		Phosphate acetyltransferase
+54138_Lkimchicus_01303	CDS	486	tsaE		COG0802	tRNA threonylcarbamoyladenosine biosynthesis protein TsaE
+54138_Lkimchicus_01304	CDS	504				hypothetical protein
+54138_Lkimchicus_01305	CDS	540	polC_2	2.7.7.7	COG2176	DNA polymerase III PolC-type
+54138_Lkimchicus_01306	CDS	765	exoA	3.1.11.2	COG0708	Exodeoxyribonuclease
+54138_Lkimchicus_01307	CDS	909	murB	1.3.1.98	COG0812	UDP-N-acetylenolpyruvoylglucosamine reductase
+54138_Lkimchicus_01308	CDS	2118	nhaK		COG0025	Sodium, potassium, lithium and rubidium/H(+) antiporter
+54138_Lkimchicus_01309	CDS	687				hypothetical protein
+54138_Lkimchicus_01310	CDS	855	cdaA	2.7.7.85	COG1624	Cyclic di-AMP synthase CdaA
+54138_Lkimchicus_01311	CDS	972	cdaR		COG4856	CdaA regulatory protein CdaR
+54138_Lkimchicus_01312	CDS	1353	glmM	5.4.2.10	COG1109	Phosphoglucosamine mutase
+54138_Lkimchicus_01313	CDS	1818	glmS	2.6.1.16	COG0449	Glutamine--fructose-6-phosphate aminotransferase [isomerizing]
+54138_Lkimchicus_01314	CDS	627				hypothetical protein
+54138_Lkimchicus_01315	CDS	135				hypothetical protein
+54138_Lkimchicus_01316	CDS	708	nagB	3.5.99.6	COG0363	Glucosamine-6-phosphate deaminase
+54138_Lkimchicus_01317	CDS	1128				hypothetical protein
+54138_Lkimchicus_01318	CDS	927	lytG	3.2.1.-	COG1705	Exo-glucosaminidase LytG
+54138_Lkimchicus_01319	CDS	1092	btuD_2	3.6.3.33		Vitamin B12 import ATP-binding protein BtuD
+54138_Lkimchicus_01320	CDS	312				hypothetical protein
+54138_Lkimchicus_01321	tRNA	75				tRNA-Asn(gtt)
+54138_Lkimchicus_01322	CDS	954	ppx	3.6.1.11	COG0248	Exopolyphosphatase
+54138_Lkimchicus_01323	CDS	2166	ppk	2.7.4.1	COG0855	Polyphosphate kinase
+54138_Lkimchicus_01324	CDS	1530	gppA_1	3.6.1.40		Guanosine-5'-triphosphate,3'-diphosphate pyrophosphatase
+54138_Lkimchicus_01325	CDS	816				hypothetical protein
+54138_Lkimchicus_01326	CDS	450				hypothetical protein
+54138_Lkimchicus_01327	CDS	426	ohrB		COG1764	Organic hydroperoxide resistance protein OhrB
+54138_Lkimchicus_01328	CDS	168				hypothetical protein
+54138_Lkimchicus_01329	CDS	153				hypothetical protein
+54138_Lkimchicus_01330	CDS	1173				hypothetical protein
+54138_Lkimchicus_01331	CDS	477	proX		COG3760	Prolyl-tRNA editing protein ProX
+54138_Lkimchicus_01332	CDS	366				hypothetical protein
+54138_Lkimchicus_01333	CDS	174				hypothetical protein
+54138_Lkimchicus_01334	CDS	1152	xerC_4			Tyrosine recombinase XerC
+54138_Lkimchicus_01335	CDS	999				hypothetical protein
+54138_Lkimchicus_01336	CDS	735				hypothetical protein
+54138_Lkimchicus_01337	CDS	708				hypothetical protein
+54138_Lkimchicus_01338	CDS	279				hypothetical protein
+54138_Lkimchicus_01339	CDS	90				hypothetical protein
+54138_Lkimchicus_01340	CDS	102				hypothetical protein
+54138_Lkimchicus_01341	CDS	228				hypothetical protein
+54138_Lkimchicus_01342	CDS	270				hypothetical protein
+54138_Lkimchicus_01343	CDS	348				hypothetical protein
+54138_Lkimchicus_01344	CDS	348				hypothetical protein
+54138_Lkimchicus_01345	CDS	837				hypothetical protein
+54138_Lkimchicus_01346	CDS	273				hypothetical protein
+54138_Lkimchicus_01347	CDS	168				hypothetical protein
+54138_Lkimchicus_01348	CDS	477				hypothetical protein
+54138_Lkimchicus_01349	CDS	486				hypothetical protein
+54138_Lkimchicus_01350	CDS	387				hypothetical protein
+54138_Lkimchicus_01351	CDS	243				hypothetical protein
+54138_Lkimchicus_01352	CDS	267				hypothetical protein
+54138_Lkimchicus_01353	tmRNA	370	ssrA			transfer-messenger RNA, SsrA
+54138_Lkimchicus_01354	CDS	774		3.1.3.-		Putative phosphatase M6_Spy0533
+54138_Lkimchicus_01355	CDS	693				hypothetical protein
+54138_Lkimchicus_01356	CDS	816	srrA_1		COG0745	Transcriptional regulatory protein SrrA
+54138_Lkimchicus_01357	CDS	1455	rcsC_2	2.7.13.3		Sensor histidine kinase RcsC
+54138_Lkimchicus_01358	CDS	861	glcU		COG4975	Probable glucose uptake protein GlcU
+54138_Lkimchicus_01359	CDS	1347	pgi	5.3.1.9	COG0166	Glucose-6-phosphate isomerase
+54138_Lkimchicus_01360	CDS	519				hypothetical protein
+54138_Lkimchicus_01361	CDS	1041	ilvE	2.6.1.42		Probable branched-chain-amino-acid aminotransferase
+54138_Lkimchicus_01362	CDS	330				hypothetical protein
+54138_Lkimchicus_01363	CDS	165				hypothetical protein
+54138_Lkimchicus_01364	tRNA	75				tRNA-Glu(ctc)
+54138_Lkimchicus_01365	tRNA	76				tRNA-Gln(ctg)
+54138_Lkimchicus_01366	CDS	1020				hypothetical protein
+54138_Lkimchicus_01367	CDS	963	yvyI	5.3.1.8	COG1482	Putative mannose-6-phosphate isomerase YvyI
+54138_Lkimchicus_01368	CDS	705	cobQ			Cobyric acid synthase
+54138_Lkimchicus_01369	CDS	1353	murF_1	6.3.2.10		UDP-N-acetylmuramoyl-tripeptide--D-alanyl-D-alanine ligase
+54138_Lkimchicus_01370	CDS	585	tdk	2.7.1.21	COG1435	Thymidine kinase
+54138_Lkimchicus_01371	CDS	1083	prfA		COG0216	Peptide chain release factor 1
+54138_Lkimchicus_01372	CDS	861	prmC	2.1.1.297		Release factor glutamine methyltransferase
+54138_Lkimchicus_01373	CDS	1023	ywlC	2.7.7.87	COG0009	Threonylcarbamoyl-AMP synthase
+54138_Lkimchicus_01374	CDS	1260	glyA	2.1.2.1		Serine hydroxymethyltransferase
+54138_Lkimchicus_01375	CDS	630	upp	2.4.2.9		Uracil phosphoribosyltransferase
+54138_Lkimchicus_01376	CDS	720	atpB		COG0356	ATP synthase subunit a
+54138_Lkimchicus_01377	CDS	213	atpE			ATP synthase subunit c
+54138_Lkimchicus_01378	CDS	516	atpF		COG0711	ATP synthase subunit b
+54138_Lkimchicus_01379	CDS	543	atpH		COG0712	ATP synthase subunit delta
+54138_Lkimchicus_01380	CDS	1539	atpA	3.6.3.14	COG0056	ATP synthase subunit alpha
+54138_Lkimchicus_01381	CDS	897	atpG		COG0224	ATP synthase gamma chain
+54138_Lkimchicus_01382	CDS	1413	atpD	3.6.3.14	COG0055	ATP synthase subunit beta
+54138_Lkimchicus_01383	CDS	429	atpC		COG0355	ATP synthase epsilon chain
+54138_Lkimchicus_01384	CDS	231				hypothetical protein
+54138_Lkimchicus_01385	CDS	1305	murAA	2.5.1.7	COG0766	UDP-N-acetylglucosamine 1-carboxyvinyltransferase 1
+54138_Lkimchicus_01386	CDS	1011	mbl		COG1077	MreB-like protein
+54138_Lkimchicus_01387	CDS	276			COG0759	Putative membrane protein insertion efficiency factor
+54138_Lkimchicus_01388	CDS	222				hypothetical protein
+54138_Lkimchicus_01389	CDS	1206	rodA	2.4.1.129	COG0772	Peptidoglycan glycosyltransferase RodA
+54138_Lkimchicus_01390	CDS	303	gcvH_1		COG0509	Glycine cleavage system H protein
+54138_Lkimchicus_01391	CDS	1035	metN2	3.6.3.-	COG1135	Methionine import ATP-binding protein MetN 2
+54138_Lkimchicus_01392	CDS	684	metP_2		COG2011	Methionine import system permease protein MetP
+54138_Lkimchicus_01393	CDS	828	metQ_2		COG1464	Methionine-binding lipoprotein MetQ
+54138_Lkimchicus_01394	CDS	756	bceA		COG1136	Bacitracin export ATP-binding protein BceA
+54138_Lkimchicus_01395	CDS	1821	yxdM			ABC transporter permease protein YxdM
+54138_Lkimchicus_01396	CDS	372				hypothetical protein
+54138_Lkimchicus_01397	CDS	873	ytrB		COG1131	ABC transporter ATP-binding protein YtrB
+54138_Lkimchicus_01398	CDS	777				hypothetical protein
+54138_Lkimchicus_01399	CDS	972				hypothetical protein
+54138_Lkimchicus_01400	CDS	1650				hypothetical protein
+54138_Lkimchicus_01401	CDS	285	tag_3	3.2.2.20	COG2818	DNA-3-methyladenine glycosylase 1
+54138_Lkimchicus_01402	CDS	498				Putative universal stress protein SA1532
+54138_Lkimchicus_01403	CDS	288				hypothetical protein
+54138_Lkimchicus_01404	CDS	1284			COG2256	Uncharacterized AAA domain-containing protein Rv2559c
+54138_Lkimchicus_01405	CDS	468				hypothetical protein
+54138_Lkimchicus_01406	CDS	603				UPF0637 protein SA0957
+54138_Lkimchicus_01407	CDS	609	rpsD		COG0522	30S ribosomal protein S4
+54138_Lkimchicus_01408	CDS	468	msrC	1.8.4.14	COG1956	Free methionine-R-sulfoxide reductase
+54138_Lkimchicus_01409	CDS	1737	ezrA			Septation ring formation regulator EzrA
+54138_Lkimchicus_01410	CDS	1176	iscS_2	2.8.1.7	COG1104	Cysteine desulfurase IscS
+54138_Lkimchicus_01411	CDS	1218	thiI	2.8.1.4	COG0301	Probable tRNA sulfurtransferase
+54138_Lkimchicus_01412	CDS	510	tpx	1.11.1.15	COG2077	Thiol peroxidase
+54138_Lkimchicus_01413	CDS	2670	valS	6.1.1.9		Valine--tRNA ligase
+54138_Lkimchicus_01414	CDS	1314	fpgS_1	6.3.2.17		Folylpolyglutamate synthase
+54138_Lkimchicus_01415	CDS	1005	mreB		COG1077	Rod shape-determining protein MreB
+54138_Lkimchicus_01416	CDS	864	mreC		COG1792	Cell shape-determining protein MreC
+54138_Lkimchicus_01417	CDS	525				hypothetical protein
+54138_Lkimchicus_01418	CDS	699	minC		COG0850	Septum site-determining protein MinC
+54138_Lkimchicus_01419	CDS	804	minD		COG2894	Septum site-determining protein MinD
+54138_Lkimchicus_01420	CDS	648	artQ		COG0765	Arginine transport system permease protein ArtQ
+54138_Lkimchicus_01421	CDS	642	glnQ_2		COG1126	Glutamine transport ATP-binding protein GlnQ
+54138_Lkimchicus_01422	CDS	846	artP		COG0834	Arginine-binding extracellular protein ArtP
+54138_Lkimchicus_01423	CDS	1449	clsA_1	2.7.8.-	COG1502	Major cardiolipin synthase ClsA
+54138_Lkimchicus_01424	CDS	1356	yclM_1	2.7.2.4	COG0527	Aspartokinase 3
+54138_Lkimchicus_01425	CDS	1272				hypothetical protein
+54138_Lkimchicus_01426	CDS	1293				hypothetical protein
+54138_Lkimchicus_01427	CDS	933				hypothetical protein
+54138_Lkimchicus_01428	CDS	576	pgsA	2.7.8.5		CDP-diacylglycerol--glycerol-3-phosphate 3-phosphatidyltransferase
+54138_Lkimchicus_01429	CDS	1248	cinA		COG1058	Putative competence-damage inducible protein
+54138_Lkimchicus_01430	CDS	1560	rny_1	3.1.-.-	COG1418	Ribonuclease Y
+54138_Lkimchicus_01431	CDS	804	ymdB_1	3.1.4.16	COG1692	2',3'-cyclic-nucleotide 2'-phosphodiesterase
+54138_Lkimchicus_01432	CDS	2613	mutS		COG0249	DNA mismatch repair protein MutS
+54138_Lkimchicus_01433	CDS	1953	mutL		COG0323	DNA mismatch repair protein MutL
+54138_Lkimchicus_01434	CDS	237	ykuJ		COG4703	Uncharacterized protein YkuJ
+54138_Lkimchicus_01435	CDS	2058	ltaS1_1		COG1368	Lipoteichoic acid synthase 1
+54138_Lkimchicus_01436	CDS	141				hypothetical protein
+54138_Lkimchicus_01437	CDS	252				hypothetical protein
+54138_Lkimchicus_01438	CDS	561				Stress response regulator gls24 homolog
+54138_Lkimchicus_01439	CDS	186				hypothetical protein
+54138_Lkimchicus_01440	CDS	561				hypothetical protein
+54138_Lkimchicus_01441	CDS	279				hypothetical protein
+54138_Lkimchicus_01442	CDS	852				hypothetical protein
+54138_Lkimchicus_01443	CDS	585				hypothetical protein
+54138_Lkimchicus_01444	CDS	2106				hypothetical protein
+54138_Lkimchicus_01445	CDS	300				hypothetical protein
+54138_Lkimchicus_01446	CDS	1482				hypothetical protein
+54138_Lkimchicus_01447	CDS	228				hypothetical protein
+54138_Lkimchicus_01448	CDS	252				hypothetical protein
+54138_Lkimchicus_01449	CDS	204				hypothetical protein
+54138_Lkimchicus_01450	CDS	3537				hypothetical protein
+54138_Lkimchicus_01451	CDS	2484				hypothetical protein
+54138_Lkimchicus_01452	CDS	969				hypothetical protein
+54138_Lkimchicus_01453	CDS	300				hypothetical protein
+54138_Lkimchicus_01454	CDS	729				hypothetical protein
+54138_Lkimchicus_01455	CDS	963				hypothetical protein
+54138_Lkimchicus_01456	CDS	462				hypothetical protein
+54138_Lkimchicus_01457	CDS	264				hypothetical protein
+54138_Lkimchicus_01458	CDS	231				hypothetical protein
+54138_Lkimchicus_01459	CDS	903				hypothetical protein
+54138_Lkimchicus_01460	CDS	312				hypothetical protein
+54138_Lkimchicus_01461	CDS	627				hypothetical protein
+54138_Lkimchicus_01462	CDS	804				hypothetical protein
+54138_Lkimchicus_01463	CDS	339				hypothetical protein
+54138_Lkimchicus_01464	CDS	1434	ribZ_4			Riboflavin transporter RibZ
+54138_Lkimchicus_01465	CDS	873		1.1.1.373		3-sulfolactaldehyde reductase
+54138_Lkimchicus_01466	CDS	369				hypothetical protein
+54138_Lkimchicus_01467	CDS	1845	pcp_1	3.4.21.100		Pseudomonalisin
+54138_Lkimchicus_01468	CDS	1836				hypothetical protein
+54138_Lkimchicus_01469	CDS	657				hypothetical protein
+54138_Lkimchicus_01470	CDS	123				hypothetical protein
+54138_Lkimchicus_01471	CDS	405				hypothetical protein
+54138_Lkimchicus_01472	CDS	1635				hypothetical protein
+54138_Lkimchicus_01473	CDS	1419				hypothetical protein
+54138_Lkimchicus_01474	CDS	1236		2.4.1.336	COG1215	Beta-monoglucosyldiacylglycerol synthase
+54138_Lkimchicus_01475	CDS	417				hypothetical protein
+54138_Lkimchicus_01476	CDS	1194				hypothetical protein
+54138_Lkimchicus_01477	CDS	1923	oatA	2.3.1.-		O-acetyltransferase OatA
+54138_Lkimchicus_01478	CDS	399				hypothetical protein
+54138_Lkimchicus_01479	CDS	597				hypothetical protein
+54138_Lkimchicus_01480	CDS	258				hypothetical protein
+54138_Lkimchicus_01481	CDS	225				hypothetical protein
+54138_Lkimchicus_01482	CDS	618	ycaC	4.-.-.-	COG1335	Probable hydrolase YcaC
+54138_Lkimchicus_01483	CDS	795				hypothetical protein
+54138_Lkimchicus_01484	CDS	348				hypothetical protein
+54138_Lkimchicus_01485	CDS	105				hypothetical protein
+54138_Lkimchicus_01486	CDS	693				hypothetical protein
+54138_Lkimchicus_01487	CDS	414				hypothetical protein
+54138_Lkimchicus_01488	CDS	1890				hypothetical protein
+54138_Lkimchicus_01489	CDS	1437				hypothetical protein
+54138_Lkimchicus_01490	CDS	117				hypothetical protein
+54138_Lkimchicus_01491	CDS	567				hypothetical protein
+54138_Lkimchicus_01492	CDS	1164	urdA	1.3.99.33	COG1053	Urocanate reductase
+54138_Lkimchicus_01493	CDS	900		1.1.1.35	COG1250	3-hydroxybutyryl-CoA dehydrogenase
+54138_Lkimchicus_01494	CDS	1197	naiP_1			Putative niacin/nicotinamide transporter NaiP
+54138_Lkimchicus_01495	CDS	507	nadR		COG1827	Transcription repressor NadR
+54138_Lkimchicus_01496	CDS	876	degV_2		COG1307	Protein DegV
+54138_Lkimchicus_01497	CDS	174				hypothetical protein
+54138_Lkimchicus_01498	CDS	537	ydaF	2.3.1.-	COG1670	Putative ribosomal N-acetyltransferase YdaF
+54138_Lkimchicus_01499	CDS	1437	gabD1	1.2.1.79	COG1012	Succinate-semialdehyde dehydrogenase [NADP(+)] 1
+54138_Lkimchicus_01500	CDS	357				S-layer protein
+54138_Lkimchicus_01501	CDS	813				hypothetical protein
+54138_Lkimchicus_01502	CDS	888				S-layer protein
+54138_Lkimchicus_01503	CDS	1191				hypothetical protein
+54138_Lkimchicus_01504	CDS	450				hypothetical protein
+54138_Lkimchicus_01505	CDS	543				hypothetical protein
+54138_Lkimchicus_01506	CDS	3186				hypothetical protein
+54138_Lkimchicus_01507	CDS	3582				hypothetical protein
+54138_Lkimchicus_01508	CDS	681	rpiA	5.3.1.6	COG0120	Ribose-5-phosphate isomerase A
+54138_Lkimchicus_01509	CDS	804	deoB_1	5.4.2.7		Phosphopentomutase
+54138_Lkimchicus_01510	CDS	1272	nupG		COG1972	Purine nucleoside transport protein NupG
+54138_Lkimchicus_01511	CDS	1302	pbuO		COG2252	Guanine/hypoxanthine permease PbuO
+54138_Lkimchicus_01512	CDS	915	rihC_2	3.2.-.-	COG1957	Non-specific ribonucleoside hydrolase RihC
+54138_Lkimchicus_01513	CDS	732	rsmG	2.1.1.-	COG0357	Ribosomal RNA small subunit methyltransferase G
+54138_Lkimchicus_01514	CDS	831	noc		COG1475	Nucleoid occlusion protein
+54138_Lkimchicus_01515	CDS	768	soj_1	3.6.-.-	COG1192	Sporulation initiation inhibitor protein Soj
+54138_Lkimchicus_01516	CDS	885	spo0J		COG1475	Stage 0 sporulation protein J
+54138_Lkimchicus_01517	CDS	192				hypothetical protein
+54138_Lkimchicus_01518	CDS	1101	ychF		COG0012	Ribosome-binding ATPase YchF
+54138_Lkimchicus_01519	CDS	735				hypothetical protein
+54138_Lkimchicus_01520	CDS	1140	guaB	1.1.1.205		Inosine-5'-monophosphate dehydrogenase
+54138_Lkimchicus_01521	CDS	1323	xylP_3			Isoprimeverose transporter
+54138_Lkimchicus_01522	CDS	690	srrA_2		COG0745	Transcriptional regulatory protein SrrA
+54138_Lkimchicus_01523	CDS	1206	sasA_3	2.7.-.-		Adaptive-response sensory-kinase SasA
+54138_Lkimchicus_01524	CDS	1323	dacA	3.4.16.4	COG1686	D-alanyl-D-alanine carboxypeptidase DacA
+54138_Lkimchicus_01525	CDS	792	ygaZ		COG1296	Inner membrane protein YgaZ
+54138_Lkimchicus_01526	CDS	345				hypothetical protein
+54138_Lkimchicus_01527	CDS	1602	gtf1_1	2.4.1.-	COG0438	Glycosyltransferase Gtf1
+54138_Lkimchicus_01528	CDS	1515	gtf1_2	2.4.1.-		Glycosyltransferase Gtf1
+54138_Lkimchicus_01529	CDS	1731				hypothetical protein
+54138_Lkimchicus_01530	CDS	3129				hypothetical protein
+54138_Lkimchicus_01531	CDS	1047	cfa_1	2.1.1.79	COG2230	Cyclopropane-fatty-acyl-phospholipid synthase
+54138_Lkimchicus_01532	CDS	921				hypothetical protein
+54138_Lkimchicus_01533	CDS	1104				hypothetical protein
+54138_Lkimchicus_01534	CDS	615	spsB_2	3.4.21.89		Signal peptidase IB
+54138_Lkimchicus_01535	CDS	693	gpmA_3	5.4.2.11		2,3-bisphosphoglycerate-dependent phosphoglycerate mutase
+54138_Lkimchicus_01536	CDS	228				hypothetical protein
+54138_Lkimchicus_01537	CDS	585				hypothetical protein
+54138_Lkimchicus_01538	CDS	870	hcaB	1.3.1.87		3-phenylpropionate-dihydrodiol/cinnamic acid-dihydrodiol dehydrogenase
+54138_Lkimchicus_01539	CDS	1164				hypothetical protein
+54138_Lkimchicus_01540	CDS	762	fabG2	1.-.-.-		Uncharacterized oxidoreductase Rv1350
+54138_Lkimchicus_01541	CDS	555				hypothetical protein
+54138_Lkimchicus_01542	CDS	612				hypothetical protein
+54138_Lkimchicus_01543	CDS	639				hypothetical protein
+54138_Lkimchicus_01544	CDS	108				hypothetical protein
+54138_Lkimchicus_01545	CDS	1116		1.14.13.-	COG0492	Baeyer-Villiger flavin-containing monooxygenase
+54138_Lkimchicus_01546	CDS	1104	amtB			Ammonia channel
+54138_Lkimchicus_01547	CDS	177	rpmF_2			50S ribosomal protein L32
+54138_Lkimchicus_01548	CDS	312				hypothetical protein
+54138_Lkimchicus_01549	CDS	621				hypothetical protein
+54138_Lkimchicus_01550	CDS	525				hypothetical protein
+54138_Lkimchicus_01551	CDS	150				hypothetical protein
+54138_Lkimchicus_01552	CDS	783				hypothetical protein
+54138_Lkimchicus_01553	CDS	171				hypothetical protein
+54138_Lkimchicus_01554	CDS	480	hrtA	3.6.3.-		Putative hemin import ATP-binding protein HrtA
+54138_Lkimchicus_01555	CDS	96				hypothetical protein
+54138_Lkimchicus_01556	CDS	2460	xpkA_1	4.1.2.9		Xylulose-5-phosphate phosphoketolase
+54138_Lkimchicus_01557	CDS	894				hypothetical protein
+54138_Lkimchicus_01558	CDS	642				hypothetical protein
+54138_Lkimchicus_01559	CDS	576				hypothetical protein
+54138_Lkimchicus_01560	CDS	1041	adh	1.1.1.1	COG1063	Alcohol dehydrogenase
+54138_Lkimchicus_01561	CDS	1476			COG1132	Uncharacterized ABC transporter ATP-binding protein Rv1273c
+54138_Lkimchicus_01562	CDS	264		3.6.3.-		Putative multidrug export ATP-binding/permease protein SA1683
+54138_Lkimchicus_01563	CDS	2097	btuD_3	3.6.3.33		Vitamin B12 import ATP-binding protein BtuD
+54138_Lkimchicus_01564	CDS	705				hypothetical protein
+54138_Lkimchicus_01565	CDS	885				hypothetical protein
+54138_Lkimchicus_01566	CDS	624				hypothetical protein
+54138_Lkimchicus_01567	CDS	672	larR		COG0664	Lactate racemization regulatory protein
+54138_Lkimchicus_01568	CDS	711	larD		COG0580	D/L-lactic acid transporter
+54138_Lkimchicus_01569	CDS	1008	asnA	6.3.1.1	COG2502	Aspartate--ammonia ligase
+54138_Lkimchicus_01570	CDS	900	gtaB_2	2.7.7.9	COG1210	UTP--glucose-1-phosphate uridylyltransferase
+54138_Lkimchicus_01571	CDS	1590	mntH_2			Divalent metal cation transporter MntH
+54138_Lkimchicus_01572	CDS	435				Putative universal stress protein SA1532
+54138_Lkimchicus_01573	CDS	846	yvgN_1	1.1.1.-	COG0656	Glyoxal reductase
+54138_Lkimchicus_01574	CDS	687	yfnB	3.-.-.-	COG1011	Putative HAD-hydrolase YfnB
+54138_Lkimchicus_01575	CDS	1374				hypothetical protein
+54138_Lkimchicus_01576	CDS	402				hypothetical protein
+54138_Lkimchicus_01577	CDS	396				hypothetical protein
+54138_Lkimchicus_01578	CDS	765	yaaA		COG3022	UPF0246 protein YaaA
+54138_Lkimchicus_01579	CDS	243				hypothetical protein
+54138_Lkimchicus_01580	CDS	201	cspL		COG1278	Cold shock protein 2
+54138_Lkimchicus_01581	CDS	375	crcB_1			Putative fluoride ion transporter CrcB
+54138_Lkimchicus_01582	CDS	354	crcB_2			Putative fluoride ion transporter CrcB
+54138_Lkimchicus_01583	CDS	462	bsaA			Glutathione peroxidase homolog BsaA
+54138_Lkimchicus_01584	CDS	558				hypothetical protein
+54138_Lkimchicus_01585	CDS	558				hypothetical protein
+54138_Lkimchicus_01586	CDS	759	ohyA	4.2.1.53		Oleate hydratase
+54138_Lkimchicus_01587	CDS	921	sph	4.2.1.53		Oleate hydratase
+54138_Lkimchicus_01588	CDS	612				hypothetical protein
+54138_Lkimchicus_01589	CDS	978	iolS_2	1.1.1.-	COG0667	Aldo-keto reductase IolS
+54138_Lkimchicus_01590	CDS	1368	mntH_3			Divalent metal cation transporter MntH
+54138_Lkimchicus_01591	CDS	615				hypothetical protein
+54138_Lkimchicus_01592	CDS	345	czrA		COG0640	HTH-type transcriptional repressor CzrA
+54138_Lkimchicus_01593	CDS	1383	brnQ_2		COG1114	Branched-chain amino acid transport system 2 carrier protein
+54138_Lkimchicus_01594	CDS	603				hypothetical protein
+54138_Lkimchicus_01595	CDS	651				hypothetical protein
+54138_Lkimchicus_01596	CDS	411	def1	3.5.1.88	COG0242	Peptide deformylase 1
+54138_Lkimchicus_01597	CDS	957	ydhF	1.-.-.-	COG4989	Oxidoreductase YdhF
+54138_Lkimchicus_01598	CDS	990	panE_2	1.1.1.169	COG1893	2-dehydropantoate 2-reductase
+54138_Lkimchicus_01599	CDS	1497	yjeM			Inner membrane transporter YjeM
+54138_Lkimchicus_01600	CDS	768	natA		COG4555	ABC transporter ATP-binding protein NatA
+54138_Lkimchicus_01601	CDS	1569				hypothetical protein
+54138_Lkimchicus_01602	CDS	720				hypothetical protein
+54138_Lkimchicus_01603	CDS	477				hypothetical protein
+54138_Lkimchicus_01604	CDS	1119	vioD	4.2.1.145		Capreomycidine synthase
+54138_Lkimchicus_01605	CDS	1890	lacL	3.2.1.23		Beta-galactosidase large subunit
+54138_Lkimchicus_01606	CDS	957	lacM	3.2.1.23	COG3250	Beta-galactosidase small subunit
+54138_Lkimchicus_01607	CDS	702	yknY	3.6.3.-	COG1136	Uncharacterized ABC transporter ATP-binding protein YknY
+54138_Lkimchicus_01608	CDS	342				hypothetical protein
+54138_Lkimchicus_01609	CDS	387				hypothetical protein
+54138_Lkimchicus_01610	CDS	1230				hypothetical protein
+54138_Lkimchicus_01611	CDS	477				hypothetical protein
+54138_Lkimchicus_01612	CDS	705				hypothetical protein
+54138_Lkimchicus_01613	CDS	315	sugE		COG2076	Quaternary ammonium compound-resistance protein SugE
+54138_Lkimchicus_01614	CDS	618	ccpN		COG0517	Transcriptional repressor CcpN
+54138_Lkimchicus_01615	CDS	1260	ppdK_1	2.7.9.1	COG0574	Pyruvate, phosphate dikinase
+54138_Lkimchicus_01616	CDS	1332	ppdK_2	2.7.9.1	COG0574	Pyruvate, phosphate dikinase
+54138_Lkimchicus_01617	CDS	462				hypothetical protein
+54138_Lkimchicus_01618	CDS	735	fabG3	1.1.1.53		3-alpha-(or 20-beta)-hydroxysteroid dehydrogenase
+54138_Lkimchicus_01619	CDS	1005	gpr_2	1.1.1.-	COG0667	L-glyceraldehyde 3-phosphate reductase
+54138_Lkimchicus_01620	CDS	714				hypothetical protein
+54138_Lkimchicus_01621	CDS	327				hypothetical protein
+54138_Lkimchicus_01622	CDS	96				hypothetical protein
+54138_Lkimchicus_01623	CDS	1263	braC		COG0683	Leucine-, isoleucine-, valine-, threonine-, and alanine-binding protein
+54138_Lkimchicus_01624	CDS	894	livH_1		COG0559	High-affinity branched-chain amino acid transport system permease protein LivH
+54138_Lkimchicus_01625	CDS	969	livH_2		COG0559	High-affinity branched-chain amino acid transport system permease protein LivH
+54138_Lkimchicus_01626	CDS	783	lptB	3.6.3.-	COG1137	Lipopolysaccharide export system ATP-binding protein LptB
+54138_Lkimchicus_01627	CDS	705	livF		COG0410	High-affinity branched-chain amino acid transport ATP-binding protein LivF
+54138_Lkimchicus_01628	CDS	624				hypothetical protein
+54138_Lkimchicus_01629	CDS	588				hypothetical protein
+54138_Lkimchicus_01630	CDS	99				hypothetical protein
+54138_Lkimchicus_01631	CDS	546				hypothetical protein
+54138_Lkimchicus_01632	CDS	651	deoC	4.1.2.4	COG0274	Deoxyribose-phosphate aldolase
+54138_Lkimchicus_01633	CDS	1197	deoB_2	5.4.2.7	COG1015	Phosphopentomutase
+54138_Lkimchicus_01634	CDS	717	deoD	2.4.2.1	COG0813	Purine nucleoside phosphorylase DeoD-type
+54138_Lkimchicus_01635	CDS	957	deoR		COG2390	Deoxyribonucleoside regulator
+54138_Lkimchicus_01636	CDS	1302	pdp	2.4.2.2	COG0213	Pyrimidine-nucleoside phosphorylase
+54138_Lkimchicus_01637	CDS	942	yfeX	1.11.1.-	COG2837	Probable deferrochelatase/peroxidase YfeX
+54138_Lkimchicus_01638	CDS	1125				hypothetical protein
+54138_Lkimchicus_01639	CDS	642				hypothetical protein
+54138_Lkimchicus_01640	CDS	582				hypothetical protein
+54138_Lkimchicus_01641	CDS	633				hypothetical protein
+54138_Lkimchicus_01642	CDS	741				hypothetical protein
+54138_Lkimchicus_01643	CDS	687				hypothetical protein
+54138_Lkimchicus_01644	CDS	2040				hypothetical protein
+54138_Lkimchicus_01645	CDS	855				hypothetical protein
+54138_Lkimchicus_01646	CDS	849	iolS_3	1.1.1.-	COG0667	Aldo-keto reductase IolS
+54138_Lkimchicus_01647	CDS	447				hypothetical protein
+54138_Lkimchicus_01648	CDS	1437	yhdG_1		COG0531	Uncharacterized amino acid permease YhdG
+54138_Lkimchicus_01649	CDS	1341		5.1.1.21	COG0160	Isoleucine 2-epimerase
+54138_Lkimchicus_01650	CDS	243				hypothetical protein
+54138_Lkimchicus_01651	CDS	1428	lacS		COG2190	Lactose permease
+54138_Lkimchicus_01652	CDS	519	hmpT		COG4720	Thiamine precursor transporter HmpT
+54138_Lkimchicus_01653	CDS	846	pdxK	2.7.1.35		Pyridoxine kinase
+54138_Lkimchicus_01654	CDS	1179	patB	4.4.1.8	COG1168	Cystathionine beta-lyase PatB
+54138_Lkimchicus_01655	CDS	474				hypothetical protein
+54138_Lkimchicus_01656	CDS	1065				hypothetical protein
+54138_Lkimchicus_01657	CDS	492				hypothetical protein
+54138_Lkimchicus_01658	CDS	1074				hypothetical protein
+54138_Lkimchicus_01659	CDS	789				hypothetical protein
+54138_Lkimchicus_01660	CDS	891	isdE		COG0614	High-affinity heme uptake system protein IsdE
+54138_Lkimchicus_01661	CDS	963	isdF			Probable heme-iron transport system permease protein IsdF
+54138_Lkimchicus_01662	CDS	795	fepC		COG1120	Ferric enterobactin transport ATP-binding protein FepC
+54138_Lkimchicus_01663	CDS	1965	smc_4			Chromosome partition protein Smc
+54138_Lkimchicus_01664	CDS	642				hypothetical protein
+54138_Lkimchicus_01665	CDS	1260				hypothetical protein
+54138_Lkimchicus_01666	CDS	243				hypothetical protein
+54138_Lkimchicus_01667	CDS	252				hypothetical protein
+54138_Lkimchicus_01668	CDS	666	gpmA_4	5.4.2.11		2,3-bisphosphoglycerate-dependent phosphoglycerate mutase
+54138_Lkimchicus_01669	CDS	3093				hypothetical protein
+54138_Lkimchicus_01670	CDS	1017				hypothetical protein
+54138_Lkimchicus_01671	CDS	900		1.1.1.343	COG1023	6-phosphogluconate dehydrogenase, NAD(+)-dependent, decarboxylating
+54138_Lkimchicus_01672	CDS	1260	tyrS	6.1.1.1		Tyrosine--tRNA ligase
+54138_Lkimchicus_01673	CDS	936	lagD_1	3.4.22.-		Lactococcin-G-processing and transport ATP-binding protein LagD
+54138_Lkimchicus_01674	CDS	342				hypothetical protein
+54138_Lkimchicus_01675	CDS	132	lcnA			Bacteriocin leucocin-A
+54138_Lkimchicus_01676	CDS	528				hypothetical protein
+54138_Lkimchicus_01677	CDS	504				hypothetical protein
+54138_Lkimchicus_01678	CDS	1482	emrB_3			Multidrug export protein EmrB
+54138_Lkimchicus_01679	CDS	921	rbsK/rbiA			Bifunctional ribokinase/ribose-5-phosphate isomerase A
+54138_Lkimchicus_01680	CDS	780	aroD	4.2.1.10	COG0710	3-dehydroquinate dehydratase
+54138_Lkimchicus_01681	CDS	660	yedJ		COG1418	Uncharacterized protein YedJ
+54138_Lkimchicus_01682	CDS	507	ybaK	4.2.-.-	COG2606	Cys-tRNA(Pro)/Cys-tRNA(Cys) deacylase YbaK
+54138_Lkimchicus_01683	CDS	729	gmuR		COG2188	HTH-type transcriptional regulator GmuR
+54138_Lkimchicus_01684	CDS	2379	xpkA_2	4.1.2.9		Xylulose-5-phosphate phosphoketolase
+54138_Lkimchicus_01685	CDS	531				hypothetical protein
+54138_Lkimchicus_01686	CDS	633	slyA_2			Transcriptional regulator SlyA
+54138_Lkimchicus_01687	CDS	636	cah	4.2.1.1	COG3338	Carbonic anhydrase
+54138_Lkimchicus_01688	CDS	885	rluD_2	5.4.99.23	COG0564	Ribosomal large subunit pseudouridine synthase D
+54138_Lkimchicus_01689	CDS	471				Putative universal stress protein SA1532
+54138_Lkimchicus_01690	CDS	1011	lplJ_1	6.3.1.20	COG0095	Lipoate-protein ligase LplJ
+54138_Lkimchicus_01691	CDS	1014	lplJ_2	6.3.1.20	COG0095	Lipoate-protein ligase LplJ
+54138_Lkimchicus_01692	CDS	456				hypothetical protein
+54138_Lkimchicus_01693	CDS	489				hypothetical protein
+54138_Lkimchicus_01694	CDS	897				hypothetical protein
+54138_Lkimchicus_01695	CDS	2604	mprF	2.3.2.3		Phosphatidylglycerol lysyltransferase
+54138_Lkimchicus_01696	CDS	963	metI	2.5.1.-	COG0626	Cystathionine gamma-synthase/O-acetylhomoserine (thiol)-lyase
+54138_Lkimchicus_01697	CDS	1185	metC	4.4.1.8	COG0626	Cystathionine beta-lyase MetC
+54138_Lkimchicus_01698	CDS	612				hypothetical protein
+54138_Lkimchicus_01699	CDS	321				hypothetical protein
+54138_Lkimchicus_01700	CDS	492				hypothetical protein
+54138_Lkimchicus_01701	CDS	351				hypothetical protein
+54138_Lkimchicus_01702	CDS	768				hypothetical protein
+54138_Lkimchicus_01703	CDS	498	adaB	2.1.1.63	COG0350	Methylated-DNA--protein-cysteine methyltransferase, inducible
+54138_Lkimchicus_01704	CDS	963	malR		COG1609	HTH-type transcriptional regulator MalR
+54138_Lkimchicus_01705	CDS	1386				hypothetical protein
+54138_Lkimchicus_01706	CDS	2253	malP	2.4.1.8		Maltose phosphorylase
+54138_Lkimchicus_01707	CDS	804	trpA	4.2.1.20	COG0159	Tryptophan synthase alpha chain
+54138_Lkimchicus_01708	CDS	1215	trpB	4.2.1.20	COG0133	Tryptophan synthase beta chain
+54138_Lkimchicus_01709	CDS	582	trpF	5.3.1.24		N-(5'-phosphoribosyl)anthranilate isomerase
+54138_Lkimchicus_01710	CDS	789	trpC	4.1.1.48	COG0134	Indole-3-glycerol phosphate synthase
+54138_Lkimchicus_01711	CDS	1032	trpD	2.4.2.18	COG0547	Anthranilate phosphoribosyltransferase
+54138_Lkimchicus_01712	CDS	609	pabA	2.6.1.85	COG0512	Aminodeoxychorismate/anthranilate synthase component 2
+54138_Lkimchicus_01713	CDS	1479	trpE	4.1.3.27	COG0147	Anthranilate synthase component 1
+54138_Lkimchicus_01714	CDS	867	aroE	1.1.1.25	COG0169	Shikimate dehydrogenase (NADP(+))
+54138_Lkimchicus_01715	CDS	1020	aroF	2.5.1.54	COG2876	Phospho-2-dehydro-3-deoxyheptonate aldolase
+54138_Lkimchicus_01716	CDS	1068	aroB	4.2.3.4	COG0337	3-dehydroquinate synthase
+54138_Lkimchicus_01717	CDS	858				hypothetical protein
+54138_Lkimchicus_01718	CDS	426				hypothetical protein
+54138_Lkimchicus_01719	CDS	717	pepF1_2	3.4.24.-		Oligoendopeptidase F, plasmid
+54138_Lkimchicus_01720	CDS	1113				hypothetical protein
+54138_Lkimchicus_01721	CDS	945				hypothetical protein
+54138_Lkimchicus_01722	CDS	1596	rny_2	3.1.-.-	COG1418	Ribonuclease Y
+54138_Lkimchicus_01723	CDS	1578	yfkN		COG0737	Trifunctional nucleotide phosphoesterase protein YfkN
+54138_Lkimchicus_01724	CDS	687				hypothetical protein
+54138_Lkimchicus_01725	CDS	2163				hypothetical protein
+54138_Lkimchicus_01726	CDS	396	spxA_2		COG1393	Regulatory protein Spx
+54138_Lkimchicus_01727	CDS	333				hypothetical protein
+54138_Lkimchicus_01728	CDS	468				hypothetical protein
+54138_Lkimchicus_01729	CDS	804				hypothetical protein
+54138_Lkimchicus_01730	CDS	654				hypothetical protein
+54138_Lkimchicus_01731	CDS	1875				hypothetical protein
+54138_Lkimchicus_01732	CDS	561	ddpX_2	3.4.13.22	COG2173	D-alanyl-D-alanine dipeptidase
+54138_Lkimchicus_01733	CDS	492				hypothetical protein
+54138_Lkimchicus_01734	CDS	1065				hypothetical protein
+54138_Lkimchicus_01735	CDS	1341		3.4.13.-	COG0624	Putative dipeptidase SACOL1801
+54138_Lkimchicus_01736	CDS	636	nnr		COG0062	Bifunctional NAD(P)H-hydrate repair enzyme Nnr
+54138_Lkimchicus_01737	CDS	486				hypothetical protein
+54138_Lkimchicus_01738	CDS	1497	thrC	4.2.3.1	COG0498	Threonine synthase
+54138_Lkimchicus_01739	CDS	327				hypothetical protein
+54138_Lkimchicus_01740	tRNA	72				tRNA-Arg(tcg)
+54138_Lkimchicus_01741	CDS	351				hypothetical protein
+54138_Lkimchicus_01742	CDS	600				hypothetical protein
+54138_Lkimchicus_01743	CDS	438				hypothetical protein
+54138_Lkimchicus_01744	CDS	561				hypothetical protein
+54138_Lkimchicus_01745	CDS	312				hypothetical protein
+54138_Lkimchicus_01746	CDS	228				hypothetical protein
+54138_Lkimchicus_01747	CDS	1362	xylP_4			Isoprimeverose transporter
+54138_Lkimchicus_01748	CDS	870	rhaS_4			HTH-type transcriptional activator RhaS
+54138_Lkimchicus_01749	CDS	2364				hypothetical protein
+54138_Lkimchicus_01750	CDS	1767				hypothetical protein
+54138_Lkimchicus_01751	CDS	576				hypothetical protein
+54138_Lkimchicus_01752	CDS	276	sdpR		COG0640	Transcriptional repressor SdpR
+54138_Lkimchicus_01753	CDS	1032				hypothetical protein
+54138_Lkimchicus_01754	CDS	945				hypothetical protein
+54138_Lkimchicus_01755	CDS	744	tcyN_2	3.6.3.-	COG1126	L-cystine import ATP-binding protein TcyN
+54138_Lkimchicus_01756	CDS	171				hypothetical protein
+54138_Lkimchicus_01757	CDS	414				hypothetical protein
+54138_Lkimchicus_01758	CDS	711	yxeN_2			Probable amino-acid permease protein YxeN
+54138_Lkimchicus_01759	CDS	864	tcyJ		COG0834	L-cystine-binding protein TcyJ
+54138_Lkimchicus_01760	CDS	1020				hypothetical protein
+54138_Lkimchicus_01761	CDS	504				hypothetical protein
+54138_Lkimchicus_01762	CDS	1404	yifK_2		COG1113	Probable transport protein YifK
+54138_Lkimchicus_01763	CDS	462			COG0789	Uncharacterized HTH-type transcriptional regulator HI_0186
+54138_Lkimchicus_01764	CDS	732		1.-.-.-		Uncharacterized oxidoreductase SA2266
+54138_Lkimchicus_01765	CDS	177				hypothetical protein
+54138_Lkimchicus_01766	CDS	414	arsC	1.20.4.4	COG0394	Arsenate reductase
+54138_Lkimchicus_01767	CDS	819				hypothetical protein
+54138_Lkimchicus_01768	CDS	681				hypothetical protein
+54138_Lkimchicus_01769	CDS	438	ywnA		COG1959	Putative HTH-type transcriptional regulator YwnA
+54138_Lkimchicus_01770	CDS	861	qorB_2	1.6.5.2	COG0702	Quinone oxidoreductase 2
+54138_Lkimchicus_01771	CDS	1338	brnQ_3		COG1114	Branched-chain amino acid transport system 2 carrier protein
+54138_Lkimchicus_01772	CDS	498	ywnH	2.3.1.183	COG1247	Putative phosphinothricin acetyltransferase YwnH
+54138_Lkimchicus_01773	CDS	621				hypothetical protein
+54138_Lkimchicus_01774	CDS	348				hypothetical protein
+54138_Lkimchicus_01775	CDS	615				hypothetical protein
+54138_Lkimchicus_01776	CDS	1185	pbuE		COG2814	Purine efflux pump PbuE
+54138_Lkimchicus_01777	CDS	168				hypothetical protein
+54138_Lkimchicus_01778	CDS	120				hypothetical protein
+54138_Lkimchicus_01779	CDS	396				hypothetical protein
+54138_Lkimchicus_01780	CDS	663	glnP_1		COG0765	Glutamine transport system permease protein GlnP
+54138_Lkimchicus_01781	CDS	690	glnP_2		COG0765	Probable glutamine ABC transporter permease protein GlnP
+54138_Lkimchicus_01782	CDS	576	glnQ_3	3.6.3.-	COG1126	Glutamine transport ATP-binding protein GlnQ
+54138_Lkimchicus_01783	CDS	162	glnQ_4			Glutamine transport ATP-binding protein GlnQ
+54138_Lkimchicus_01784	CDS	846	glnH_1		COG0834	ABC transporter glutamine-binding protein GlnH
+54138_Lkimchicus_01785	CDS	474				hypothetical protein
+54138_Lkimchicus_01786	CDS	1221				hypothetical protein
+54138_Lkimchicus_01787	CDS	444				Putative universal stress protein SA1532
+54138_Lkimchicus_01788	CDS	744	ugpQ	3.1.4.46	COG0584	Glycerophosphodiester phosphodiesterase, cytoplasmic
+54138_Lkimchicus_01789	CDS	1602	yveA		COG0531	Aspartate-proton symporter
+54138_Lkimchicus_01790	CDS	498				Putative universal stress protein SA1532
+54138_Lkimchicus_01791	CDS	513			COG1881	UPF0098 protein CT_736
+54138_Lkimchicus_01792	CDS	1149	dapE_5	3.5.1.18		Probable succinyl-diaminopimelate desuccinylase
+54138_Lkimchicus_01793	CDS	150				hypothetical protein
+54138_Lkimchicus_01794	CDS	690				hypothetical protein
+54138_Lkimchicus_01795	CDS	864		1.-.-.-	COG0656	Uncharacterized oxidoreductase MSMEG_2408/MSMEI_2347
+54138_Lkimchicus_01796	CDS	618				hypothetical protein
+54138_Lkimchicus_01797	CDS	966				hypothetical protein
+54138_Lkimchicus_01798	CDS	1302				hypothetical protein
+54138_Lkimchicus_01799	CDS	1158	glxK	2.7.1.31	COG1929	Glycerate 3-kinase
+54138_Lkimchicus_01800	CDS	669	tcyB_1		COG0765	L-cystine transport system permease protein TcyB
+54138_Lkimchicus_01801	CDS	855	yckB		COG0834	Probable ABC transporter extracellular-binding protein YckB
+54138_Lkimchicus_01802	CDS	1470	nylA	3.5.2.12		6-aminohexanoate-cyclic-dimer hydrolase
+54138_Lkimchicus_01803	CDS	396			COG0789	Uncharacterized HTH-type transcriptional regulator HI_0186
+54138_Lkimchicus_01804	CDS	381				hypothetical protein
+54138_Lkimchicus_01805	CDS	939				hypothetical protein
+54138_Lkimchicus_01806	CDS	390				hypothetical protein
+54138_Lkimchicus_01807	CDS	1407	nhaC		COG1757	Na(+)/H(+) antiporter NhaC
+54138_Lkimchicus_01808	CDS	495				hypothetical protein
+54138_Lkimchicus_01809	CDS	987	guaC	1.7.1.7	COG0516	GMP reductase
+54138_Lkimchicus_01810	CDS	1311	purA	6.3.4.4	COG0104	Adenylosuccinate synthetase
+54138_Lkimchicus_01811	CDS	1302	purB	4.3.2.2	COG0015	Adenylosuccinate lyase
+54138_Lkimchicus_01812	CDS	423				hypothetical protein
+54138_Lkimchicus_01813	CDS	933	menH_1	4.2.99.20		2-succinyl-6-hydroxy-2,4-cyclohexadiene-1-carboxylate synthase
+54138_Lkimchicus_01814	CDS	801	iphP	3.1.3.48		Tyrosine-protein phosphatase
+54138_Lkimchicus_01815	CDS	651				hypothetical protein
+54138_Lkimchicus_01816	CDS	873	aes_2	3.1.1.-		Acetyl esterase
+54138_Lkimchicus_01817	CDS	753		2.4.2.-	COG2071	Putative glutamine amidotransferase Rv2859c
+54138_Lkimchicus_01818	CDS	261				hypothetical protein
+54138_Lkimchicus_01819	CDS	1509	glpK_2	2.7.1.30	COG0554	Glycerol kinase
+54138_Lkimchicus_01820	CDS	423				hypothetical protein
+54138_Lkimchicus_01821	CDS	1425	rlmCD_1	2.1.1.189	COG2265	23S rRNA (uracil-C(5))-methyltransferase RlmCD
+54138_Lkimchicus_01822	CDS	1005		5.1.3.21	COG2017	Maltose epimerase
+54138_Lkimchicus_01823	CDS	240				hypothetical protein
+54138_Lkimchicus_01824	CDS	849	yvgN_2	1.1.1.-	COG0656	Glyoxal reductase
+54138_Lkimchicus_01825	CDS	657	fetA	3.6.3.-	COG4619	Probable iron export ATP-binding protein FetA
+54138_Lkimchicus_01826	CDS	756	fetB		COG0390	Probable iron export permease protein FetB
+54138_Lkimchicus_01827	CDS	885				hypothetical protein
+54138_Lkimchicus_01828	CDS	2283				hypothetical protein
+54138_Lkimchicus_01829	CDS	864	hdfR_2			HTH-type transcriptional regulator HdfR
+54138_Lkimchicus_01830	CDS	801	thiM	2.7.1.50	COG2145	Hydroxyethylthiazole kinase
+54138_Lkimchicus_01831	CDS	831	thiD_1	2.7.1.49		Hydroxymethylpyrimidine/phosphomethylpyrimidine kinase
+54138_Lkimchicus_01832	CDS	648	thiE_3	2.5.1.3		Thiamine-phosphate synthase
+54138_Lkimchicus_01833	CDS	1512				hypothetical protein
+54138_Lkimchicus_01834	CDS	375				hypothetical protein
+54138_Lkimchicus_01835	CDS	105				hypothetical protein
+54138_Lkimchicus_01836	CDS	399				hypothetical protein
+54138_Lkimchicus_01837	CDS	963		1.1.1.-		Putative 2-hydroxyacid dehydrogenase SA2098
+54138_Lkimchicus_01838	CDS	918	btuD_4	3.6.3.33		Vitamin B12 import ATP-binding protein BtuD
+54138_Lkimchicus_01839	CDS	777				hypothetical protein
+54138_Lkimchicus_01840	CDS	1947	macB_2	3.6.3.-		Macrolide export ATP-binding/permease protein MacB
+54138_Lkimchicus_01841	CDS	729				hypothetical protein
+54138_Lkimchicus_01842	CDS	2352				hypothetical protein
+54138_Lkimchicus_01843	CDS	291				hypothetical protein
+54138_Lkimchicus_01844	CDS	426				hypothetical protein
+54138_Lkimchicus_01845	CDS	435			COG2153	UPF0039 protein Rv2851c
+54138_Lkimchicus_01846	CDS	942		1.1.1.-		L-2-hydroxyisocaproate dehydrogenase
+54138_Lkimchicus_01847	CDS	435		2.3.1.-		Acetyltransferase SACOL1063
+54138_Lkimchicus_01848	tRNA	76				tRNA-His(gtg)
+54138_Lkimchicus_01849	CDS	267				hypothetical protein
+54138_Lkimchicus_01850	CDS	141				hypothetical protein
+54138_Lkimchicus_01851	CDS	174				hypothetical protein
+54138_Lkimchicus_01852	CDS	561				hypothetical protein
+54138_Lkimchicus_01853	CDS	207				hypothetical protein
+54138_Lkimchicus_01854	CDS	225				hypothetical protein
+54138_Lkimchicus_01855	CDS	927	apbE	2.7.1.180	COG1477	FAD:protein FMN transferase
+54138_Lkimchicus_01856	CDS	621	nfr1_1	1.5.1.36	COG0431	NADH-dependent flavin reductase subunit 1
+54138_Lkimchicus_01857	CDS	150				hypothetical protein
+54138_Lkimchicus_01858	CDS	960				hypothetical protein
+54138_Lkimchicus_01859	CDS	1038	adhA_2	1.1.1.1	COG1064	Probable alcohol dehydrogenase AdhA
+54138_Lkimchicus_01860	CDS	645				hypothetical protein
+54138_Lkimchicus_01861	CDS	126				hypothetical protein
+54138_Lkimchicus_01862	CDS	525				hypothetical protein
+54138_Lkimchicus_01863	CDS	537	padC	4.1.1.-	COG3479	Phenolic acid decarboxylase PadC
+54138_Lkimchicus_01864	CDS	399				hypothetical protein
+54138_Lkimchicus_01865	CDS	843				hypothetical protein
+54138_Lkimchicus_01866	CDS	840				hypothetical protein
+54138_Lkimchicus_01867	CDS	900	argP			HTH-type transcriptional regulator ArgP
+54138_Lkimchicus_01868	CDS	1212	lysN_1	2.6.1.39	COG1167	2-aminoadipate transaminase
+54138_Lkimchicus_01869	CDS	207				hypothetical protein
+54138_Lkimchicus_01870	CDS	1122	brpA		COG1316	Biofilm regulatory protein A
+54138_Lkimchicus_01871	CDS	1317				hypothetical protein
+54138_Lkimchicus_01872	CDS	720	arlR_2		COG0745	Response regulator ArlR
+54138_Lkimchicus_01873	CDS	1386	rcsC_3	2.7.13.3		Sensor histidine kinase RcsC
+54138_Lkimchicus_01874	CDS	1524	dltA	6.2.1.-	COG1020	D-alanine--D-alanyl carrier protein ligase
+54138_Lkimchicus_01875	CDS	1215				hypothetical protein
+54138_Lkimchicus_01876	CDS	234	dltC		COG0236	D-alanyl carrier protein
+54138_Lkimchicus_01877	CDS	1248	dltD		COG3966	Protein DltD
+54138_Lkimchicus_01878	CDS	372				hypothetical protein
+54138_Lkimchicus_01879	CDS	324			COG0393	UPF0145 protein BC_1012
+54138_Lkimchicus_01880	CDS	708				hypothetical protein
+54138_Lkimchicus_01881	CDS	366	yhaI		COG3152	Inner membrane protein YhaI
+54138_Lkimchicus_01882	CDS	219				hypothetical protein
+54138_Lkimchicus_01883	CDS	1329				hypothetical protein
+54138_Lkimchicus_01884	CDS	270				hypothetical protein
+54138_Lkimchicus_01885	CDS	1011	gap	1.2.1.12		Glyceraldehyde-3-phosphate dehydrogenase
+54138_Lkimchicus_01886	CDS	1023				hypothetical protein
+54138_Lkimchicus_01887	CDS	1452	gapN	1.2.1.9	COG1012	NADP-dependent glyceraldehyde-3-phosphate dehydrogenase
+54138_Lkimchicus_01888	CDS	504				hypothetical protein
+54138_Lkimchicus_01889	CDS	669				hypothetical protein
+54138_Lkimchicus_01890	CDS	1083	recA			Protein RecA
+54138_Lkimchicus_01891	CDS	1842	pcp_2	3.4.21.100		Pseudomonalisin
+54138_Lkimchicus_01892	CDS	741	glnQ_5	3.6.3.-	COG1126	Glutamine transport ATP-binding protein GlnQ
+54138_Lkimchicus_01893	CDS	1443	mltF_3			Membrane-bound lytic murein transglycosylase F
+54138_Lkimchicus_01894	CDS	144				hypothetical protein
+54138_Lkimchicus_01895	CDS	1728				hypothetical protein
+54138_Lkimchicus_01896	CDS	1398				S-layer protein
+54138_Lkimchicus_01897	CDS	645				hypothetical protein
+54138_Lkimchicus_01898	CDS	1641	oppA_2		COG4166	Oligopeptide-binding protein OppA
+54138_Lkimchicus_01899	CDS	3072	carB	6.3.5.5	COG0458	Carbamoyl-phosphate synthase arginine-specific large chain
+54138_Lkimchicus_01900	CDS	1065	carA_2	6.3.5.5	COG0505	Carbamoyl-phosphate synthase arginine-specific small chain
+54138_Lkimchicus_01901	CDS	222				hypothetical protein
+54138_Lkimchicus_01902	CDS	144				hypothetical protein
+54138_Lkimchicus_01903	CDS	978				hypothetical protein
+54138_Lkimchicus_01904	CDS	732	phnC	3.6.3.27	COG3638	Phosphate-import ATP-binding protein PhnC
+54138_Lkimchicus_01905	CDS	414				hypothetical protein
+54138_Lkimchicus_01906	CDS	411	phnE		COG3639	Phosphate-import permease protein PhnE
+54138_Lkimchicus_01907	CDS	852				hypothetical protein
+54138_Lkimchicus_01908	CDS	897	phnX	3.11.1.1		Phosphonoacetaldehyde hydrolase
+54138_Lkimchicus_01909	CDS	999	phnW	2.6.1.37	COG0075	2-aminoethylphosphonate--pyruvate transaminase
+54138_Lkimchicus_01910	CDS	378				hypothetical protein
+54138_Lkimchicus_01911	CDS	384	gcvH_2			Glycine cleavage system H protein
+54138_Lkimchicus_01912	CDS	1041		6.3.1.20		Lipoate--protein ligase 1
+54138_Lkimchicus_01913	CDS	243				hypothetical protein
+54138_Lkimchicus_01914	CDS	1011	dapF	5.1.1.7		Diaminopimelate epimerase
+54138_Lkimchicus_01915	CDS	1377	yclM_2	2.7.2.4	COG0527	Aspartokinase 3
+54138_Lkimchicus_01916	CDS	1320	lysA	4.1.1.20	COG0019	Diaminopimelate decarboxylase
+54138_Lkimchicus_01917	CDS	711	dapH	2.3.1.89	COG2171	2,3,4,5-tetrahydropyridine-2,6-dicarboxylate N-acetyltransferase
+54138_Lkimchicus_01918	CDS	1161		3.5.1.47	COG1473	N-acetyldiaminopimelate deacetylase
+54138_Lkimchicus_01919	CDS	921	dapA	4.3.3.7	COG0329	4-hydroxy-tetrahydrodipicolinate synthase
+54138_Lkimchicus_01920	CDS	780	dapB	1.17.1.8	COG0289	4-hydroxy-tetrahydrodipicolinate reductase
+54138_Lkimchicus_01921	CDS	1194	patA_2	2.6.1.-	COG0436	Putative N-acetyl-LL-diaminopimelate aminotransferase
+54138_Lkimchicus_01922	CDS	1062	asd	1.2.1.11	COG0136	Aspartate-semialdehyde dehydrogenase
+54138_Lkimchicus_01923	CDS	1440	oppA_3		COG4166	Oligopeptide-binding protein OppA
+54138_Lkimchicus_01924	CDS	222				hypothetical protein
+54138_Lkimchicus_01925	CDS	774				hypothetical protein
+54138_Lkimchicus_01926	CDS	1128	mutY	3.2.2.-	COG1194	Adenine DNA glycosylase
+54138_Lkimchicus_01927	CDS	2622				hypothetical protein
+54138_Lkimchicus_01928	CDS	321				hypothetical protein
+54138_Lkimchicus_01929	CDS	957	mhqA_2	1.13.11.-	COG0346	Putative ring-cleaving dioxygenase MhqA
+54138_Lkimchicus_01930	CDS	465			COG2153	UPF0039 protein Rv2851c
+54138_Lkimchicus_01931	CDS	201	csp_2		COG1278	Cold shock protein 1
+54138_Lkimchicus_01932	CDS	240				hypothetical protein
+54138_Lkimchicus_01933	CDS	693	kefG	1.6.5.2		Glutathione-regulated potassium-efflux system ancillary protein KefG
+54138_Lkimchicus_01934	CDS	177				hypothetical protein
+54138_Lkimchicus_01935	CDS	1053	btuD_5	3.6.3.33		Vitamin B12 import ATP-binding protein BtuD
+54138_Lkimchicus_01936	CDS	453				hypothetical protein
+54138_Lkimchicus_01937	CDS	819	thiD_2	2.7.1.49		Hydroxymethylpyrimidine/phosphomethylpyrimidine kinase
+54138_Lkimchicus_01938	CDS	678	ktrA		COG0569	Ktr system potassium uptake protein A
+54138_Lkimchicus_01939	CDS	1344	ntpJ			Potassium/sodium uptake protein NtpJ
+54138_Lkimchicus_01940	CDS	1239	codA	3.5.4.1	COG0402	Cytosine deaminase
+54138_Lkimchicus_01941	CDS	432				hypothetical protein
+54138_Lkimchicus_01942	CDS	894	rnhA_2	3.1.26.4		Ribonuclease H
+54138_Lkimchicus_01943	CDS	588				UPF0316 protein SA1727
+54138_Lkimchicus_01944	CDS	549	maa	2.3.1.79	COG0110	Maltose O-acetyltransferase
+54138_Lkimchicus_01945	CDS	1371			COG1292	Probable glycine betaine transporter
+54138_Lkimchicus_01946	CDS	945	ghrB	1.1.1.81		Glyoxylate/hydroxypyruvate reductase B
+54138_Lkimchicus_01947	CDS	312	ohrA		COG1764	Organic hydroperoxide resistance protein OhrA
+54138_Lkimchicus_01948	CDS	672				hypothetical protein
+54138_Lkimchicus_01949	CDS	453				hypothetical protein
+54138_Lkimchicus_01950	CDS	1113	hmo	1.1.3.46		4-hydroxymandelate oxidase
+54138_Lkimchicus_01951	CDS	357				hypothetical protein
+54138_Lkimchicus_01952	CDS	630		3.2.2.-	COG2094	Putative 3-methyladenine DNA glycosylase
+54138_Lkimchicus_01953	CDS	723	menG	2.1.1.163		Demethylmenaquinone methyltransferase
+54138_Lkimchicus_01954	CDS	792	map_1	3.4.11.18	COG0024	Methionine aminopeptidase 1
+54138_Lkimchicus_01955	CDS	171				hypothetical protein
+54138_Lkimchicus_01956	CDS	708				hypothetical protein
+54138_Lkimchicus_01957	CDS	1362	ribZ_5			Riboflavin transporter RibZ
+54138_Lkimchicus_01958	CDS	1695				hypothetical protein
+54138_Lkimchicus_01959	CDS	1737	pgcA	5.4.2.2		Phosphoglucomutase
+54138_Lkimchicus_01960	CDS	1173	galK_2	2.7.1.6	COG0153	Galactokinase
+54138_Lkimchicus_01961	CDS	1002	galE	5.1.3.2	COG1087	UDP-glucose 4-epimerase
+54138_Lkimchicus_01962	CDS	1461	galT	2.7.7.12		Galactose-1-phosphate uridylyltransferase
+54138_Lkimchicus_01963	CDS	987	lacR_2		COG1609	HTH-type transcriptional regulator LacR
+54138_Lkimchicus_01964	CDS	1920	pepO	3.4.24.-	COG3590	Neutral endopeptidase
+54138_Lkimchicus_01965	CDS	1101				hypothetical protein
+54138_Lkimchicus_01966	CDS	471				hypothetical protein
+54138_Lkimchicus_01967	CDS	444			COG3279	Uncharacterized HTH-type transcriptional regulator SACOL2360
+54138_Lkimchicus_01968	CDS	906	gbuC			Glycine betaine/carnitine transport binding protein GbuC
+54138_Lkimchicus_01969	CDS	852	gbuB			Glycine betaine/carnitine transport permease protein GbuB
+54138_Lkimchicus_01970	CDS	1197	gbuA	3.6.3.32		Glycine betaine/carnitine transport ATP-binding protein GbuA
+54138_Lkimchicus_01971	CDS	1578	nfdA	3.5.1.91		N-substituted formamide deformylase
+54138_Lkimchicus_01972	CDS	423				Putative universal stress protein SA1532
+54138_Lkimchicus_01973	CDS	342				hypothetical protein
+54138_Lkimchicus_01974	CDS	1410			COG1132	Uncharacterized ABC transporter ATP-binding protein Rv1273c
+54138_Lkimchicus_01975	CDS	1860			COG1132	Uncharacterized ABC transporter ATP-binding protein TM_0288
+54138_Lkimchicus_01976	CDS	117				hypothetical protein
+54138_Lkimchicus_01977	CDS	1140	ribZ_6			Riboflavin transporter RibZ
+54138_Lkimchicus_01978	CDS	1125				hypothetical protein
+54138_Lkimchicus_01979	CDS	765				hypothetical protein
+54138_Lkimchicus_01980	CDS	969				hypothetical protein
+54138_Lkimchicus_01981	CDS	453	perR		COG0735	Peroxide-responsive repressor PerR
+54138_Lkimchicus_01982	CDS	474				hypothetical protein
+54138_Lkimchicus_01983	CDS	1041	pgl	3.1.1.31	COG2706	6-phosphogluconolactonase
+54138_Lkimchicus_01984	CDS	627				hypothetical protein
+54138_Lkimchicus_01985	CDS	1359	fucP		COG0738	L-fucose-proton symporter
+54138_Lkimchicus_01986	CDS	399	rbsD	5.4.99.62	COG1869	D-ribose pyranase
+54138_Lkimchicus_01987	CDS	897				hypothetical protein
+54138_Lkimchicus_01988	CDS	693				hypothetical protein
+54138_Lkimchicus_01989	CDS	2403				hypothetical protein
+54138_Lkimchicus_01990	CDS	270				hypothetical protein
+54138_Lkimchicus_01991	CDS	948	pyrB	2.1.3.2	COG0540	Aspartate carbamoyltransferase
+54138_Lkimchicus_01992	CDS	1284	pyrC	3.5.2.3	COG0044	Dihydroorotase
+54138_Lkimchicus_01993	CDS	210				hypothetical protein
+54138_Lkimchicus_01994	CDS	402				hypothetical protein
+54138_Lkimchicus_01995	CDS	1152				hypothetical protein
+54138_Lkimchicus_01996	CDS	342				hypothetical protein
+54138_Lkimchicus_01997	CDS	1074	potD		COG0687	Spermidine/putrescine-binding periplasmic protein
+54138_Lkimchicus_01998	CDS	804	ydcV			Inner membrane ABC transporter permease protein YdcV
+54138_Lkimchicus_01999	CDS	825	potB		COG1176	Spermidine/putrescine transport system permease protein PotB
+54138_Lkimchicus_02000	CDS	1122	potA	3.6.3.31		Spermidine/putrescine import ATP-binding protein PotA
+54138_Lkimchicus_02001	CDS	675	anr			Transcriptional activator protein Anr
+54138_Lkimchicus_02002	CDS	345				hypothetical protein
+54138_Lkimchicus_02003	CDS	441				hypothetical protein
+54138_Lkimchicus_02004	CDS	675				hypothetical protein
+54138_Lkimchicus_02005	CDS	1383	fumC	4.2.1.2		Fumarate hydratase class II
+54138_Lkimchicus_02006	CDS	1395	fccA	1.3.5.4	COG1053	Fumarate reductase flavoprotein subunit
+54138_Lkimchicus_02007	CDS	585	nfr1_2	1.5.1.36	COG0431	NADH-dependent flavin reductase subunit 1
+54138_Lkimchicus_02008	CDS	930	ldh_1	1.1.1.27	COG0039	L-lactate dehydrogenase
+54138_Lkimchicus_02009	CDS	1419	yflS		COG0471	Putative malate transporter YflS
+54138_Lkimchicus_02010	CDS	252				hypothetical protein
+54138_Lkimchicus_02011	CDS	546				hypothetical protein
+54138_Lkimchicus_02012	CDS	954	sorC		COG2390	Sorbitol operon regulator
+54138_Lkimchicus_02013	CDS	1164		1.1.1.38		NAD-dependent malic enzyme
+54138_Lkimchicus_02014	CDS	1056	citC	6.2.1.22		[Citrate [pro-3S]-lyase] ligase
+54138_Lkimchicus_02015	CDS	294	citD			Citrate lyase acyl carrier protein
+54138_Lkimchicus_02016	CDS	918	citE	4.1.3.6	COG2301	Citrate lyase subunit beta
+54138_Lkimchicus_02017	CDS	1539	citF	4.1.3.6	COG3051	Citrate lyase alpha chain
+54138_Lkimchicus_02018	CDS	531	citX	2.7.7.61	COG3697	Apo-citrate lyase phosphoribosyl-dephospho-CoA transferase
+54138_Lkimchicus_02019	CDS	876	citG	2.4.2.52	COG1767	2-(5''-triphosphoribosyl)-3'-dephosphocoenzyme-A synthase
+54138_Lkimchicus_02020	CDS	501				hypothetical protein
+54138_Lkimchicus_02021	CDS	363				hypothetical protein
+54138_Lkimchicus_02022	CDS	840	mleS_1	4.1.1.101	COG0281	Malolactic enzyme
+54138_Lkimchicus_02023	CDS	720	mleS_2	4.1.1.101	COG0281	Malolactic enzyme
+54138_Lkimchicus_02024	CDS	699	tcyB_2		COG0765	L-cystine transport system permease protein TcyB
+54138_Lkimchicus_02025	CDS	744	tcyC	3.6.3.-	COG1126	L-cystine import ATP-binding protein TcyC
+54138_Lkimchicus_02026	CDS	813			COG0834	Probable amino-acid ABC transporter-binding protein HI_1080
+54138_Lkimchicus_02027	CDS	372				hypothetical protein
+54138_Lkimchicus_02028	CDS	885	cynR			HTH-type transcriptional regulator CynR
+54138_Lkimchicus_02029	CDS	522				hypothetical protein
+54138_Lkimchicus_02030	CDS	432				hypothetical protein
+54138_Lkimchicus_02031	CDS	330				hypothetical protein
+54138_Lkimchicus_02032	CDS	1185				hypothetical protein
+54138_Lkimchicus_02033	CDS	357				hypothetical protein
+54138_Lkimchicus_02034	CDS	840			COG1307	DegV domain-containing protein SP_1112
+54138_Lkimchicus_02035	CDS	243				hypothetical protein
+54138_Lkimchicus_02036	CDS	522	ymdB_2	3.5.1.-	COG2110	O-acetyl-ADP-ribose deacetylase
+54138_Lkimchicus_02037	CDS	180				hypothetical protein
+54138_Lkimchicus_02038	CDS	591	mepH	3.4.-.-	COG0791	Murein DD-endopeptidase MepH
+54138_Lkimchicus_02039	CDS	825	yidA_1	3.1.3.23	COG0561	Sugar phosphatase YidA
+54138_Lkimchicus_02040	CDS	582				hypothetical protein
+54138_Lkimchicus_02041	CDS	360				hypothetical protein
+54138_Lkimchicus_02042	CDS	663				hypothetical protein
+54138_Lkimchicus_02043	CDS	1422	ykoD	3.6.3.-	COG1122	Putative HMP/thiamine import ATP-binding protein YkoD
+54138_Lkimchicus_02044	CDS	573	ykoE		COG4721	Putative HMP/thiamine permease protein YkoE
+54138_Lkimchicus_02045	CDS	1239	naiP_2			Putative niacin/nicotinamide transporter NaiP
+54138_Lkimchicus_02046	CDS	717	pyrF	4.1.1.23	COG0284	Orotidine 5'-phosphate decarboxylase
+54138_Lkimchicus_02047	CDS	636	pyrE	2.4.2.10	COG0461	Orotate phosphoribosyltransferase
+54138_Lkimchicus_02048	CDS	819	ybjI_2	3.1.3.104	COG0561	5-amino-6-(5-phospho-D-ribitylamino)uracil phosphatase YbjI
+54138_Lkimchicus_02049	CDS	834	yidA_2	3.1.3.23	COG0561	Sugar phosphatase YidA
+54138_Lkimchicus_02050	CDS	960	rihB	3.2.2.8	COG1957	Pyrimidine-specific ribonucleoside hydrolase RihB
+54138_Lkimchicus_02051	CDS	1023				hypothetical protein
+54138_Lkimchicus_02052	CDS	990	yumC	1.18.1.2	COG0492	Ferredoxin--NADP reductase 2
+54138_Lkimchicus_02053	CDS	2139	ltaS1_2		COG1368	Lipoteichoic acid synthase 1
+54138_Lkimchicus_02054	CDS	657	gpmA_5	5.4.2.11		2,3-bisphosphoglycerate-dependent phosphoglycerate mutase
+54138_Lkimchicus_02055	CDS	918	mhqO	1.13.11.-	COG0346	Putative ring-cleaving dioxygenase MhqO
+54138_Lkimchicus_02056	CDS	444		2.3.1.-		Acetyltransferase SACOL1063
+54138_Lkimchicus_02057	CDS	459				hypothetical protein
+54138_Lkimchicus_02058	CDS	432				hypothetical protein
+54138_Lkimchicus_02059	CDS	2712	ydgH		COG2409	Putative membrane protein YdgH
+54138_Lkimchicus_02060	CDS	246				hypothetical protein
+54138_Lkimchicus_02061	CDS	978	yxeI		COG3049	Uncharacterized protein YxeI
+54138_Lkimchicus_02062	CDS	1035	ctpF_1	3.6.3.-		Probable cation-transporting ATPase F
+54138_Lkimchicus_02063	CDS	252	pacL	3.6.3.8	COG0474	Calcium-transporting ATPase
+54138_Lkimchicus_02064	CDS	1188	ctpF_2	3.6.3.-		Probable cation-transporting ATPase F
+54138_Lkimchicus_02065	CDS	624				hypothetical protein
+54138_Lkimchicus_02066	CDS	120				hypothetical protein
+54138_Lkimchicus_02067	CDS	633				hypothetical protein
+54138_Lkimchicus_02068	CDS	321	trxA_1		COG0526	Thioredoxin
+54138_Lkimchicus_02069	CDS	870	glxR	1.1.1.60	COG2084	2-hydroxy-3-oxopropionate reductase
+54138_Lkimchicus_02070	CDS	774	cmpD	3.6.3.-		Bicarbonate transport ATP-binding protein CmpD
+54138_Lkimchicus_02071	CDS	903				hypothetical protein
+54138_Lkimchicus_02072	CDS	999				hypothetical protein
+54138_Lkimchicus_02073	CDS	843	metAA	2.3.1.31	COG1897	Homoserine O-acetyltransferase
+54138_Lkimchicus_02074	CDS	678				hypothetical protein
+54138_Lkimchicus_02075	CDS	369			COG0346	Virulence protein STM3117
+54138_Lkimchicus_02076	CDS	120				hypothetical protein
+54138_Lkimchicus_02077	CDS	1551	ybiT_2		COG0488	Uncharacterized ABC transporter ATP-binding protein YbiT
+54138_Lkimchicus_02078	CDS	600	yciB	2.-.-.-	COG1376	Putative L,D-transpeptidase YciB
+54138_Lkimchicus_02079	CDS	912	fpaP	3.4.11.5		Proline iminopeptidase
+54138_Lkimchicus_02080	CDS	2415	pepX	3.4.14.11		Xaa-Pro dipeptidyl-peptidase
+54138_Lkimchicus_02081	CDS	1182	napA			Na(+)/H(+) antiporter
+54138_Lkimchicus_02082	CDS	1404	ribZ_7			Riboflavin transporter RibZ
+54138_Lkimchicus_02083	CDS	1404	yhdG_2		COG0531	Uncharacterized amino acid permease YhdG
+54138_Lkimchicus_02084	CDS	429				hypothetical protein
+54138_Lkimchicus_02085	CDS	567	gmk_2	2.7.4.8	COG0194	Guanylate kinase
+54138_Lkimchicus_02086	CDS	438	zur		COG0735	Zinc-specific metallo-regulatory protein
+54138_Lkimchicus_02087	CDS	516				hypothetical protein
+54138_Lkimchicus_02088	CDS	831				hypothetical protein
+54138_Lkimchicus_02089	CDS	741	glnQ_6			Glutamine transport ATP-binding protein GlnQ
+54138_Lkimchicus_02090	CDS	831	glnH_2		COG0834	ABC transporter glutamine-binding protein GlnH
+54138_Lkimchicus_02091	CDS	639	glnM		COG0765	Probable glutamine ABC transporter permease protein GlnM
+54138_Lkimchicus_02092	CDS	675	glnP_3		COG0765	Probable glutamine ABC transporter permease protein GlnP
+54138_Lkimchicus_02093	CDS	1296	hflX		COG2262	GTPase HflX
+54138_Lkimchicus_02094	CDS	1623	dppE_5		COG4166	Dipeptide-binding protein DppE
+54138_Lkimchicus_02095	CDS	930	oppB		COG0601	Oligopeptide transport system permease protein OppB
+54138_Lkimchicus_02096	CDS	1029	dppC		COG1173	Dipeptide transport system permease protein DppC
+54138_Lkimchicus_02097	CDS	1098	oppD		COG0444	Oligopeptide transport ATP-binding protein OppD
+54138_Lkimchicus_02098	CDS	960	oppF		COG4608	Oligopeptide transport ATP-binding protein OppF
+54138_Lkimchicus_02099	CDS	660	gpmA_6	5.4.2.11		2,3-bisphosphoglycerate-dependent phosphoglycerate mutase
+54138_Lkimchicus_02100	CDS	1857				hypothetical protein
+54138_Lkimchicus_02101	CDS	2298	helD_1	3.6.4.12	COG3973	DNA helicase IV
+54138_Lkimchicus_02102	CDS	924	coaA	2.7.1.33	COG1072	Pantothenate kinase
+54138_Lkimchicus_02103	CDS	1554	guaA	6.3.5.2		GMP synthase [glutamine-hydrolyzing]
+54138_Lkimchicus_02104	CDS	1209				hypothetical protein
+54138_Lkimchicus_02105	CDS	1326	mepA			Multidrug export protein MepA
+54138_Lkimchicus_02106	CDS	2442				hypothetical protein
+54138_Lkimchicus_02107	CDS	2373	bglB	3.2.1.21	COG1472	Thermostable beta-glucosidase B
+54138_Lkimchicus_02108	CDS	1440	melB		COG2211	Melibiose carrier protein
+54138_Lkimchicus_02109	CDS	387				hypothetical protein
+54138_Lkimchicus_02110	CDS	879	qmcA		COG0330	Protein QmcA
+54138_Lkimchicus_02111	CDS	402				hypothetical protein
+54138_Lkimchicus_02112	CDS	399				hypothetical protein
+54138_Lkimchicus_02113	CDS	483				hypothetical protein
+54138_Lkimchicus_02114	CDS	414				hypothetical protein
+54138_Lkimchicus_02115	CDS	801				hypothetical protein
+54138_Lkimchicus_02116	CDS	1437	hsrA_2			Probable transport protein HsrA
+54138_Lkimchicus_02117	CDS	588				hypothetical protein
+54138_Lkimchicus_02118	CDS	435				hypothetical protein
+54138_Lkimchicus_02119	CDS	300				hypothetical protein
+54138_Lkimchicus_02120	CDS	873				hypothetical protein
+54138_Lkimchicus_02121	CDS	465	copY			Transcriptional repressor CopY
+54138_Lkimchicus_02122	CDS	372				hypothetical protein
+54138_Lkimchicus_02123	CDS	276				hypothetical protein
+54138_Lkimchicus_02124	CDS	1926	copA	3.6.3.54	COG2217	Copper-exporting P-type ATPase
+54138_Lkimchicus_02125	CDS	717				hypothetical protein
+54138_Lkimchicus_02126	CDS	177				hypothetical protein
+54138_Lkimchicus_02127	CDS	495		2.3.1.28		Chloramphenicol acetyltransferase
+54138_Lkimchicus_02128	CDS	312	trxA_2		COG0526	Thioredoxin
+54138_Lkimchicus_02129	CDS	1059	rsgA_2	3.6.1.-		Putative ribosome biogenesis GTPase RsgA
+54138_Lkimchicus_02130	CDS	423	arcA_2	3.5.3.6	COG2235	Arginine deiminase
+54138_Lkimchicus_02131	CDS	819	arcA_3	3.5.3.6		Arginine deiminase
+54138_Lkimchicus_02132	CDS	171	arcB_2	2.1.3.3		Ornithine carbamoyltransferase, catabolic
+54138_Lkimchicus_02133	CDS	294				hypothetical protein
+54138_Lkimchicus_02134	CDS	1260				hypothetical protein
+54138_Lkimchicus_02135	CDS	363				hypothetical protein
+54138_Lkimchicus_02136	CDS	1239	mdtG_2			Multidrug resistance protein MdtG
+54138_Lkimchicus_02137	CDS	576				hypothetical protein
+54138_Lkimchicus_02138	CDS	651	lacA	2.3.1.18	COG0110	Galactoside O-acetyltransferase
+54138_Lkimchicus_02139	CDS	675				hypothetical protein
+54138_Lkimchicus_02140	CDS	951				hypothetical protein
+54138_Lkimchicus_02141	CDS	1947				hypothetical protein
+54138_Lkimchicus_02142	CDS	2535	pepN	3.4.11.2		Aminopeptidase N
+54138_Lkimchicus_02143	CDS	1056			COG0614	Uncharacterized protein HI_1472
+54138_Lkimchicus_02144	CDS	798	map_2	3.4.11.18	COG0024	Methionine aminopeptidase 1
+54138_Lkimchicus_02145	CDS	1374	xylT_2			D-xylose transporter
+54138_Lkimchicus_02146	CDS	1728	ydaP		COG0028	Putative thiamine pyrophosphate-containing protein YdaP
+54138_Lkimchicus_02147	CDS	870				hypothetical protein
+54138_Lkimchicus_02148	CDS	990	kdgR_3		COG1609	HTH-type transcriptional regulator KdgR
+54138_Lkimchicus_02149	CDS	189				hypothetical protein
+54138_Lkimchicus_02150	CDS	750				hypothetical protein
+54138_Lkimchicus_02151	CDS	591				hypothetical protein
+54138_Lkimchicus_02152	CDS	942	pyrDA	1.3.98.1	COG0167	Dihydroorotate dehydrogenase A (fumarate)
+54138_Lkimchicus_02153	CDS	408				hypothetical protein
+54138_Lkimchicus_02154	CDS	1188	entS		COG0477	Enterobactin exporter EntS
+54138_Lkimchicus_02155	CDS	1305	pyrP			Uracil permease
+54138_Lkimchicus_02156	CDS	1377	pucI		COG1953	Probable allantoin permease
+54138_Lkimchicus_02157	CDS	543				hypothetical protein
+54138_Lkimchicus_02158	CDS	471				hypothetical protein
+54138_Lkimchicus_02159	CDS	912	czcD		COG1230	Cadmium, cobalt and zinc/H(+)-K(+) antiporter
+54138_Lkimchicus_02160	CDS	699	mntR			Transcriptional regulator MntR
+54138_Lkimchicus_02161	CDS	759				hypothetical protein
+54138_Lkimchicus_02162	CDS	477				hypothetical protein
+54138_Lkimchicus_02163	CDS	666				hypothetical protein
+54138_Lkimchicus_02164	CDS	186				hypothetical protein
+54138_Lkimchicus_02165	CDS	804	axeA1	3.1.1.72	COG0657	Acetylxylan esterase
+54138_Lkimchicus_02166	CDS	534				hypothetical protein
+54138_Lkimchicus_02167	CDS	1452	lysP		COG0833	Lysine-specific permease
+54138_Lkimchicus_02168	CDS	639		2.7.1.113	COG1428	Deoxyguanosine kinase
+54138_Lkimchicus_02169	CDS	1278	serS	6.1.1.11		Serine--tRNA ligase
+54138_Lkimchicus_02170	tRNA	75				tRNA-Val(tac)
+54138_Lkimchicus_02171	tRNA	75				tRNA-Lys(ttt)
+54138_Lkimchicus_02172	tRNA	84				tRNA-Leu(tag)
+54138_Lkimchicus_02173	tRNA	73				tRNA-Thr(agt)
+54138_Lkimchicus_02174	tRNA	72				tRNA-Gly(gcc)
+54138_Lkimchicus_02175	tRNA	88				tRNA-Leu(taa)
+54138_Lkimchicus_02176	tRNA	76				tRNA-Arg(acg)
+54138_Lkimchicus_02177	tRNA	75				tRNA-Pro(cgg)
+54138_Lkimchicus_02178	CDS	468	ctsR		COG4463	Transcriptional regulator CtsR
+54138_Lkimchicus_02179	CDS	2478	clpC_2			ATP-dependent Clp protease ATP-binding subunit ClpC
+54138_Lkimchicus_02180	CDS	600				hypothetical protein
+54138_Lkimchicus_02181	CDS	3615	rpoB	2.7.7.6	COG0085	DNA-directed RNA polymerase subunit beta
+54138_Lkimchicus_02182	CDS	3645	rpoC	2.7.7.6	COG0086	DNA-directed RNA polymerase subunit beta'
+54138_Lkimchicus_02183	CDS	417				hypothetical protein
+54138_Lkimchicus_02184	CDS	414	rpsL		COG0048	30S ribosomal protein S12
+54138_Lkimchicus_02185	CDS	471	rpsG		COG0049	30S ribosomal protein S7
+54138_Lkimchicus_02186	CDS	2100	fusA		COG0480	Elongation factor G
+54138_Lkimchicus_02187	CDS	309	rpsJ		COG0051	30S ribosomal protein S10
+54138_Lkimchicus_02188	CDS	636	rplC		COG0087	50S ribosomal protein L3
+54138_Lkimchicus_02189	CDS	624	rplD		COG0088	50S ribosomal protein L4
+54138_Lkimchicus_02190	CDS	288	rplW		COG0089	50S ribosomal protein L23
+54138_Lkimchicus_02191	CDS	837	rplB		COG0090	50S ribosomal protein L2
+54138_Lkimchicus_02192	CDS	279	rpsS		COG0185	30S ribosomal protein S19
+54138_Lkimchicus_02193	CDS	357	rplV		COG0091	50S ribosomal protein L22
+54138_Lkimchicus_02194	CDS	669	rpsC		COG0092	30S ribosomal protein S3
+54138_Lkimchicus_02195	CDS	435	rplP		COG0197	50S ribosomal protein L16
+54138_Lkimchicus_02196	CDS	195	rpmC			50S ribosomal protein L29
+54138_Lkimchicus_02197	CDS	267	rpsQ			30S ribosomal protein S17
+54138_Lkimchicus_02198	CDS	369	rplN		COG0093	50S ribosomal protein L14
+54138_Lkimchicus_02199	CDS	312	rplX		COG0198	50S ribosomal protein L24
+54138_Lkimchicus_02200	CDS	543	rplE		COG0094	50S ribosomal protein L5
+54138_Lkimchicus_02201	CDS	399	rpsH		COG0096	30S ribosomal protein S8
+54138_Lkimchicus_02202	CDS	537	rplF		COG0097	50S ribosomal protein L6
+54138_Lkimchicus_02203	CDS	357	rplR		COG0256	50S ribosomal protein L18
+54138_Lkimchicus_02204	CDS	504	rpsE		COG0098	30S ribosomal protein S5
+54138_Lkimchicus_02205	CDS	183	rpmD		COG1841	50S ribosomal protein L30
+54138_Lkimchicus_02206	CDS	438	rplO		COG0200	50S ribosomal protein L15
+54138_Lkimchicus_02207	CDS	1317	secY			Protein translocase subunit SecY
+54138_Lkimchicus_02208	CDS	660	adk	2.7.4.3		Adenylate kinase
+54138_Lkimchicus_02209	CDS	216	infA		COG0361	Translation initiation factor IF-1
+54138_Lkimchicus_02210	CDS	366	rpsM		COG0099	30S ribosomal protein S13
+54138_Lkimchicus_02211	CDS	390	rpsK		COG0100	30S ribosomal protein S11
+54138_Lkimchicus_02212	CDS	948	rpoA	2.7.7.6	COG0202	DNA-directed RNA polymerase subunit alpha
+54138_Lkimchicus_02213	CDS	384	rplQ			50S ribosomal protein L17
+54138_Lkimchicus_02214	CDS	1641	norW	1.18.1.-		Nitric oxide reductase FlRd-NAD(+) reductase
+54138_Lkimchicus_02215	CDS	834	ecfA1	3.6.3.-	COG1122	Energy-coupling factor transporter ATP-binding protein EcfA1
+54138_Lkimchicus_02216	CDS	873	ecfA2	3.6.3.-		Energy-coupling factor transporter ATP-binding protein EcfA2
+54138_Lkimchicus_02217	CDS	801	ecfT		COG0619	Energy-coupling factor transporter transmembrane protein EcfT
+54138_Lkimchicus_02218	CDS	795	truA	5.4.99.12	COG0101	tRNA pseudouridine synthase A
+54138_Lkimchicus_02219	CDS	444	rplM		COG0102	50S ribosomal protein L13
+54138_Lkimchicus_02220	CDS	393	rpsI		COG0103	30S ribosomal protein S9
+54138_Lkimchicus_02221	CDS	540				hypothetical protein
+54138_Lkimchicus_02222	CDS	1482	bmr3_2			Multidrug resistance protein 3
+54138_Lkimchicus_02223	CDS	1200	lysN_2	2.6.1.39	COG1167	2-aminoadipate transaminase
+54138_Lkimchicus_02224	CDS	996				hypothetical protein
+54138_Lkimchicus_02225	CDS	1962	copB	3.6.3.54		Copper-exporting P-type ATPase B
+54138_Lkimchicus_02226	CDS	981	glkA	2.7.1.2		Glucokinase
+54138_Lkimchicus_02227	CDS	459	gldA_1	1.1.1.6		Glycerol dehydrogenase
+54138_Lkimchicus_02228	CDS	324	gldA_2	1.1.1.6		Glycerol dehydrogenase
+54138_Lkimchicus_02229	CDS	606				hypothetical protein
+54138_Lkimchicus_02230	CDS	1071	ddl	6.3.2.4		D-alanine--D-alanine ligase
+54138_Lkimchicus_02231	CDS	219				hypothetical protein
+54138_Lkimchicus_02232	CDS	1461	cydA	1.10.3.14	COG1271	Cytochrome bd-I ubiquinol oxidase subunit 1
+54138_Lkimchicus_02233	CDS	1017	cydB	1.10.3.14	COG1294	Cytochrome bd-I ubiquinol oxidase subunit 2
+54138_Lkimchicus_02234	CDS	1863	btuD_6	3.6.3.33		Vitamin B12 import ATP-binding protein BtuD
+54138_Lkimchicus_02235	CDS	1740			COG1132	Probable ABC transporter ATP-binding protein HI_0664
+54138_Lkimchicus_02236	CDS	978	hexs-b	2.5.1.83		Hexaprenyl-diphosphate synthase large subunit ((2E,6E)-farnesyl-diphosphate specific)
+54138_Lkimchicus_02237	CDS	909	menA	2.5.1.74		1,4-dihydroxy-2-naphthoate octaprenyltransferase
+54138_Lkimchicus_02238	CDS	582	xpt	2.4.2.22	COG0503	Xanthine phosphoribosyltransferase
+54138_Lkimchicus_02239	CDS	465				UPF0316 protein SA1727
+54138_Lkimchicus_02240	CDS	1155	purK_2	6.3.4.18		N5-carboxyaminoimidazole ribonucleotide synthase
+54138_Lkimchicus_02241	CDS	2253	pcrA	3.6.4.12	COG0210	ATP-dependent DNA helicase PcrA
+54138_Lkimchicus_02242	CDS	2064	ligA	6.5.1.2	COG0272	DNA ligase
+54138_Lkimchicus_02243	CDS	1143				hypothetical protein
+54138_Lkimchicus_02244	CDS	309	gatC_3	6.3.5.-		Glutamyl-tRNA(Gln) amidotransferase subunit C
+54138_Lkimchicus_02245	CDS	1470	gatA	6.3.5.7	COG0154	Glutamyl-tRNA(Gln) amidotransferase subunit A
+54138_Lkimchicus_02246	CDS	1422	gatB	6.3.5.-	COG0064	Aspartyl/glutamyl-tRNA(Asn/Gln) amidotransferase subunit B
+54138_Lkimchicus_02247	CDS	1026	dagK	2.7.1.107	COG1597	Diacylglycerol kinase
+54138_Lkimchicus_02248	CDS	1374	rlmCD_2	2.1.1.189	COG2265	23S rRNA (uracil-C(5))-methyltransferase RlmCD
+54138_Lkimchicus_02249	CDS	96				hypothetical protein
+54138_Lkimchicus_02250	CDS	1362	recQ_2	3.6.4.12	COG0514	ATP-dependent DNA helicase RecQ
+54138_Lkimchicus_02251	CDS	408	recQ_3	3.6.4.12	COG0514	ATP-dependent DNA helicase RecQ
+54138_Lkimchicus_02252	CDS	1524	gshAB_5		COG1181	Glutathione biosynthesis bifunctional protein GshAB
+54138_Lkimchicus_02253	CDS	705	steT		COG0531	Serine/threonine exchanger SteT
+54138_Lkimchicus_02254	CDS	1359	gntT		COG2610	High-affinity gluconate transporter
+54138_Lkimchicus_02255	CDS	1551	xylB_5	2.7.1.17	COG1070	Xylulose kinase
+54138_Lkimchicus_02256	CDS	858	ybbH		COG1737	Uncharacterized HTH-type transcriptional regulator YbbH
+54138_Lkimchicus_02257	CDS	531				hypothetical protein
+54138_Lkimchicus_02258	CDS	192				hypothetical protein
+54138_Lkimchicus_02259	CDS	318				hypothetical protein
+54138_Lkimchicus_02260	CDS	999	iolU	1.1.1.371	COG0673	scyllo-inositol 2-dehydrogenase (NADP(+)) IolU
+54138_Lkimchicus_02261	CDS	1302	yfmL	3.6.4.13	COG0513	Probable ATP-dependent RNA helicase YfmL
+54138_Lkimchicus_02262	tRNA	75				tRNA-Arg(cct)
+54138_Lkimchicus_02263	CDS	159				hypothetical protein
+54138_Lkimchicus_02264	CDS	213				hypothetical protein
+54138_Lkimchicus_02265	CDS	153				hypothetical protein
+54138_Lkimchicus_02266	CDS	240				hypothetical protein
+54138_Lkimchicus_02267	CDS	330				hypothetical protein
+54138_Lkimchicus_02268	CDS	207				hypothetical protein
+54138_Lkimchicus_02269	CDS	1686				hypothetical protein
+54138_Lkimchicus_02270	CDS	456				hypothetical protein
+54138_Lkimchicus_02271	CDS	315				hypothetical protein
+54138_Lkimchicus_02272	CDS	321	gor	1.8.1.7	COG1249	Glutathione reductase
+54138_Lkimchicus_02273	CDS	570				hypothetical protein
+54138_Lkimchicus_02274	CDS	474				hypothetical protein
+54138_Lkimchicus_02275	CDS	414				hypothetical protein
+54138_Lkimchicus_02276	CDS	942		2.4.-.-		Uncharacterized glycosyltransferase sll0501
+54138_Lkimchicus_02277	CDS	1122	mnaA	5.1.3.14	COG0381	UDP-N-acetylglucosamine 2-epimerase
+54138_Lkimchicus_02278	CDS	918				hypothetical protein
+54138_Lkimchicus_02279	CDS	447				Flavodoxin
+54138_Lkimchicus_02280	CDS	825	recX			Regulatory protein RecX
+54138_Lkimchicus_02281	CDS	549			COG3557	UPF0374 protein SP_1903
+54138_Lkimchicus_02282	CDS	1137	yhhT		COG0628	Putative transport protein YhhT
+54138_Lkimchicus_02283	CDS	411	tagD	2.7.7.39	COG0615	Glycerol-3-phosphate cytidylyltransferase
+54138_Lkimchicus_02284	CDS	840				hypothetical protein
+54138_Lkimchicus_02285	CDS	2025	tagF	2.7.8.12	COG1887	Teichoic acid poly(glycerol phosphate) polymerase
+54138_Lkimchicus_02286	CDS	1572	prfC			Peptide chain release factor 3
+54138_Lkimchicus_02287	CDS	969	nox_1	1.6.99.3	COG0446	NADH oxidase
+54138_Lkimchicus_02288	CDS	393	nox_2	1.6.99.3	COG0446	NADH oxidase
+54138_Lkimchicus_02289	CDS	1425	pepDA_3	3.4.-.-	COG4690	Dipeptidase A
+54138_Lkimchicus_02290	CDS	2646		3.6.3.8		Calcium-transporting ATPase 1
+54138_Lkimchicus_02291	CDS	2262	clpE		COG0542	ATP-dependent Clp protease ATP-binding subunit ClpE
+54138_Lkimchicus_02292	CDS	189				hypothetical protein
+54138_Lkimchicus_02293	CDS	267	ptsH_2		COG1925	Phosphocarrier protein HPr
+54138_Lkimchicus_02294	CDS	1728	ptsI	2.7.3.9	COG1080	Phosphoenolpyruvate-protein phosphotransferase
+54138_Lkimchicus_02295	CDS	1176		2.4.1.337	COG0438	Alpha-monoglucosyldiacylglycerol synthase
+54138_Lkimchicus_02296	CDS	1020	cpoA	2.4.1.-	COG0438	Alpha-galactosylglucosyldiacylglycerol synthase
+54138_Lkimchicus_02297	CDS	1038				hypothetical protein
+54138_Lkimchicus_02298	CDS	600	ruvA	3.6.4.12	COG0632	Holliday junction ATP-dependent DNA helicase RuvA
+54138_Lkimchicus_02299	CDS	1023	ruvB_2	3.6.4.12	COG2255	Holliday junction ATP-dependent DNA helicase RuvB
+54138_Lkimchicus_02300	CDS	1035	queA	2.4.99.17	COG0809	S-adenosylmethionine:tRNA ribosyltransferase-isomerase
+54138_Lkimchicus_02301	CDS	1143	tgt	2.4.2.29		Queuine tRNA-ribosyltransferase
+54138_Lkimchicus_02302	CDS	429				hypothetical protein
+54138_Lkimchicus_02303	CDS	1122	dinB_1	2.7.7.7	COG0389	DNA polymerase IV
+54138_Lkimchicus_02304	CDS	963	nrnA	3.1.-.-	COG0618	Probable bifunctional oligoribonuclease and PAP phosphatase NrnA
+54138_Lkimchicus_02305	CDS	1365	cshB	3.6.4.13	COG0513	DEAD-box ATP-dependent RNA helicase CshB
+54138_Lkimchicus_02306	CDS	2643	alaS	6.1.1.7		Alanine--tRNA ligase
+54138_Lkimchicus_02307	CDS	270			COG4472	UPF0297 protein EF_1202
+54138_Lkimchicus_02308	CDS	438	yrrK	3.1.-.-	COG0816	Putative pre-16S rRNA nuclease
+54138_Lkimchicus_02309	CDS	327			COG3906	UPF0473 protein SP_0194
+54138_Lkimchicus_02310	CDS	252	zapA			Cell division protein ZapA
+54138_Lkimchicus_02311	CDS	2361	mutS2	3.1.-.-		Endonuclease MutS2
+54138_Lkimchicus_02312	CDS	321	trxA_3		COG0526	Thioredoxin
+54138_Lkimchicus_02313	CDS	531				hypothetical protein
+54138_Lkimchicus_02314	CDS	819	murI	5.1.1.3	COG0796	Glutamate racemase
+54138_Lkimchicus_02315	CDS	603	rdgB	3.6.1.66	COG0127	dITP/XTP pyrophosphatase
+54138_Lkimchicus_02316	CDS	519				hypothetical protein
+54138_Lkimchicus_02317	CDS	480	ykuL		COG0517	CBS domain-containing protein YkuL
+54138_Lkimchicus_02318	CDS	867	ykuT		COG0668	Uncharacterized MscS family protein YkuT
+54138_Lkimchicus_02319	CDS	402				hypothetical protein
+54138_Lkimchicus_02320	CDS	444				hypothetical protein
+54138_Lkimchicus_02321	CDS	1098	pepQ	3.4.13.9	COG0006	Xaa-Pro dipeptidase
+54138_Lkimchicus_02322	CDS	1002	ccpA		COG1609	Catabolite control protein A
+54138_Lkimchicus_02323	CDS	738			COG0217	Probable transcriptional regulatory protein HI_0315
+54138_Lkimchicus_02324	CDS	975	comGA		COG2804	ComG operon protein 1
+54138_Lkimchicus_02325	CDS	939				hypothetical protein
+54138_Lkimchicus_02326	CDS	315				hypothetical protein
+54138_Lkimchicus_02327	CDS	441				hypothetical protein
+54138_Lkimchicus_02328	CDS	294				hypothetical protein
+54138_Lkimchicus_02329	CDS	426				hypothetical protein
+54138_Lkimchicus_02330	CDS	174				hypothetical protein
+54138_Lkimchicus_02331	CDS	960				hypothetical protein
+54138_Lkimchicus_02332	CDS	1191	ackA_2	2.7.2.1	COG0282	Acetate kinase
+54138_Lkimchicus_02333	CDS	1374	cycA_2		COG1113	D-serine/D-alanine/glycine transporter
+54138_Lkimchicus_02334	CDS	612				hypothetical protein
+54138_Lkimchicus_02335	CDS	1401				hypothetical protein
+54138_Lkimchicus_02336	CDS	573				hypothetical protein
+54138_Lkimchicus_02337	CDS	777	yutF	3.1.3.-	COG0647	Acid sugar phosphatase
+54138_Lkimchicus_02338	CDS	612				hypothetical protein
+54138_Lkimchicus_02339	CDS	642	dedA		COG0586	Protein DedA
+54138_Lkimchicus_02340	CDS	585				Putative bifunctional phosphatase/peptidyl-prolyl cis-trans isomerase
+54138_Lkimchicus_02341	CDS	390	pnp_1	2.7.7.8		Polyribonucleotide nucleotidyltransferase
+54138_Lkimchicus_02342	CDS	1146	lagD_2	3.4.22.-		Lactococcin-G-processing and transport ATP-binding protein LagD
+54138_Lkimchicus_02343	CDS	150				hypothetical protein
+54138_Lkimchicus_02344	CDS	240				hypothetical protein
+54138_Lkimchicus_02345	CDS	633				hypothetical protein
+54138_Lkimchicus_02346	CDS	1842				hypothetical protein
+54138_Lkimchicus_02347	CDS	408				hypothetical protein
+54138_Lkimchicus_02348	CDS	2622	adhE		COG1012	Aldehyde-alcohol dehydrogenase
+54138_Lkimchicus_02349	CDS	531				hypothetical protein
+54138_Lkimchicus_02350	CDS	2340	ctpE	3.6.3.-	COG0474	Probable cation-transporting ATPase E
+54138_Lkimchicus_02351	CDS	840	yvgN_3	1.1.1.-	COG0656	Glyoxal reductase
+54138_Lkimchicus_02352	CDS	1809				hypothetical protein
+54138_Lkimchicus_02353	CDS	426				Acid shock protein
+54138_Lkimchicus_02354	CDS	1113	menC	4.2.1.113	COG4948	o-succinylbenzoate synthase
+54138_Lkimchicus_02355	CDS	819	menH_2	4.2.99.20	COG0596	2-succinyl-6-hydroxy-2,4-cyclohexadiene-1-carboxylate synthase
+54138_Lkimchicus_02356	CDS	1725	menD	2.2.1.9		2-succinyl-5-enolpyruvyl-6-hydroxy-3-cyclohexene-1-carboxylate synthase
+54138_Lkimchicus_02357	CDS	1296	menF	5.4.4.2		Isochorismate synthase MenF
+54138_Lkimchicus_02358	CDS	498	dhaT_1	1.1.1.202	COG1454	1,3-propanediol dehydrogenase
+54138_Lkimchicus_02359	CDS	618	dhaT_2	1.1.1.202	COG1454	1,3-propanediol dehydrogenase
+54138_Lkimchicus_02360	CDS	360				hypothetical protein
+54138_Lkimchicus_02361	CDS	1416				hypothetical protein
+54138_Lkimchicus_02362	CDS	582				hypothetical protein
+54138_Lkimchicus_02363	CDS	471			COG1780	Putative NrdI-like protein
+54138_Lkimchicus_02364	CDS	648	yetF		COG2323	UPF0702 transmembrane protein YetF
+54138_Lkimchicus_02365	CDS	462				hypothetical protein
+54138_Lkimchicus_02366	CDS	750	nfrA1	1.5.1.38	COG0778	FMN reductase (NADPH)
+54138_Lkimchicus_02367	CDS	399				hypothetical protein
+54138_Lkimchicus_02368	CDS	357				hypothetical protein
+54138_Lkimchicus_02369	CDS	762				hypothetical protein
+54138_Lkimchicus_02370	CDS	1167				hypothetical protein
+54138_Lkimchicus_02371	CDS	1017				Zinc-type alcohol dehydrogenase-like protein SA1988
+54138_Lkimchicus_02372	CDS	750				hypothetical protein
+54138_Lkimchicus_02373	CDS	267				hypothetical protein
+54138_Lkimchicus_02374	CDS	513	aroK	2.7.1.71	COG0703	Shikimate kinase
+54138_Lkimchicus_02375	CDS	849	tyrC	1.3.1.43		Cyclohexadienyl dehydrogenase
+54138_Lkimchicus_02376	CDS	1308	aroA1	2.5.1.19	COG0128	3-phosphoshikimate 1-carboxyvinyltransferase 1
+54138_Lkimchicus_02377	CDS	1167	aroC	4.2.3.5	COG0082	Chorismate synthase
+54138_Lkimchicus_02378	CDS	1503	tsgA			Protein TsgA
+54138_Lkimchicus_02379	CDS	1140				hypothetical protein
+54138_Lkimchicus_02380	CDS	600		3.6.1.66		dITP/XTP pyrophosphatase
+54138_Lkimchicus_02381	CDS	1347	fpgS_2	6.3.2.17		Folylpolyglutamate synthase
+54138_Lkimchicus_02382	CDS	570	folE	3.5.4.16	COG0302	GTP cyclohydrolase 1
+54138_Lkimchicus_02383	CDS	504				hypothetical protein
+54138_Lkimchicus_02384	CDS	363				hypothetical protein
+54138_Lkimchicus_02385	CDS	504				hypothetical protein
+54138_Lkimchicus_02386	CDS	504	ypjQ		COG1267	Uncharacterized protein YpjQ
+54138_Lkimchicus_02387	CDS	216				hypothetical protein
+54138_Lkimchicus_02388	CDS	1161	yycB		COG2807	Uncharacterized transporter YycB
+54138_Lkimchicus_02389	CDS	1473	zwf	1.1.1.363		Glucose-6-phosphate 1-dehydrogenase
+54138_Lkimchicus_02390	CDS	528	yxeB		COG0614	Iron(3+)-hydroxamate-binding protein YxeB
+54138_Lkimchicus_02391	CDS	1017	feuC		COG0609	Iron-uptake system permease protein FeuC
+54138_Lkimchicus_02392	CDS	972	fecC		COG0609	Fe(3+) dicitrate transport system permease protein FecC
+54138_Lkimchicus_02393	CDS	654	fecE		COG1120	Fe(3+) dicitrate transport ATP-binding protein FecE
+54138_Lkimchicus_02394	CDS	105				hypothetical protein
+54138_Lkimchicus_02395	CDS	945	tdcB	4.3.1.19		L-threonine dehydratase catabolic TdcB
+54138_Lkimchicus_02396	CDS	1437	gnd	1.1.1.44	COG0362	6-phosphogluconate dehydrogenase, decarboxylating
+54138_Lkimchicus_02397	CDS	534				hypothetical protein
+54138_Lkimchicus_02398	CDS	213				hypothetical protein
+54138_Lkimchicus_02399	CDS	636	yhfK	4.-.-.-	COG0702	Uncharacterized sugar epimerase YhfK
+54138_Lkimchicus_02400	CDS	966	arnC	2.4.2.53		Undecaprenyl-phosphate 4-deoxy-4-formamido-L-arabinose transferase
+54138_Lkimchicus_02401	CDS	351				hypothetical protein
+54138_Lkimchicus_02402	CDS	102				hypothetical protein
+54138_Lkimchicus_02403	CDS	1281	gltT			Proton/sodium-glutamate symport protein
+54138_Lkimchicus_02404	CDS	1497	lysS	6.1.1.6	COG1190	Lysine--tRNA ligase
+54138_Lkimchicus_02405	CDS	996	dus	1.3.1.-	COG0042	Probable tRNA-dihydrouridine synthase
+54138_Lkimchicus_02406	CDS	891	hslO			33 kDa chaperonin
+54138_Lkimchicus_02407	CDS	2118	ftsH_2	3.4.24.-	COG0465	ATP-dependent zinc metalloprotease FtsH
+54138_Lkimchicus_02408	CDS	540	hpt	2.4.2.8		Hypoxanthine-guanine phosphoribosyltransferase
+54138_Lkimchicus_02409	CDS	1284	tilS	6.3.4.19	COG0037	tRNA(Ile)-lysidine synthase
+54138_Lkimchicus_02410	CDS	477	pnp_2	2.7.7.8		Polyribonucleotide nucleotidyltransferase
+54138_Lkimchicus_02411	CDS	390				hypothetical protein
+54138_Lkimchicus_02412	CDS	273				hypothetical protein
+54138_Lkimchicus_02413	CDS	1590				hypothetical protein
+54138_Lkimchicus_02414	CDS	3522	mfd	3.6.4.-		Transcription-repair-coupling factor
+54138_Lkimchicus_02415	CDS	558	pth	3.1.1.29	COG0193	Peptidyl-tRNA hydrolase
+54138_Lkimchicus_02416	CDS	951	ldh_2	1.1.1.27	COG0039	L-lactate dehydrogenase
+54138_Lkimchicus_02417	CDS	1383				hypothetical protein
+54138_Lkimchicus_02418	CDS	726				hypothetical protein
+54138_Lkimchicus_02419	CDS	642				hypothetical protein
+54138_Lkimchicus_02420	CDS	396	ndoA	3.1.27.-	COG2337	Endoribonuclease EndoA
+54138_Lkimchicus_02421	CDS	285				hypothetical protein
+54138_Lkimchicus_02422	CDS	1122	alr	5.1.1.1	COG0787	Alanine racemase
+54138_Lkimchicus_02423	CDS	357	acpS	2.7.8.7	COG0736	Holo-[acyl-carrier-protein] synthase
+54138_Lkimchicus_02424	CDS	1521	cshA	3.6.4.13	COG0513	ATP-dependent RNA helicase CshA
+54138_Lkimchicus_02425	CDS	1374	murF_2	6.3.2.10	COG0770	UDP-N-acetylmuramoyl-tripeptide--D-alanyl-D-alanine ligase
+54138_Lkimchicus_02426	CDS	789				hypothetical protein
+54138_Lkimchicus_02427	CDS	465	yfkJ	3.1.3.48	COG0394	Low molecular weight protein-tyrosine-phosphatase YfkJ
+54138_Lkimchicus_02428	CDS	702				hypothetical protein
+54138_Lkimchicus_02429	CDS	519	mdtG_3			Multidrug resistance protein MdtG
+54138_Lkimchicus_02430	CDS	612	tetA_2			Tetracycline resistance protein, class B
+54138_Lkimchicus_02431	CDS	252	rpmE2		COG0254	50S ribosomal protein L31 type B
+54138_Lkimchicus_02432	CDS	1287	murA1	2.5.1.7		UDP-N-acetylglucosamine 1-carboxyvinyltransferase
+54138_Lkimchicus_02433	CDS	1629	pyrG	6.3.4.2	COG0504	CTP synthase
+54138_Lkimchicus_02434	CDS	645	rpoE			DNA-directed RNA polymerase subunit delta
+54138_Lkimchicus_02435	CDS	444				hypothetical protein
+54138_Lkimchicus_02436	CDS	840	lipL	2.3.1.204	COG0095	Octanoyl-[GcvH]:protein N-octanoyltransferase
+54138_Lkimchicus_02437	CDS	1365				hypothetical protein
+54138_Lkimchicus_02438	CDS	807	yidA_3	3.1.3.23	COG0561	Sugar phosphatase YidA
+54138_Lkimchicus_02439	CDS	360				hypothetical protein
+54138_Lkimchicus_02440	CDS	750		1.1.1.53		3-alpha-(or 20-beta)-hydroxysteroid dehydrogenase
+54138_Lkimchicus_02441	CDS	981	prs_2	2.7.6.1	COG0462	Ribose-phosphate pyrophosphokinase
+54138_Lkimchicus_02442	CDS	1383	glmU		COG1207	Bifunctional protein GlmU
+54138_Lkimchicus_02443	CDS	870	purR		COG0503	Pur operon repressor
+54138_Lkimchicus_02444	CDS	792	znuB		COG1108	High-affinity zinc uptake system membrane protein ZnuB
+54138_Lkimchicus_02445	CDS	696	znuC	3.6.3.-	COG1121	Zinc import ATP-binding protein ZnuC
+54138_Lkimchicus_02446	CDS	948				hypothetical protein
+54138_Lkimchicus_02447	CDS	852	ispE	2.7.1.148	COG1947	4-diphosphocytidyl-2-C-methyl-D-erythritol kinase
+54138_Lkimchicus_02448	CDS	252	veg		COG4466	Protein Veg
+54138_Lkimchicus_02449	CDS	885	rsmA	2.1.1.182		Ribosomal RNA small subunit methyltransferase A
+54138_Lkimchicus_02450	CDS	558	rnmV	3.1.26.8	COG1658	Ribonuclease M5
+54138_Lkimchicus_02451	CDS	780	dtd3	3.1.1.96		D-aminoacyl-tRNA deacylase
+54138_Lkimchicus_02452	CDS	2052	metG	6.1.1.10		Methionine--tRNA ligase
+54138_Lkimchicus_02453	CDS	846				hypothetical protein
+54138_Lkimchicus_02454	CDS	171				hypothetical protein
+54138_Lkimchicus_02455	CDS	582				Potassium channel HX13_20290
+54138_Lkimchicus_02456	CDS	732	cobB	3.5.1.-	COG0846	NAD-dependent protein deacetylase
+54138_Lkimchicus_02457	CDS	984				hypothetical protein
+54138_Lkimchicus_02458	CDS	1272	mvaA	1.1.1.88		3-hydroxy-3-methylglutaryl-coenzyme A reductase
+54138_Lkimchicus_02459	CDS	759	gppA_2	3.6.1.40		Guanosine-5'-triphosphate,3'-diphosphate pyrophosphatase
+54138_Lkimchicus_02460	CDS	1017	trpS2	6.1.1.2	COG0180	Tryptophan--tRNA ligase 2
+54138_Lkimchicus_02461	CDS	282				hypothetical protein
+54138_Lkimchicus_02462	CDS	1776	helD_2	3.6.4.12	COG3973	DNA helicase IV
+54138_Lkimchicus_02463	CDS	570	nudF_2	3.6.1.13	COG0494	ADP-ribose pyrophosphatase
+54138_Lkimchicus_02464	tRNA	88				tRNA-Leu(caa)
+54138_Lkimchicus_02465	tRNA	73				tRNA-Thr(ggt)
+54138_Lkimchicus_02466	CDS	1179	thlA	2.3.1.9	COG0183	Acetyl-CoA acetyltransferase
+54138_Lkimchicus_02467	CDS	735	sfsA		COG1489	Sugar fermentation stimulation protein A
+54138_Lkimchicus_02468	CDS	1203	treP_3		COG1263	PTS system trehalose-specific EIIBC component
+54138_Lkimchicus_02469	CDS	201				hypothetical protein
+54138_Lkimchicus_02470	CDS	2523	uvrA_2			UvrABC system protein A
+54138_Lkimchicus_02471	CDS	525				hypothetical protein
+54138_Lkimchicus_02472	CDS	189				hypothetical protein
+54138_Lkimchicus_02473	CDS	291				hypothetical protein
+54138_Lkimchicus_02474	CDS	324				hypothetical protein
+54138_Lkimchicus_02475	CDS	342				hypothetical protein
+54138_Lkimchicus_02476	CDS	270				hypothetical protein
+54138_Lkimchicus_02477	CDS	288				hypothetical protein
+54138_Lkimchicus_02478	CDS	642				hypothetical protein
+54138_Lkimchicus_02479	CDS	3708	addA	3.1.-.-	COG1074	ATP-dependent helicase/nuclease subunit A
+54138_Lkimchicus_02480	CDS	3555	addB	3.1.-.-	COG3857	ATP-dependent helicase/deoxyribonuclease subunit B
+54138_Lkimchicus_02481	CDS	375				hypothetical protein
+54138_Lkimchicus_02482	CDS	1257	proA	1.2.1.41	COG0014	Gamma-glutamyl phosphate reductase
+54138_Lkimchicus_02483	CDS	825	proB	2.7.2.11	COG0263	Glutamate 5-kinase 1
+54138_Lkimchicus_02484	CDS	573				hypothetical protein
+54138_Lkimchicus_02485	CDS	1314	pbuG		COG2252	Guanine/hypoxanthine permease PbuG
+54138_Lkimchicus_02486	CDS	630				hypothetical protein
+54138_Lkimchicus_02487	CDS	528	queT		COG4708	Queuosine precursor transporter QueT
+54138_Lkimchicus_02488	CDS	1455	clsA_2	2.7.8.-	COG1502	Major cardiolipin synthase ClsA
+54138_Lkimchicus_02489	CDS	147				hypothetical protein
+54138_Lkimchicus_02490	CDS	1113				hypothetical protein
+54138_Lkimchicus_02491	CDS	390				hypothetical protein
+54138_Lkimchicus_02492	CDS	777				hypothetical protein
+54138_Lkimchicus_02493	CDS	1002	neoA	1.1.1.329		2-deoxy-scyllo-inosamine dehydrogenase
+54138_Lkimchicus_02494	CDS	876	gmuE	2.7.1.4	COG1940	Putative fructokinase
+54138_Lkimchicus_02495	CDS	813				hypothetical protein
+54138_Lkimchicus_02496	CDS	549				hypothetical protein
+54138_Lkimchicus_02497	CDS	846				hypothetical protein
+54138_Lkimchicus_02498	CDS	297				hypothetical protein
+54138_Lkimchicus_02499	CDS	477				hypothetical protein
+54138_Lkimchicus_02500	CDS	498				hypothetical protein
+54138_Lkimchicus_02501	CDS	1185				hypothetical protein
+54138_Lkimchicus_02502	CDS	414				hypothetical protein
+54138_Lkimchicus_02503	CDS	303				hypothetical protein
+54138_Lkimchicus_02504	CDS	510				hypothetical protein
+54138_Lkimchicus_02505	CDS	1500	cpdA_2	3.1.4.53		3',5'-cyclic adenosine monophosphate phosphodiesterase CpdA
+54138_Lkimchicus_02506	CDS	1137		1.-.-.-		Uncharacterized oxidoreductase SpyM50865
+54138_Lkimchicus_02507	CDS	273				hypothetical protein
+54138_Lkimchicus_02508	CDS	291				hypothetical protein
+54138_Lkimchicus_02509	CDS	438				hypothetical protein
+54138_Lkimchicus_02510	CDS	1281	hom	1.1.1.3	COG0460	Homoserine dehydrogenase
+54138_Lkimchicus_02511	CDS	318				hypothetical protein
+54138_Lkimchicus_02512	CDS	144				hypothetical protein
+54138_Lkimchicus_02513	CDS	426				hypothetical protein
+54138_Lkimchicus_02514	CDS	432				hypothetical protein
+54138_Lkimchicus_02515	CDS	474				hypothetical protein
+54138_Lkimchicus_02516	CDS	1134				hypothetical protein
+54138_Lkimchicus_02517	CDS	702				hypothetical protein
+54138_Lkimchicus_02518	CDS	1167				hypothetical protein
+54138_Lkimchicus_02519	CDS	378				hypothetical protein
+54138_Lkimchicus_02520	CDS	426				hypothetical protein
+54138_Lkimchicus_02521	CDS	966				hypothetical protein
+54138_Lkimchicus_02522	CDS	381				hypothetical protein
+54138_Lkimchicus_02523	CDS	1236				hypothetical protein
+54138_Lkimchicus_02524	CDS	5649				hypothetical protein
+54138_Lkimchicus_02525	CDS	231				hypothetical protein
+54138_Lkimchicus_02526	CDS	573				hypothetical protein
+54138_Lkimchicus_02527	CDS	486				hypothetical protein
+54138_Lkimchicus_02528	CDS	1155				hypothetical protein
+54138_Lkimchicus_02529	CDS	441				hypothetical protein
+54138_Lkimchicus_02530	CDS	369				hypothetical protein
+54138_Lkimchicus_02531	CDS	276				hypothetical protein
+54138_Lkimchicus_02532	CDS	432				hypothetical protein
+54138_Lkimchicus_02533	CDS	354				hypothetical protein
+54138_Lkimchicus_02534	CDS	1005				hypothetical protein
+54138_Lkimchicus_02535	CDS	600				hypothetical protein
+54138_Lkimchicus_02536	CDS	819				hypothetical protein
+54138_Lkimchicus_02537	CDS	1653				hypothetical protein
+54138_Lkimchicus_02538	CDS	1290				hypothetical protein
+54138_Lkimchicus_02539	CDS	204				hypothetical protein
+54138_Lkimchicus_02540	CDS	483				hypothetical protein
+54138_Lkimchicus_02541	CDS	192				hypothetical protein
+54138_Lkimchicus_02542	CDS	621				hypothetical protein
+54138_Lkimchicus_02543	CDS	432				hypothetical protein
+54138_Lkimchicus_02544	CDS	114				hypothetical protein
+54138_Lkimchicus_02545	CDS	135				hypothetical protein
+54138_Lkimchicus_02546	CDS	399				hypothetical protein
+54138_Lkimchicus_02547	CDS	165				hypothetical protein
+54138_Lkimchicus_02548	CDS	999				hypothetical protein
+54138_Lkimchicus_02549	CDS	465				hypothetical protein
+54138_Lkimchicus_02550	CDS	210				hypothetical protein
+54138_Lkimchicus_02551	CDS	390				hypothetical protein
+54138_Lkimchicus_02552	CDS	462				hypothetical protein
+54138_Lkimchicus_02553	CDS	231				hypothetical protein
+54138_Lkimchicus_02554	CDS	204				hypothetical protein
+54138_Lkimchicus_02555	CDS	318				hypothetical protein
+54138_Lkimchicus_02556	CDS	1260				hypothetical protein
+54138_Lkimchicus_02557	CDS	798				hypothetical protein
+54138_Lkimchicus_02558	CDS	621				hypothetical protein
+54138_Lkimchicus_02559	CDS	720				hypothetical protein
+54138_Lkimchicus_02560	CDS	1374	radD_2	3.6.4.12	COG1061	Putative DNA repair helicase RadD
+54138_Lkimchicus_02561	CDS	195				hypothetical protein
+54138_Lkimchicus_02562	CDS	483				hypothetical protein
+54138_Lkimchicus_02563	CDS	123				hypothetical protein
+54138_Lkimchicus_02564	CDS	153				hypothetical protein
+54138_Lkimchicus_02565	CDS	327				hypothetical protein
+54138_Lkimchicus_02566	CDS	327				hypothetical protein
+54138_Lkimchicus_02567	CDS	237				hypothetical protein
+54138_Lkimchicus_02568	CDS	717	lexA_2	3.4.21.88		LexA repressor
+54138_Lkimchicus_02569	CDS	342				hypothetical protein
+54138_Lkimchicus_02570	CDS	816	soj_2	3.6.-.-	COG1192	Chromosome-partitioning ATPase Soj
+54138_Lkimchicus_02571	CDS	126				hypothetical protein
+54138_Lkimchicus_02572	CDS	411				hypothetical protein
+54138_Lkimchicus_02573	CDS	273				hypothetical protein
+54138_Lkimchicus_02574	CDS	612				hypothetical protein
+54138_Lkimchicus_02575	CDS	747				hypothetical protein
+54138_Lkimchicus_02576	CDS	231				hypothetical protein
+54138_Lkimchicus_02577	CDS	1179	cfa_2	2.1.1.79	COG2230	Cyclopropane-fatty-acyl-phospholipid synthase
+54138_Lkimchicus_02578	CDS	216				hypothetical protein
+54138_Lkimchicus_02579	CDS	1146				IS200/IS605 family transposase ISLhe65
+54138_Lkimchicus_02580	CDS	459				hypothetical protein
+54138_Lkimchicus_02581	CDS	834	gdhIV	1.1.1.47	COG1028	Glucose 1-dehydrogenase 4
+54138_Lkimchicus_02582	CDS	414	adhR		COG0789	HTH-type transcriptional regulator AdhR
+54138_Lkimchicus_02583	CDS	627	bin3			Putative transposon Tn552 DNA-invertase bin3
+54138_Lkimchicus_02584	CDS	879				hypothetical protein
+54138_Lkimchicus_02585	CDS	1122				hypothetical protein
+54138_Lkimchicus_02586	CDS	747				hypothetical protein
+54138_Lkimchicus_02587	CDS	273				hypothetical protein
+54138_Lkimchicus_02588	CDS	489				hypothetical protein
+54138_Lkimchicus_02589	CDS	696				hypothetical protein
+54138_Lkimchicus_02590	CDS	2712				hypothetical protein
+54138_Lkimchicus_02591	CDS	2541				hypothetical protein
+54138_Lkimchicus_02592	CDS	357				hypothetical protein
+54138_Lkimchicus_02593	CDS	636				hypothetical protein
+54138_Lkimchicus_02594	CDS	1953				hypothetical protein
+54138_Lkimchicus_02595	CDS	1278				hypothetical protein
+54138_Lkimchicus_02596	CDS	564				hypothetical protein
+54138_Lkimchicus_02597	CDS	609				hypothetical protein
+54138_Lkimchicus_02598	CDS	219				hypothetical protein
+54138_Lkimchicus_02599	CDS	807	soj_3	3.6.-.-	COG1192	Chromosome-partitioning ATPase Soj
+54138_Lkimchicus_02600	CDS	1500				hypothetical protein
+54138_Lkimchicus_02601	CDS	192				hypothetical protein
+54138_Lkimchicus_02602	CDS	954				hypothetical protein
+54138_Lkimchicus_02603	CDS	156				hypothetical protein
+54138_Lkimchicus_02604	CDS	288				hypothetical protein
+54138_Lkimchicus_02605	CDS	198				hypothetical protein
+54138_Lkimchicus_02606	CDS	441				hypothetical protein
+54138_Lkimchicus_02607	CDS	903				hypothetical protein
+54138_Lkimchicus_02608	CDS	1302	dinB_2	2.7.7.7	COG0389	DNA polymerase IV
+54138_Lkimchicus_02609	CDS	156				hypothetical protein
+54138_Lkimchicus_02610	CDS	165				hypothetical protein
+54138_Lkimchicus_02611	CDS	390				hypothetical protein
+54138_Lkimchicus_02612	CDS	312				hypothetical protein
+54138_Lkimchicus_02613	CDS	246				hypothetical protein
+54138_Lkimchicus_02614	CDS	300				hypothetical protein
+54138_Lkimchicus_02615	CDS	852	parA			Chromosome partitioning protein ParA
+54138_Lkimchicus_02616	CDS	318				hypothetical protein
+54138_Lkimchicus_02617	CDS	282				hypothetical protein
+54138_Lkimchicus_02618	CDS	654				hypothetical protein
+54138_Lkimchicus_02619	CDS	135				hypothetical protein
+54138_Lkimchicus_02620	CDS	267				IS3 family transposase IS1520
+54138_Lkimchicus_02621	CDS	357				hypothetical protein
+54138_Lkimchicus_02622	CDS	249				hypothetical protein
+54138_Lkimchicus_02623	CDS	135				hypothetical protein
+54138_Lkimchicus_02624	CDS	267				IS3 family transposase IS1520
+54138_Lkimchicus_02625	CDS	366				hypothetical protein
+54138_Lkimchicus_02626	CDS	588				hypothetical protein
+54138_Lkimchicus_02627	CDS	279				hypothetical protein
+54138_Lkimchicus_02628	CDS	357				hypothetical protein
+54138_Lkimchicus_02629	CDS	708				hypothetical protein
+54138_Lkimchicus_02630	CDS	4452				hypothetical protein
+54138_Lkimchicus_02631	CDS	378				hypothetical protein
+54138_Lkimchicus_02632	CDS	873				hypothetical protein
+54138_Lkimchicus_02633	CDS	174				hypothetical protein
+54138_Lkimchicus_02634	CDS	1125				hypothetical protein
+54138_Lkimchicus_02635	CDS	336				hypothetical protein
+54138_Lkimchicus_02636	CDS	228				hypothetical protein
+54138_Lkimchicus_02637	CDS	339				hypothetical protein
+54138_Lkimchicus_02638	CDS	312				hypothetical protein
+54138_Lkimchicus_02639	CDS	1086				hypothetical protein
+54138_Lkimchicus_02640	CDS	414				hypothetical protein
+54138_Lkimchicus_02641	CDS	237				hypothetical protein
+54138_Lkimchicus_02642	CDS	426				hypothetical protein
+54138_Lkimchicus_02643	CDS	180				hypothetical protein
+54138_Lkimchicus_02644	CDS	738				hypothetical protein
+54138_Lkimchicus_02645	CDS	474				hypothetical protein
+54138_Lkimchicus_02646	CDS	930				hypothetical protein
+54138_Lkimchicus_02647	CDS	171				hypothetical protein
+54138_Lkimchicus_02648	CDS	219				hypothetical protein
+54138_Lkimchicus_02649	CDS	627				hypothetical protein
+54138_Lkimchicus_02650	CDS	249				hypothetical protein
+54138_Lkimchicus_02651	CDS	960				hypothetical protein
+54138_Lkimchicus_02652	tRNA	75				tRNA-Ile(gat)
+54138_Lkimchicus_02653	tRNA	75				tRNA-Ala(tgc)

@@ -1,0 +1,5 @@
+20/1/2020
+
+Updated Sites shapefile using Google Earth. Made more accurate boundaries for Farran, Dunderrow, Piercetown, Kilbrittain and Carrigeen. I left the old polygons in shapefile with "_old" added. Did this using Google Earth, saving as .kml file and converting to .shp using online conversion tool.
+
+I have created 2 new .kml and .shp files. A "strict" version which delimits habitat fragments bounded by paths/roads and changes in habitat type (deciduous/coniferous) and a "relaxed" version which simply delimits the entire forest patch.

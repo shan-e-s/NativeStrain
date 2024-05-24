@@ -1,0 +1,897 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document>
+	<name>Study_sites_strict-polygon.shp</name>
+	<open>1</open>
+	<Schema name="Study_sites_relaxed-polygon" id="S_Study_sites_relaxed_polygon_SSI">
+		<SimpleField type="string" name="Name"><displayName>&lt;b&gt;Name&lt;/b&gt;</displayName>
+</SimpleField>
+		<SimpleField type="string" name="descriptio"><displayName>&lt;b&gt;descriptio&lt;/b&gt;</displayName>
+</SimpleField>
+		<SimpleField type="int" name="tessellate"><displayName>&lt;b&gt;tessellate&lt;/b&gt;</displayName>
+</SimpleField>
+	</Schema>
+	<Schema name="Study_sites_strict-polygon" id="S_Study_sites_strict_polygon_SSI">
+		<SimpleField type="string" name="Name"><displayName>&lt;b&gt;Name&lt;/b&gt;</displayName>
+</SimpleField>
+		<SimpleField type="string" name="descriptio"><displayName>&lt;b&gt;descriptio&lt;/b&gt;</displayName>
+</SimpleField>
+		<SimpleField type="int" name="tessellate"><displayName>&lt;b&gt;tessellate&lt;/b&gt;</displayName>
+</SimpleField>
+	</Schema>
+	<StyleMap id="m_ylw-pushpin">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#s_ylw-pushpin</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#s_ylw-pushpin_hl</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="falseColor">
+		<BalloonStyle>
+			<text><![CDATA[<table border="0">
+  <tr><td><b>Name</b></td><td>$[Study_sites_relaxed-polygon/Name]</td></tr>
+  <tr><td><b>descriptio</b></td><td>$[Study_sites_relaxed-polygon/descriptio]</td></tr>
+  <tr><td><b>tessellate</b></td><td>$[Study_sites_relaxed-polygon/tessellate]</td></tr>
+</table>
+]]></text>
+		</BalloonStyle>
+		<PolyStyle>
+			<colorMode>random</colorMode>
+		</PolyStyle>
+	</Style>
+	<Style id="s_ylw-pushpin_hl">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+	</Style>
+	<Style id="s_ylw-pushpin">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+	</Style>
+	<Style id="falseColor0">
+		<BalloonStyle>
+			<text><![CDATA[<table border="0">
+  <tr><td><b>Name</b></td><td>$[Study_sites_strict-polygon/Name]</td></tr>
+  <tr><td><b>descriptio</b></td><td>$[Study_sites_strict-polygon/descriptio]</td></tr>
+  <tr><td><b>tessellate</b></td><td>$[Study_sites_strict-polygon/tessellate]</td></tr>
+</table>
+]]></text>
+		</BalloonStyle>
+		<PolyStyle>
+			<colorMode>random</colorMode>
+		</PolyStyle>
+	</Style>
+	<Folder id="layer 0">
+		<name>Study_sites_strict-polygon</name>
+		<open>1</open>
+		<Placemark>
+			<open>1</open>
+			<styleUrl>#falseColor</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffededed</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffededed</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffededed</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_Study_sites_relaxed_polygon_SSI">
+					<SimpleData name="Name">Innishannon</SimpleData>
+					<SimpleData name="descriptio"></SimpleData>
+					<SimpleData name="tessellate">1</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Polygon>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							-8.66964161664739,51.76207707895787,0 -8.669261543496498,51.76172977760395,0 -8.667819954509035,51.76219506393937,0 -8.665576118842184,51.76289227502436,0 -8.66531303800323,51.76285736722019,0 -8.66485011024986,51.76276400636259,0 -8.66381335140067,51.76259004212957,0 -8.663208800764696,51.7624257856378,0 -8.66223601269464,51.76255297369237,0 -8.661132587547227,51.76243936047094,0 -8.660180468468488,51.76241267034443,0 -8.660020229883067,51.76248280315503,0 -8.659658079789754,51.76238335808137,0 -8.656926931778365,51.76205102485631,0 -8.65668532289015,51.76151904191226,0 -8.655648370192042,51.76160398591365,0 -8.655417672896814,51.76109329338095,0 -8.655281660316696,51.76115845422799,0 -8.655446089218211,51.76158057400692,0 -8.65527271894981,51.76178368638024,0 -8.655275117261677,51.76194946296606,0 -8.655495806905298,51.76210883377129,0 -8.656094420345855,51.76236190394754,0 -8.656977495833608,51.76259822071682,0 -8.658638328465052,51.7629732088223,0 -8.660433028220261,51.76324096145817,0 -8.663493078521052,51.76358849308089,0 -8.664714328814165,51.76381408268256,0 -8.665327765733647,51.763918503196,0 -8.666076425148908,51.76416890493239,0 -8.668268215400721,51.76326653756524,0 -8.669330746580322,51.7626992703492,0 -8.66964161664739,51.76207707895787,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<styleUrl>#falseColor0</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffededed</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffededed</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffededed</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_Study_sites_strict_polygon_SSI">
+					<SimpleData name="Name">Ballinphellic_a</SimpleData>
+					<SimpleData name="descriptio"></SimpleData>
+					<SimpleData name="tessellate">1</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Polygon>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							-8.635396302754428,51.84250837404324,0 -8.634913259398953,51.84186849819825,0 -8.634752502606556,51.84160269822514,0 -8.633433125719511,51.84158947268496,0 -8.633330044496715,51.84175755481577,0 -8.633428154980011,51.84299198667394,0 -8.635415035092109,51.84293036633467,0 -8.635396302754428,51.84250837404324,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<styleUrl>#falseColor0</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffededed</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffededed</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffededed</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_Study_sites_strict_polygon_SSI">
+					<SimpleData name="Name">Ballinphellic_b</SimpleData>
+					<SimpleData name="descriptio"></SimpleData>
+					<SimpleData name="tessellate">1</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Polygon>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							-8.633127261527697,51.84160539563108,0 -8.631031254344801,51.84163972570047,0 -8.631074757807832,51.84099536145019,0 -8.628702388015419,51.84073562818129,0 -8.628652281236294,51.84059610507707,0 -8.629837471497005,51.84065285408791,0 -8.629871637186623,51.84042945704061,0 -8.629700556128903,51.84022850107163,0 -8.629580481747066,51.83990977321472,0 -8.629235353408717,51.83921084445269,0 -8.629372234847741,51.83918597480208,0 -8.630124504313921,51.84070115368888,0 -8.631142412762472,51.84079639141106,0 -8.631791339778175,51.83787850785089,0 -8.624707680059135,51.83716042848844,0 -8.624776551266752,51.8407122002003,0 -8.625816299556739,51.84139445571922,0 -8.626184375086755,51.8420091094682,0 -8.627025260998716,51.84362910667318,0 -8.628440980761356,51.84360491554652,0 -8.628085565825593,51.84266399534417,0 -8.627912673912927,51.84204669723778,0 -8.628660471132374,51.84196438087693,0 -8.629160496625385,51.84257873899503,0 -8.630814002230323,51.84251027113476,0 -8.63080019801699,51.84341196831956,0 -8.633159932037016,51.84331718893191,0 -8.633127261527697,51.84160539563108,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<styleUrl>#falseColor0</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffededed</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffededed</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffededed</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_Study_sites_strict_polygon_SSI">
+					<SimpleData name="Name">Carrigeen_a</SimpleData>
+					<SimpleData name="descriptio"></SimpleData>
+					<SimpleData name="tessellate">1</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Polygon>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							-8.816456573700528,51.82137025556421,0 -8.817041593152929,51.8213471261999,0 -8.817913599653938,51.82109011877692,0 -8.818569384922965,51.82045846425859,0 -8.81999067128101,51.82006514361406,0 -8.819952863446668,51.81967767376953,0 -8.818376475539518,51.81906181244959,0 -8.817649499722853,51.81937823900439,0 -8.816898826625589,51.81949950723153,0 -8.817002744165283,51.81988613007151,0 -8.816773477388939,51.82002995382254,0 -8.814653297284538,51.82041922098141,0 -8.81431507926203,51.81984070024812,0 -8.813783782666311,51.81978703027978,0 -8.813758520388342,51.81957684308912,0 -8.812496935197686,51.81947583383116,0 -8.811186975436723,51.81949440937047,0 -8.810851626553021,51.81981954137076,0 -8.810740031354579,51.82021316879981,0 -8.81095992437395,51.82049714393629,0 -8.811290762852565,51.8208434076729,0 -8.811559652096355,51.82114174378883,0 -8.812207450062283,51.82134075249806,0 -8.813010507771855,51.82149634554331,0 -8.813824743613086,51.82161224189582,0 -8.814331808673305,51.82180177732122,0 -8.814617219874458,51.82199920273143,0 -8.815104275877408,51.82233418068385,0 -8.815407517614348,51.8220923447531,0 -8.816456573700528,51.82137025556421,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<styleUrl>#falseColor0</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffededed</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffededed</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffededed</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_Study_sites_strict_polygon_SSI">
+					<SimpleData name="Name">Carrigeen_b</SimpleData>
+					<SimpleData name="descriptio"></SimpleData>
+					<SimpleData name="tessellate">1</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Polygon>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							-8.81490198289824,51.82234290212214,0 -8.814327246311537,51.82187616260443,0 -8.811389155485445,51.82124122987308,0 -8.808116433153288,51.82174822938089,0 -8.808409432352391,51.82210185362854,0 -8.809523066469414,51.82201824068085,0 -8.810385770464555,51.82206103346461,0 -8.811168978257056,51.82211854672932,0 -8.812012525470996,51.82219086372412,0 -8.812985868346054,51.82226244514622,0 -8.814094895773447,51.82235946517791,0 -8.814401963722755,51.82230242942911,0 -8.814624894248475,51.82244706749883,0 -8.81490198289824,51.82234290212214,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<styleUrl>#falseColor0</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffededed</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffededed</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffededed</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_Study_sites_strict_polygon_SSI">
+					<SimpleData name="Name">Carrigeen_c</SimpleData>
+					<SimpleData name="descriptio"></SimpleData>
+					<SimpleData name="tessellate">1</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Polygon>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							-8.813431364110972,51.82239475854722,0 -8.811450550250278,51.82220916989242,0 -8.810487670808499,51.82213547133999,0 -8.809419282868141,51.82208519812604,0 -8.808592630783117,51.82218715478124,0 -8.808595707736108,51.8224194710061,0 -8.80920548802637,51.82264798978268,0 -8.813361977362465,51.82315099320284,0 -8.813431364110972,51.82239475854722,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<styleUrl>#falseColor0</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffededed</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffededed</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffededed</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_Study_sites_strict_polygon_SSI">
+					<SimpleData name="Name">Farran_a</SimpleData>
+					<SimpleData name="descriptio"></SimpleData>
+					<SimpleData name="tessellate">1</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Polygon>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							-8.80743250270771,51.6992275082355,0 -8.805671845666229,51.70021276009327,0 -8.805984648841612,51.70078290400727,0 -8.806008964103516,51.70124288919114,0 -8.805729693331068,51.7016571237127,0 -8.80549801047227,51.70189085802105,0 -8.806085179671053,51.70266433992681,0 -8.806385197501132,51.70354234670605,0 -8.80936879462933,51.70259990697644,0 -8.80743250270771,51.6992275082355,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<styleUrl>#falseColor0</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffededed</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffededed</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffededed</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_Study_sites_strict_polygon_SSI">
+					<SimpleData name="Name">Farran_b</SimpleData>
+					<SimpleData name="descriptio"></SimpleData>
+					<SimpleData name="tessellate">1</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Polygon>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							-8.80577342784404,51.70098786117387,0 -8.805446270319827,51.70007336309277,0 -8.807287869231835,51.69917761407789,0 -8.806761756609546,51.69870880827795,0 -8.80212572820156,51.6993156496322,0 -8.802599309009429,51.6994662682646,0 -8.802533726495369,51.70007206001868,0 -8.801108451795667,51.7002753031552,0 -8.801134485662271,51.70066813341724,0 -8.805590767756224,51.70140644142896,0 -8.80577342784404,51.70098786117387,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<styleUrl>#falseColor0</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffededed</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffededed</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffededed</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_Study_sites_strict_polygon_SSI">
+					<SimpleData name="Name">Garretstown_b</SimpleData>
+					<SimpleData name="descriptio"></SimpleData>
+					<SimpleData name="tessellate">1</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Polygon>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							-8.61957045702221,51.65780776381384,0 -8.621351701915394,51.65724344226112,0 -8.62357776259814,51.65484709184869,0 -8.620588475263954,51.65244804364691,0 -8.61824793963063,51.65109300962665,0 -8.616504211910755,51.6506263718579,0 -8.614799679421559,51.65025591595339,0 -8.612680345343906,51.65213399945718,0 -8.614535798289413,51.6519750000037,0 -8.616447066880106,51.6518684964831,0 -8.617164007190885,51.65204683622279,0 -8.618052260243736,51.65228937981836,0 -8.618914854249859,51.65262073278583,0 -8.619692315630354,51.65288872617538,0 -8.620249353951724,51.65329072216836,0 -8.621264996653684,51.65438671056456,0 -8.621529214814593,51.65463691512275,0 -8.621920547927509,51.65507097389867,0 -8.621919154375854,51.65532352877564,0 -8.616894909432169,51.65779071125436,0 -8.61957045702221,51.65780776381384,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<styleUrl>#falseColor0</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffededed</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffededed</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffededed</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_Study_sites_strict_polygon_SSI">
+					<SimpleData name="Name">Garrettstown</SimpleData>
+					<SimpleData name="descriptio"></SimpleData>
+					<SimpleData name="tessellate">-1</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Polygon>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							-8.618361761259052,51.65710613173137,0 -8.619074486627415,51.65680275219724,0 -8.618057445547262,51.65580943511269,0 -8.620094361868135,51.65491629754622,0 -8.621267814668025,51.65425053007127,0 -8.620374369376956,51.65332090848049,0 -8.619929686765522,51.6529431696408,0 -8.619491053008366,51.65273739732658,0 -8.616993716771939,51.65201942419954,0 -8.616481775820068,51.6518519113838,0 -8.614219143609496,51.65202504567746,0 -8.61286985560573,51.6521895097067,0 -8.611529627671198,51.65265515551881,0 -8.611950819224512,51.65301854184832,0 -8.610889952223227,51.65334394748383,0 -8.614153392892664,51.65563465203264,0 -8.615513953408815,51.65664049096083,0 -8.616293399439115,51.65723047105824,0 -8.616653138983349,51.65757131409292,0 -8.616949696038102,51.65776777917436,0 -8.618361761259052,51.65710613173137,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<styleUrl>#falseColor0</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffededed</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffededed</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffededed</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_Study_sites_strict_polygon_SSI">
+					<SimpleData name="Name">Kilbrittain_NoConifer</SimpleData>
+					<SimpleData name="descriptio"></SimpleData>
+					<SimpleData name="tessellate">1</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Polygon>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							-8.698229288789063,51.67180321832895,0 -8.698096414945216,51.67145133907889,0 -8.69840977795112,51.67108551942935,0 -8.700212078146345,51.67085830010216,0 -8.700371332346034,51.67034117117225,0 -8.699838338945998,51.67019988903817,0 -8.69921491035047,51.66987359311997,0 -8.69811993664994,51.67034793137752,0 -8.698256410937351,51.67062541929768,0 -8.695853552827426,51.67121385743134,0 -8.695440487581457,51.67069844026895,0 -8.694496459997115,51.67091186003773,0 -8.694471336540659,51.67109820130794,0 -8.692766650610364,51.67118320775766,0 -8.69057389148537,51.66974274750335,0 -8.690350186899373,51.66989051663892,0 -8.690169205890953,51.6704072464475,0 -8.689847975429783,51.67055283600878,0 -8.689062020050244,51.67032300386451,0 -8.688808358363929,51.67037316264484,0 -8.68867849156857,51.66991298918382,0 -8.687003390793421,51.66991816174076,0 -8.687112823746721,51.67036083243539,0 -8.685056458429933,51.6711093491436,0 -8.683047836359922,51.67155669898589,0 -8.682022547904326,51.67049809156192,0 -8.682015234186336,51.6703303961658,0 -8.680999641614356,51.67048314076952,0 -8.680230632223688,51.67010419044736,0 -8.678099429628368,51.67002303330072,0 -8.675320166481663,51.67037078724284,0 -8.675831087225397,51.67108108980785,0 -8.676547099069671,51.6712289488724,0 -8.678258338334821,51.6712229667458,0 -8.679189314745464,51.67124500095538,0 -8.67976021431816,51.67150466005508,0 -8.680504311755385,51.67183825439963,0 -8.68136633581506,51.67220472612192,0 -8.682838386629923,51.67257695651551,0 -8.684395460502522,51.67264585200542,0 -8.685505965598342,51.67260838037079,0 -8.686909856684204,51.67324591090643,0 -8.687633243539262,51.67316651433958,0 -8.686911270801168,51.67245991531546,0 -8.686064911754022,51.67200991731376,0 -8.685372967720969,51.6716339614707,0 -8.68557984494794,51.67131965203203,0 -8.68887620620993,51.67102392687606,0 -8.688902719031969,51.67145338717834,0 -8.689742875445088,51.67173129637803,0 -8.690708991719729,51.67208544644838,0 -8.691895629962596,51.67222341467183,0 -8.692966143660223,51.67241913300776,0 -8.69478180766319,51.67255159978983,0 -8.696169515891539,51.6725777615804,0 -8.698189913570477,51.67237608252882,0 -8.699099184489596,51.67221585819534,0 -8.699984689270856,51.6724724572352,0 -8.700484289971566,51.67222393939306,0 -8.700299124158924,51.67196002186334,0 -8.698229288789063,51.67180321832895,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<styleUrl>#falseColor0</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffededed</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffededed</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffededed</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_Study_sites_strict_polygon_SSI">
+					<SimpleData name="Name">Lissarda_a</SimpleData>
+					<SimpleData name="descriptio"></SimpleData>
+					<SimpleData name="tessellate">1</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Polygon>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							-8.866094138616232,51.85818896184989,0 -8.86516893130289,51.85853650255571,0 -8.864540089771742,51.85850692915098,0 -8.863812419062434,51.85832726039047,0 -8.862643817609088,51.85803777645417,0 -8.862261973229213,51.8580880856959,0 -8.861730831928671,51.85784499352043,0 -8.86141936577992,51.85806846002949,0 -8.861601300943533,51.85837157149722,0 -8.862339880091135,51.8590004570524,0 -8.863658917606367,51.85894117354686,0 -8.864830805843358,51.85909017769792,0 -8.865586164279676,51.85896217351119,0 -8.867203632299718,51.85783827377035,0 -8.866094138616232,51.85818896184989,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<styleUrl>#falseColor0</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffededed</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffededed</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffededed</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_Study_sites_strict_polygon_SSI">
+					<SimpleData name="Name">Lissarda_b</SimpleData>
+					<SimpleData name="descriptio"></SimpleData>
+					<SimpleData name="tessellate">1</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Polygon>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							-8.861471368450889,51.85843214874119,0 -8.861184822503478,51.85788738104612,0 -8.860324997492429,51.85798598228489,0 -8.858937340033748,51.85846037040425,0 -8.857807314629317,51.85919228153691,0 -8.857765493568483,51.85944337835156,0 -8.85816657402621,51.85938709448988,0 -8.859192078180824,51.85914530099684,0 -8.859345507275213,51.85938500160628,0 -8.86223874981752,51.85901376830559,0 -8.861471368450889,51.85843214874119,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<styleUrl>#falseColor0</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffededed</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffededed</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffededed</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_Study_sites_strict_polygon_SSI">
+					<SimpleData name="Name">Lissarda_c</SimpleData>
+					<SimpleData name="descriptio"></SimpleData>
+					<SimpleData name="tessellate">1</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Polygon>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							-8.857708060893907,51.85914444044221,0 -8.85903003372567,51.85833385397455,0 -8.860526791534404,51.85786551358672,0 -8.861079492804155,51.85779712406903,0 -8.861777071823525,51.85765764739302,0 -8.862248882959525,51.85752611940168,0 -8.862155874058224,51.85738847811088,0 -8.861658124639202,51.8573934890324,0 -8.861297433778024,51.85745144385162,0 -8.861031545590556,51.85737882859733,0 -8.860985221801931,51.85728326765832,0 -8.861248200782903,51.85720988056033,0 -8.861470585092551,51.85719459228417,0 -8.861475089562308,51.85702860502359,0 -8.860692514628932,51.85679898916362,0 -8.860759118468994,51.85654860376764,0 -8.860434273019536,51.85646088476135,0 -8.860982825148994,51.85585002779565,0 -8.860078517173033,51.85571970129183,0 -8.859495240589721,51.85625737357888,0 -8.858470011372159,51.85619959599065,0 -8.858048929169772,51.85618179119517,0 -8.856022225537634,51.85656784438591,0 -8.855970912752372,51.85717499714845,0 -8.855977699892403,51.85765615545445,0 -8.856065728112156,51.85795662173395,0 -8.856230482561379,51.8581289624309,0 -8.855740485812104,51.85813852722142,0 -8.855396800442461,51.85876973977672,0 -8.855522557509241,51.85933197936046,0 -8.85562996743943,51.85952662509219,0 -8.856110788832492,51.85967612963373,0 -8.85671783243134,51.85960114697309,0 -8.85715051720479,51.85954407521721,0 -8.857679423694496,51.85938110541476,0 -8.857708060893907,51.85914444044221,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<styleUrl>#falseColor0</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffededed</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffededed</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffededed</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_Study_sites_strict_polygon_SSI">
+					<SimpleData name="Name">Piercetown_a</SimpleData>
+					<SimpleData name="descriptio"></SimpleData>
+					<SimpleData name="tessellate">1</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Polygon>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							-8.462327769458035,51.78826853199339,0 -8.461908914857952,51.78809004165635,0 -8.458424455973702,51.7881745157191,0 -8.457829997493683,51.78885683145797,0 -8.45770172220629,51.7898966594542,0 -8.461838376142904,51.79003201755229,0 -8.462327769458035,51.78826853199339,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<styleUrl>#falseColor0</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffededed</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffededed</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffededed</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_Study_sites_strict_polygon_SSI">
+					<SimpleData name="Name">Piercetown_b</SimpleData>
+					<SimpleData name="descriptio"></SimpleData>
+					<SimpleData name="tessellate">1</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Polygon>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							-8.460412402500816,51.78784837540111,0 -8.4607876686888,51.78779239327821,0 -8.460700909268333,51.78759147996199,0 -8.458881399239068,51.78774257589695,0 -8.458427009409967,51.78767737298884,0 -8.458369957063779,51.78733508416627,0 -8.456705416316602,51.78779098214684,0 -8.453574308880453,51.78805596699067,0 -8.453725583016652,51.78901734870758,0 -8.456088028967097,51.78887921192916,0 -8.456439713879488,51.78855179335511,0 -8.457203072054879,51.78817103258008,0 -8.458474117249814,51.78799192489952,0 -8.460030002529288,51.78805443452647,0 -8.46038132284229,51.7880442409291,0 -8.460412402500816,51.78784837540111,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<styleUrl>#falseColor0</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffededed</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffededed</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffededed</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_Study_sites_strict_polygon_SSI">
+					<SimpleData name="Name">Piercetown_c</SimpleData>
+					<SimpleData name="descriptio"></SimpleData>
+					<SimpleData name="tessellate">1</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Polygon>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							-8.458358900308946,51.78813712543024,0 -8.457464639432796,51.78819262001856,0 -8.456886768208186,51.78837558300956,0 -8.45637072261095,51.78867458029413,0 -8.456065087995775,51.78892397690561,0 -8.455267036288557,51.78898403079344,0 -8.45605342851875,51.78903770337241,0 -8.456588120619186,51.78900100827705,0 -8.456575360767211,51.7903818789688,0 -8.457425985497105,51.79033467688073,0 -8.457722858599546,51.78881829409255,0 -8.458358900308946,51.78813712543024,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<styleUrl>#falseColor0</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffededed</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffededed</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffededed</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_Study_sites_strict_polygon_SSI">
+					<SimpleData name="Name">Piercetown_d</SimpleData>
+					<SimpleData name="descriptio"></SimpleData>
+					<SimpleData name="tessellate">1</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Polygon>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							-8.453605982891867,51.78909305609002,0 -8.450706782479724,51.78930246788781,0 -8.450611938221877,51.78939974640677,0 -8.451336593983035,51.79038899564218,0 -8.453792007337736,51.79035438966805,0 -8.453605982891867,51.78909305609002,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<styleUrl>#falseColor0</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffededed</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffededed</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffededed</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_Study_sites_strict_polygon_SSI">
+					<SimpleData name="Name">Piercetown_e</SimpleData>
+					<SimpleData name="descriptio"></SimpleData>
+					<SimpleData name="tessellate">1</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Polygon>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							-8.45047597104468,51.78942957697559,0 -8.450078493084394,51.78941573832959,0 -8.449872188514746,51.78935167830959,0 -8.448187998471239,51.78934948238694,0 -8.448148101742198,51.79005243328383,0 -8.448820886512214,51.7902067172438,0 -8.451162319948772,51.79032190880101,0 -8.45047597104468,51.78942957697559,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<styleUrl>#falseColor0</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffededed</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffededed</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffededed</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_Study_sites_strict_polygon_SSI">
+					<SimpleData name="Name">Ryecourt</SimpleData>
+					<SimpleData name="descriptio"></SimpleData>
+					<SimpleData name="tessellate">-1</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Polygon>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							-8.79247476994848,51.85731096324947,0 -8.788936495090434,51.85824751770302,0 -8.78506124167447,51.85543779585835,0 -8.782196923932219,51.85627032432591,0 -8.783039370327003,51.86043273561643,0 -8.784218795279685,51.86095300995237,0 -8.790958366437881,51.85960028416427,0 -8.795002109132813,51.85866375786935,0 -8.79247476994848,51.85731096324947,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<styleUrl>#falseColor0</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffededed</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffededed</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffededed</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_Study_sites_strict_polygon_SSI">
+					<SimpleData name="Name">Shippool_a</SimpleData>
+					<SimpleData name="descriptio"></SimpleData>
+					<SimpleData name="tessellate">1</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Polygon>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							-8.628435684537777,51.74051839823673,0 -8.628949959807986,51.74015878341785,0 -8.629638204074784,51.7400749952016,0 -8.630836580898658,51.74000059082358,0 -8.632487756935916,51.7397362232547,0 -8.633371154615123,51.73928753074728,0 -8.633682007324616,51.73858625619157,0 -8.630823222383983,51.73875105474502,0 -8.630240218943419,51.73913252927026,0 -8.629944208310254,51.73922273665446,0 -8.629468774319498,51.7392274719226,0 -8.629320497729392,51.73889002601231,0 -8.629731257125787,51.73864001795765,0 -8.629600553063813,51.73843608834749,0 -8.62911940082768,51.73857476392983,0 -8.62929478346885,51.7392819312363,0 -8.62767814508487,51.73996884694358,0 -8.628224433185604,51.74075180383961,0 -8.628435684537777,51.74051839823673,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<styleUrl>#falseColor0</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffededed</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffededed</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffededed</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_Study_sites_strict_polygon_SSI">
+					<SimpleData name="Name">Shippool_b</SimpleData>
+					<SimpleData name="descriptio"></SimpleData>
+					<SimpleData name="tessellate">1</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Polygon>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							-8.633112514165086,51.73701648948283,0 -8.632985551337015,51.73629907328846,0 -8.632897448285782,51.73581769436845,0 -8.632485694063583,51.73531694117842,0 -8.632040246577446,51.7360177812454,0 -8.633103194934559,51.73852009526787,0 -8.633736381854796,51.73851412407041,0 -8.633755423946418,51.73836157243393,0 -8.633112514165086,51.73701648948283,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<styleUrl>#falseColor0</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffededed</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffededed</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffededed</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_Study_sites_strict_polygon_SSI">
+					<SimpleData name="Name">Shippool_c</SimpleData>
+					<SimpleData name="descriptio"></SimpleData>
+					<SimpleData name="tessellate">1</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Polygon>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							-8.632305259362703,51.73521844457467,0 -8.631294767650438,51.73429435009665,0 -8.630946103168011,51.73361149592812,0 -8.63058125516732,51.73384289035833,0 -8.630549347537082,51.73442643454179,0 -8.629208905719619,51.73476644869582,0 -8.628366594104083,51.73474991315884,0 -8.627127935628852,51.73453591677223,0 -8.626768870735075,51.73516304597888,0 -8.627292694928578,51.73621447171967,0 -8.628470783915921,51.73619798066419,0 -8.62916925095227,51.73842745241971,0 -8.629614391693876,51.73812801658671,0 -8.629830386305573,51.7381666524226,0 -8.629988889054459,51.73838662535854,0 -8.629863116728645,51.73857783757173,0 -8.629603310306688,51.7388417991046,0 -8.629554127680617,51.73899095783592,0 -8.629640262755888,51.73911205101701,0 -8.629966671584675,51.73909896422995,0 -8.630534305925266,51.73870828039703,0 -8.630701033662243,51.73851554330119,0 -8.631066533180334,51.73843395207049,0 -8.631440878121399,51.73820998813981,0 -8.63177236210624,51.73753726923388,0 -8.631751946999316,51.73702385314579,0 -8.631781707230255,51.73599590143196,0 -8.6319077129173,51.73596270216946,0 -8.632305259362703,51.73521844457467,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>Castle Bernard</name>
+			<styleUrl>#m_ylw-pushpin</styleUrl>
+			<Polygon>
+				<tessellate>1</tessellate>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							-8.794927614443266,51.7410088625406,0 -8.793255811846617,51.74090590560824,0 -8.79245378382512,51.7401710182808,0 -8.79174576012613,51.74011303845948,0 -8.791080822999341,51.7403590399576,0 -8.788256796627889,51.7410439509389,0 -8.786110194842045,51.74067882197607,0 -8.784792211683705,51.74102632789412,0 -8.787081748429138,51.74113664245679,0 -8.785871225195285,51.7413451336502,0 -8.785136109120453,51.74140821136641,0 -8.784399749580809,51.74144052438852,0 -8.783439746907263,51.74135059457601,0 -8.782872281375179,51.74127230773295,0 -8.779684044534035,51.74132223813066,0 -8.777310032050579,51.74138284816821,0 -8.774840980397357,51.74132503749797,0 -8.775150838374634,51.74114790873791,0 -8.774340090430284,51.74100399111423,0 -8.773832209313312,51.74098857780547,0 -8.773023689071055,51.74092210614861,0 -8.772128617207658,51.74104196756403,0 -8.771104833411499,51.74118007701821,0 -8.770236762802684,51.74118899620442,0 -8.769724319394786,51.74113114848238,0 -8.769541340841258,51.74099350700822,0 -8.769525804752123,51.74090157023743,0 -8.76947453033517,51.74070175287216,0 -8.769147533247391,51.74073578378042,0 -8.769110360513711,51.74098542437885,0 -8.76913331334026,51.74115807579664,0 -8.769402205044283,51.74127674713711,0 -8.768681645210872,51.74143424507778,0 -8.768027564301358,51.74117809042018,0 -8.767904917433306,51.74097631067831,0 -8.767810200995793,51.74077435904587,0 -8.767694407836883,51.74069833662113,0 -8.767400708265669,51.74081027111971,0 -8.76725195079193,51.74119954552981,0 -8.766974799371196,51.74153320544789,0 -8.76618749993801,51.74193554193833,0 -8.764913742672967,51.74197935557515,0 -8.766209800527635,51.7423719519178,0 -8.767829029994504,51.74235791118267,0 -8.770222106650561,51.74239402144573,0 -8.771694953923074,51.74249027379058,0 -8.773936142290076,51.74242561654712,0 -8.775241631878249,51.74230721810019,0 -8.775930561235221,51.74226786529901,0 -8.776964096042208,51.74217402443323,0 -8.778780781283599,51.74210175946705,0 -8.779948429696738,51.74201324889201,0 -8.780889797168722,51.7421168860017,0 -8.781787984394606,51.74228507036981,0 -8.784604446161355,51.74221832389838,0 -8.785579574857316,51.74223444956468,0 -8.787265529186779,51.74173461972421,0 -8.788708289373051,51.74170302435984,0 -8.791053285058414,51.74144942160676,0 -8.79175651154044,51.74169358096147,0 -8.793195541565041,51.74203293718654,0 -8.793414918076728,51.74232421809386,0 -8.795222617962928,51.74159153471761,0 -8.795282968118071,51.74121278381683,0 -8.794927614443266,51.7410088625406,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>Dunderrow_a</name>
+			<styleUrl>#m_ylw-pushpin</styleUrl>
+			<Polygon>
+				<tessellate>1</tessellate>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							-8.610274426386187,51.71945155400359,0 -8.609944143843592,51.71863890834226,0 -8.609786074616924,51.71848037032908,0 -8.60956869899406,51.71841987286346,0 -8.609141775100413,51.71837101894273,0 -8.608828685685001,51.71830568360146,0 -8.60853095249184,51.71816787080688,0 -8.608241681457935,51.71802556343959,0 -8.607528289280422,51.71770797221321,0 -8.607438452699839,51.71747360456774,0 -8.605723693515563,51.71734728714791,0 -8.605445250033071,51.71749577973293,0 -8.605159678405357,51.71760556371809,0 -8.604760596278702,51.71770170941502,0 -8.604323373936181,51.71778242336196,0 -8.603895249802466,51.71779937749921,0 -8.603202694119863,51.71778767670607,0 -8.60117107722359,51.71783046358489,0 -8.600267564772704,51.71806479035148,0 -8.598979504705767,51.71832639211667,0 -8.598180760825041,51.71856849777922,0 -8.597799686196028,51.7187764612027,0 -8.597835886356167,51.71896742102054,0 -8.598047796009173,51.71903009547486,0 -8.59830429013642,51.71911210376093,0 -8.598445859305718,51.71930989045818,0 -8.598642191446773,51.7193982336345,0 -8.598963450009865,51.71948647708463,0 -8.599193237331944,51.71961883582622,0 -8.599563056487323,51.71959531213233,0 -8.599704632738746,51.71969480482517,0 -8.601367495598504,51.71968887189462,0 -8.602598712193501,51.71959244588518,0 -8.603556973724046,51.71959660314581,0 -8.605016480997865,51.71953851163538,0 -8.606877589371848,51.71946137393254,0 -8.607997711928375,51.71939200082776,0 -8.608312630547458,51.71944897007163,0 -8.609576281153132,51.71944873530666,0 -8.610274426386187,51.71945155400359,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>Dunderrow_b</name>
+			<styleUrl>#m_ylw-pushpin</styleUrl>
+			<Polygon>
+				<tessellate>1</tessellate>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							-8.607836926676644,51.71942609235907,0 -8.607021761489023,51.71948048436251,0 -8.605911237790963,51.71952680653115,0 -8.604331324462237,51.71959404115462,0 -8.602511561136691,51.71964233003924,0 -8.59972669579218,51.71976225043691,0 -8.599754730365284,51.72005174445608,0 -8.599723436843579,51.72017425503581,0 -8.599485250590488,51.72026494948156,0 -8.599397154921558,51.72039410175846,0 -8.600436037130418,51.72151594636297,0 -8.602409498114236,51.7213898761381,0 -8.603355725409465,51.72130701755565,0 -8.605082730168224,51.72136872697615,0 -8.605498528692445,51.72162997002972,0 -8.6062766436151,51.72161987055993,0 -8.606539815325764,51.72136239726729,0 -8.607820161715305,51.72123529728511,0 -8.609583037385596,51.72095057254833,0 -8.610216091116921,51.72076777824935,0 -8.61024522718397,51.71947508704874,0 -8.607836926676644,51.71942609235907,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>Dukes Wood</name>
+			<styleUrl>#m_ylw-pushpin</styleUrl>
+			<Polygon>
+				<tessellate>1</tessellate>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							-8.764003425341691,51.78849732513387,0 -8.764118878138973,51.78809493319658,0 -8.762369029034678,51.78770222308384,0 -8.761446398448916,51.78779746440476,0 -8.760581130747129,51.78780666562346,0 -8.760073095946661,51.78776498987644,0 -8.75970379613409,51.78777811654474,0 -8.759269688160952,51.78781387316666,0 -8.759020753989795,51.78783033319894,0 -8.758994969012701,51.7877047535316,0 -8.762125843340826,51.78761828129002,0 -8.761735818404247,51.78706308453111,0 -8.761558407403559,51.78666464135044,0 -8.761454438402939,51.78647092560348,0 -8.761284034110773,51.7865795255746,0 -8.761317251420536,51.78685981925221,0 -8.761184198183797,51.78708359146835,0 -8.760902500578684,51.78718832139663,0 -8.760185692406626,51.78736735198504,0 -8.759525270293899,51.78740913678353,0 -8.759095447174701,51.78739522129881,0 -8.758915252708494,51.78731351575027,0 -8.758559047243759,51.78741540822523,0 -8.758387875596053,51.78771131624263,0 -8.758128876895896,51.78769138781715,0 -8.757584893242983,51.78743582057712,0 -8.757907378422733,51.78724431920501,0 -8.757732190386646,51.78717596162676,0 -8.757465029628559,51.78721822313311,0 -8.757278738142622,51.78685860545071,0 -8.757733802726497,51.78659393448196,0 -8.758018825657924,51.7863871096619,0 -8.757943142807168,51.78630857832665,0 -8.756773958205454,51.78656330185506,0 -8.756358599359315,51.78665147467979,0 -8.755734575758632,51.7867334220027,0 -8.754971090438817,51.78676006078928,0 -8.754300259402667,51.78670076011301,0 -8.753756344236219,51.78658201491452,0 -8.753385274608315,51.78636751373543,0 -8.752938569434503,51.78604842266325,0 -8.752606059881042,51.78555336538143,0 -8.752246052201825,51.78511892205891,0 -8.751970494218334,51.78444615039623,0 -8.751759615168762,51.7840058679483,0 -8.751331891128016,51.78365811819088,0 -8.749094066970684,51.78497485040894,0 -8.748193848257872,51.78491099167257,0 -8.748151893750293,51.78544132613551,0 -8.749005246522868,51.78566908052344,0 -8.749490185457766,51.78564643378721,0 -8.749868940904953,51.78563195350655,0 -8.75079190629268,51.7862404964501,0 -8.750935645165153,51.78691774333712,0 -8.751465328689147,51.7873194461303,0 -8.752389036271289,51.78768833469315,0 -8.752840920776064,51.78781573992018,0 -8.753349727450418,51.78773404372918,0 -8.75424691628962,51.78762795898339,0 -8.754666527258031,51.78770324288426,0 -8.75514572474856,51.78777965597803,0 -8.755653725520677,51.78796836708044,0 -8.755993199080091,51.78821290602615,0 -8.75647682887826,51.78843910184023,0 -8.756051068813877,51.78869742833982,0 -8.756040265950132,51.78952643987195,0 -8.75654101104724,51.78958418382345,0 -8.756806142828729,51.78948832668731,0 -8.75679214666717,51.78895580398077,0 -8.756954183829457,51.78873989071631,0 -8.757307098407917,51.78864072801294,0 -8.757917966638008,51.78840160610736,0 -8.758416392935663,51.78829445560955,0 -8.758897270547193,51.78818680402257,0 -8.759291619974976,51.78811257413615,0 -8.759918024214965,51.78813245029329,0 -8.760696681947497,51.78821891274486,0 -8.76134054262546,51.788251599699,0 -8.762411220188129,51.78829832392564,0 -8.762657131915599,51.78830669467955,0 -8.763570446611322,51.78833623557232,0 -8.764003425341691,51.78849732513387,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+	</Folder>
+</Document>
+</kml>
