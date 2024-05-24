@@ -1,0 +1,123 @@
+---
+title: "R Notebook"
+---
+
+Get phyloseq object ready for metadata
+* get sample names to match metadata
+* will need to duplicate metadata rows for duplicate samples
+* collect extraction + library prep sample info (qubit (pre-PCR, pre-pooling), PCR fail?, possible contamination, extraction notes)
+* keep sample name and ring number where possible to catch mislabelled tubes or DB errors by comparing to birdData info sheet
+  * need to match sample ID and bird ID from SummerSamples.csv sheet to sampleData_Lab sheet
+
+```{r}
+rm(list=ls())
+```
+
+```{r}
+library(tidyverse)
+```
+
+
+```{r}
+sampleData_LibraryPrep <- read.csv2("../Data/Dataframes_raw_csv/sampleData_LibraryPrep.csv", header = TRUE, sep = ",")
+SummerSamples <- read.csv2("../Data/Dataframes_raw_csv/SummerSamples.csv", sep = ",")
+```
+
+Add new col to sampleData of ring number
+* merge ring number from SummerSamples
+*need to verify these all correctly merged | any rows duplicated*
+  * looks like 4 extra rows
+```{r}
+sampleData_Lab <- merge(sampleData_LibraryPrep, SummerSamples[,c("Bird_ID", "Sample_ID")], by = "Sample_ID", all.x = TRUE)
+```
+
+Multiple rings matching an ID
+* CB23.Fe [note: 2 different ring numbers] PF91038(matches individual_DF), PF91049(matches CB56.Fe in individual_DF)
+* CB62.D.D15 [note: 2 different ring numbers] TX52575(matches individual_DF), PF91014(matches CB62.F in ind_DF)
+* KB22.A.D15 [note: 2 different ring numbers] TX52580(matches indv.DF) TX52581(matches KB22.B in indiv_DF)
+
+* KB908.B.D8 [contaminated duplicate] has 4 copies because 2 copies in summerSamples and 2 copies in sampleData_libraryprep (i think)
+```{r}
+which(duplicated(sampleData_Lab$Azenta_noPeriod))
+```
+
+Change summer samples sample ID according to bird ID
+Change sampleData_library sample ID according to azenta_ID
+
+```{r}
+SummerSamples_fix <- SummerSamples
+
+SummerSamples_fix[SummerSamples_fix$Bird_ID=="PF91049", "Sample_ID"] <- "CB56.Fe" # missing CB56.Fe sample data so confident this is correct sample, '49 is CB56.Fe according to birdData.csv
+SummerSamples_fix[SummerSamples_fix$Bird_ID=="PF91014", "Sample_ID"] <- "CB62.F.D15" # no D8 data collected for CB62.F so confident its D15 sample
+SummerSamples_fix[SummerSamples_fix$Bird_ID=="TX52581" & SummerSamples_fix$Sample_ID=="KB22.A.D15", "Sample_ID"] <- "KB22.B.D15" # have D15 data for A.D15 and B.D8 already so confident this is B.D15
+```
+
+```{r}
+sampleData_LibraryPrep_fix <- sampleData_LibraryPrep
+
+sampleData_LibraryPrep_fix[sampleData_LibraryPrep_fix$Azenta_ID=="CB23.Fe.2", "Sample_ID"] <- "CB56.Fe" #'49 extracted second and hence later in library prep so changing '.2 rather than '.1
+sampleData_LibraryPrep_fix[sampleData_LibraryPrep_fix$Azenta_noPeriod=="CB62xDxD15xP3", "Sample_ID"] <- "CB62.F.D15"
+
+sampleData_LibraryPrep_fix[sampleData_LibraryPrep_fix$Azenta_noPeriod=="KB22xAxD15xP2", "Sample_ID"] <- "KB22.B.D15" # 'xP2 extraction dates match up with '81 and was extracted before 'xP3/'80
+```
+
+Label contaminated version of KB908.B.D8 (sample interrupted by fire alarm one was contam in field)
+* Azenta_ID = KB908.B.D8.2 is contaminated
+* second one to be extracted was fire alarm one hence extraction number 26 rather than 13
+* why are these being duplicated? Because kb908.b is the only duplicate sample name in summerSamples
+* temporarily make it unique. Then merge. then return it to original sample name
+```{r}
+SummerSamples_fix[SummerSamples_fix$Extraction_number==26, "Sample_ID"] <- "KB908.B.D8.contam"
+ 
+sampleData_LibraryPrep_fix[sampleData_LibraryPrep_fix$Azenta_ID=="KB908.B.D8.2", "Sample_ID"] <- "KB908.B.D8.contam"
+```
+
+Re-merge dataframes without incorrect Sample IDs
+```{r}
+sampleData_Lab_fix <- merge(sampleData_LibraryPrep_fix, SummerSamples_fix[,c("Bird_ID", "Sample_ID")], by = "Sample_ID", all = T)
+
+# verify no Azenta duplicates
+which(duplicated(sampleData_Lab_fix$Azenta_noPeriod))
+
+# return KB908.B to original sample name post merge so it can match to bird data
+sampleData_Lab_fix[sampleData_Lab_fix$Azenta_ID=="KB908.B.D8.2", "Sample_ID"] <- "KB908.B.D8"
+```
+
+KB10 sample was mislabelled as '.F' but probably was KB10.E.D15
+```{r}
+sampleData_Lab_fix[sampleData_Lab_fix$Sample_ID=="KB10.F", "Sample_ID"] <- "KB10.E.D15"
+# add note
+sampleData_Lab_fix[sampleData_Lab_fix$Sample_ID=="KB10.E.D15", "Post_lab_notes"] <- "KB10 sample was mislabelled as '.F' but probably was KB10.E.D15"
+```
+
+Sample Cb20.Fe is actually KB20.Fe, there was no CB20 nest in the study and ring number matches KB20.
+```{r}
+sampleData_Lab_fix[sampleData_Lab_fix$Sample_ID=="CB20.Fe", "Sample_ID"] <- "KB20.Fe"
+# add note
+sampleData_Lab_fix[sampleData_Lab_fix$Sample_ID=="KB10.E.D15", "Post_lab_notes"] <- "KB20.Fe sample was mislabelled as 'CB20.fe' on tube"
+```
+
+Sample "CB26.X.D15?", i am unsure of chick IDletter, either C or D
+* drop '?' as it is stopping merge of bird data
+```{r}
+sampleData_Lab_fix[sampleData_Lab_fix$Sample_ID=="CB26.X.D15?", "Sample_ID"] <- "CB26.X.D15"
+```
+
+Correct wrong ring numbers
+```{r}
+# KB15.M: TW15318, TW15218
+sampleData_Lab_fix[sampleData_Lab_fix$Azenta_noPeriod =="KB15xMxP1", "Bird_ID"] <- "TW15318"
+
+# KB22.Fe: TX52595, TX52594
+sampleData_Lab_fix[sampleData_Lab_fix$Azenta_noPeriod=="KB22xFexP1", "Bird_ID"] <- "TX52595"
+
+# Note ring number disagrees between KB29.M.1 and M.2
+sampleData_Lab_fix[sampleData_Lab_fix$Sample_ID=="KB29.M.2", "Bird_ID"] <- "TX52594"
+
+```
+
+
+```{r}
+write_csv(sampleData_Lab_fix, file = "../Data/Dataframes_R_out/LabSampleData.csv")
+```
+

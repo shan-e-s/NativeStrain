@@ -1,0 +1,257 @@
+---
+title: "R Notebook"
+---
+
+How does L. kimchicus treatment affect the microbiome
+
+```{r, echo=FALSE}
+rm(list=ls())
+```
+
+# libraries
+```{r, , echo=FALSE, message=FALSE}
+library(tidyverse)
+library(phyloseq)
+library(microbiome)
+
+library(lme4)
+library(lmerTest)
+
+library(vegan)
+library(compositions)
+
+library(kableExtra)
+
+library(wec)
+```
+
+# data read-in
+```{r, echo=FALSE}
+ps <- readRDS("../Data/Phylo_objects/phylo-experimental-decontamPrevalence.rds")
+metadata <- microbiome::meta(ps)
+```
+
+```{r, echo=FALSE}
+# set age as factor
+metadata$Age.category <- factor(metadata$Age.category, levels = c("D8", "D15", "Adult"))
+```
+
+## WEC
+
+Create weighted contrast encoding, specifying "Adult" as omitted category in first variable and D8 omitted in second variable
+```{r}
+metadata$Age.category.wec1 <- metadata$Age.category
+contrasts(metadata$Age.category.wec1) <- contr.wec(metadata$Age.category, "Adult")
+contrasts(metadata$Age.category.wec1)
+
+metadata$Age.category.wec2 <- metadata$Age.category
+contrasts(metadata$Age.category.wec2) <- contr.wec(metadata$Age.category, "D8")
+contrasts(metadata$Age.category.wec2)
+```
+
+Create new wec variable for interaction
+* "The first variable entered (‘x1’) must be a weighted effect coded factor variable. The second (‘x2’) can either be a continuous variable or another weighted effect coded factor variable"
+```{r}
+metadata$Treatment.wec <- as.factor(metadata$Treatment)
+contrasts(metadata$Treatment.wec) <- contr.wec(metadata$Treatment.wec, omitted = "Control")
+contrasts(metadata$Treatment.wec)
+
+#wec.interact(metadata$Age.category.wec1, metadata$Treatment.wec, output.contrasts = TRUE)
+
+metadata$Age.Treat.int1 <-  wec.interact(metadata$Age.category.wec1, metadata$Treatment.wec)
+metadata$Age.Treat.int2 <-  wec.interact(metadata$Age.category.wec2, metadata$Treatment.wec)
+
+```
+
+
+# Alpha: chao
+
+check distribution
+
+Poisson distribution but is very normal when logged
+```{r, echo=FALSE}
+hist(metadata$Chao1)
+hist(log(metadata$Chao1))
+```
+
+## all ages chao model
+
+## age*treatment interaction
+
+In WEC we can not just multiply the 2 variables together to get the interaction but require a new variable to made. The estimates for the variable are orthogonal to the main effect which is a huge benefit for interpretation.... "as the (multiplicative) interaction terms are orthogonal to the main effects of each category, these main effects remain unchanged upon adding the interaction terms to the model. The interaction terms represent, and test the significance of, the additional effect to the main effects."
+
+```{r}
+log.chao.lm.interaction.wec1 <- lmer(log(Chao1) ~ Treatment.wec + Age.category.wec1 + Age.Treat.int1 + (1|Site/Nest/Bird.ID) + (1|Plate), data = metadata, control = lmerControl(optimizer = "bobyqa"))
+summary(log.chao.lm.interaction.wec1)
+```
+
+```{r}
+diff_optims <- allFit(log.chao.lm.interaction.wec1, maxfun = 1e5)
+```
+
+```{r}
+log.chao.lm.interaction.wec2 <- lmer(log(Chao1) ~ Treatment.wec + Age.category.wec2 + Age.Treat.int2 + (1|Site/Nest/Bird.ID) + (1|Plate), data = metadata, control = lmerControl(optimizer = "bobyqa"))
+summary(log.chao.lm.interaction.wec2)
+```
+
+# Alpha: shannon
+
+Shannon is relatively normal w/o transformation
+```{r, echo=FALSE}
+hist(metadata$Shannon) # normal
+hist(log(metadata$Shannon)) #left skew
+hist(sqrt(metadata$Shannon)) # pretty normal
+
+```
+
+## all ages shannon model
+
+## age*treatment interaction
+
+```{r, echo=FALSE}
+shannon.lm.interaction.wec1 <- lmer(Shannon ~ Treatment.wec + Age.category.wec1 + Age.Treat.int1 + (1|Site/Nest/Bird.ID) + (1|Plate), data = metadata)
+summary(shannon.lm.interaction.wec1)
+```
+
+```{r, echo=FALSE}
+shannon.lm.interaction.wec2 <- lmer(Shannon ~ Treatment.wec + Age.category.wec2 + Age.Treat.int2 + (1|Site/Nest/Bird.ID) + (1|Plate), data = metadata)
+summary(shannon.lm.interaction.wec2)
+```
+
+
+# Alpha: Faiths PD
+Adding faiths PD following CC advice
+
+Very similar to chao diversity results which makes sense because we expect PD to be positively correlated with species richness. Maybe i dont need to pursue any further if i also show these two diversity measures are highly correlated?
+
+```{r}
+hist(log(metadata$PD))
+```
+
+## age*treatment interaction
+
+Adult omitted
+```{r}
+log.faith.wec1 <- lmer(log(PD) ~ Treatment.wec + Age.category.wec1 + Age.Treat.int1 + (1|Site/Nest/Bird.ID) + (1|Plate), data = metadata)
+summary(log.faith.wec1)
+```
+
+D8 omitted
+```{r}
+log.faith.wec2 <- lmer(log(PD) ~ Treatment.wec + Age.category.wec2 + Age.Treat.int2 + (1|Site/Nest/Bird.ID) + (1|Plate), data = metadata)
+summary(log.faith.wec2)
+```
+
+## richness - PD
+check that richness and PD are highly correlated: they are
+```{r}
+richness.PD <- lmer(log(PD) ~  log(Chao1) + (1|Site/Nest/Bird.ID) + (1|Plate), data = metadata)
+summary(richness.PD)
+```
+
+# save alpha div models
+```{r, echo=FALSE}
+#dput(ls())
+save(log.chao.lm.interaction.wec1, log.chao.lm.interaction.wec2, shannon.lm.interaction.wec1, shannon.lm.interaction.wec2, file = "../Data/R_savedObjects/7a_WEC_DiversityModels.rda")
+```
+
+# Results outputs
+## Alpha results
+
+```{r}
+log.chao.int.lm.coef <- summary(log.chao.lm.interaction.wec1)$coefficients
+log.chao.int.lm.coef.adult <- summary(log.chao.lm.interaction.wec2)$coefficients[c("Age.category.wec2Adult", "Age.Treat.int2x1Adult:x2L. kimchicus"),] #gets adult estimates
+
+# add omitted estimates and rearrange order of rows
+log.chao.int.lm.coef.2 <- rbind(log.chao.int.lm.coef, log.chao.int.lm.coef.adult) %>% 
+  .[c("(Intercept)", "Treatment.wecL. kimchicus", 
+      "Age.category.wec1D8", "Age.category.wec1D15",  "Age.category.wec2Adult",
+      "Age.Treat.int1x1D8:x2L. kimchicus", "Age.Treat.int1x1D15:x2L. kimchicus", "Age.Treat.int2x1Adult:x2L. kimchicus"),]
+
+rownames(log.chao.int.lm.coef.2) <- c("(Intercept)", "Treatment (L. kimchicus)", 
+                                    "Age (D8)", "Age (D15)", "Age (Adult)", 
+                                    "Treatment : Age (D8)", "Treatment : Age (D15)", "Treatment : Age (Adult)")
+
+#make df of lmer output
+log.chao.int.lm.coef.df <- as_tibble(log.chao.int.lm.coef.2, rownames="Independent variables") %>%
+  dplyr::rename("p"="Pr(>|t|)") %>% 
+  mutate_if(is.numeric, round, 3) %>%
+  mutate(p=ifelse(p==0,"<0.001",p)) %>% 
+  mutate(p=ifelse(p<=0.05,str_c(p," *"),p)) %>%
+  mutate(p=ifelse(p>=0.05 & p<=0.06,str_c(p,"  ."),p))
+
+
+# make df into kable
+## this is in html, dosnt render in word doc # but can copy-paste
+results.table <- kable(log.chao.int.lm.coef.df, format = "html", table.attr = "style = \"color: black;\"") %>%
+  kableExtra::kable_styling(full_width = F) #%>%
+  #save_kable("alpha-kable__________.png") # this line saves as .png in Reports/
+
+results.table
+```
+
+shannon results
+```{r}
+shannon.int.lm.coef <- summary(shannon.lm.interaction.wec1)$coefficients
+shannon.int.lm.coef.adult <- summary(shannon.lm.interaction.wec2)$coefficients[c("Age.category.wec2Adult", "Age.Treat.int2x1Adult:x2L. kimchicus"),] #gets adult estimates
+
+# add omitted estimates and rearrange order of rows
+shannon.int.lm.coef.2 <- rbind(shannon.int.lm.coef, shannon.int.lm.coef.adult) %>% 
+  .[c("(Intercept)", "Treatment.wecL. kimchicus", 
+      "Age.category.wec1D8", "Age.category.wec1D15",  "Age.category.wec2Adult",
+      "Age.Treat.int1x1D8:x2L. kimchicus", "Age.Treat.int1x1D15:x2L. kimchicus", "Age.Treat.int2x1Adult:x2L. kimchicus"),]
+
+rownames(shannon.int.lm.coef.2) <- c("(Intercept)", "Treatment (L. kimchicus)", 
+                                    "Age (D8)", "Age (D15)", "Age (Adult)", 
+                                    "Treatment : Age (D8)", "Treatment : Age (D15)", "Treatment : Age (Adult)")
+
+#make df of lmer output
+shannon.int.lm.coef.2.df <- as_tibble(shannon.int.lm.coef.2, rownames="Independent variables") %>%
+  dplyr::rename("p"="Pr(>|t|)") %>% 
+  mutate_if(is.numeric, round, 3) %>%
+  mutate(p=ifelse(p==0,"<0.001",p)) %>% 
+  mutate(p=ifelse(p<=0.05,str_c(p," *"),p)) %>%
+  mutate(p=ifelse(p>=0.05 & p<=0.06,str_c(p,"  ."),p))
+
+
+# make df into kable
+## this is in html, dosnt render in word doc # but can copy-paste
+results.table <- kable(shannon.int.lm.coef.2.df, format = "html", table.attr = "style = \"color: black;\"") %>%
+  kableExtra::kable_styling(full_width = F) #%>%
+  #save_kable("alpha-kable__________.png") # this line saves as .png in Reports/
+
+results.table
+```
+
+Faiths PD results
+```{r}
+PD.int.lm.coef <- summary(log.faith.wec1)$coefficients
+PD.int.lm.coef.adult <- summary(log.faith.wec2)$coefficients[c("Age.category.wec2Adult", "Age.Treat.int2x1Adult:x2L. kimchicus"),] #gets adult estimates
+
+# add omitted estimates and rearrange order of rows
+PD.int.lm.coef.2 <- rbind(PD.int.lm.coef, PD.int.lm.coef.adult) %>% 
+  .[c("(Intercept)", "Treatment.wecL. kimchicus", 
+      "Age.category.wec1D8", "Age.category.wec1D15",  "Age.category.wec2Adult",
+      "Age.Treat.int1x1D8:x2L. kimchicus", "Age.Treat.int1x1D15:x2L. kimchicus", "Age.Treat.int2x1Adult:x2L. kimchicus"),]
+
+rownames(PD.int.lm.coef.2) <- c("(Intercept)", "Treatment (L. kimchicus)", 
+                                    "Age (D8)", "Age (D15)", "Age (Adult)", 
+                                    "Treatment : Age (D8)", "Treatment : Age (D15)", "Treatment : Age (Adult)")
+
+#make df of lmer output
+PD.int.lm.coef.2.df <- as_tibble(PD.int.lm.coef.2, rownames="Independent variables") %>%
+  dplyr::rename("p"="Pr(>|t|)") %>% 
+  mutate_if(is.numeric, round, 3) %>%
+  mutate(p=ifelse(p==0,"<0.001",p)) %>% 
+  mutate(p=ifelse(p<=0.05,str_c(p," *"),p)) %>%
+  mutate(p=ifelse(p>=0.05 & p<=0.06,str_c(p,"  ."),p))
+
+
+# make df into kable
+## this is in html, dosnt render in word doc # but can copy-paste
+results.table <- kable(PD.int.lm.coef.2.df, format = "html", table.attr = "style = \"color: black;\"") %>%
+  kableExtra::kable_styling(full_width = F) #%>%
+  #save_kable("alpha-kable__________.png") # this line saves as .png in Reports/
+
+results.table
+```

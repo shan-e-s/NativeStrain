@@ -1,0 +1,42 @@
+---
+title: "R Notebook"
+---
+
+Verify model fits for treatment effects on microbiome with DHARMa
+
+Chao models all fit well 
+Shannon models fit well visually but violate some tests. Look fine though.
+
+WEC model residuals identical from wec1 to wec2
+
+```{r}
+#install.packages("DHARMa")
+library(DHARMa)
+```
+
+# Alpha: chao
+
+
+## age*treatment interaction
+```{r}
+simulationOutput <- simulateResiduals(fittedModel = log.chao.lm.interaction.wec1, n = 250)
+plot(simulationOutput)
+```
+
+# Alpha: Shannon
+
+## all ages shannon model
+## age*treatment interaction
+
+
+```{r}
+simulationOutput <- simulateResiduals(fittedModel = shannon.lm.interaction.wec1, n = 250)
+plot(simulationOutput)
+```
+
+## PD 
+
+```{r}
+simulationOutput <- simulateResiduals(fittedModel = log.faith.wec1, n = 250)
+plot(simulationOutput)
+```

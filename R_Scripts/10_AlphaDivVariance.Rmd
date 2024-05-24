@@ -1,0 +1,78 @@
+---
+title: "R Notebook"
+---
+
+Script to plot and test variance of alpha diversity, and how it is affected by treatment
+
+```{r, echo=FALSE}
+rm(list=ls())
+```
+
+# libraries
+```{r, , echo=FALSE, message=FALSE}
+library(tidyverse)
+library(phyloseq)
+library(microbiome)
+library(kableExtra)
+```
+
+# data read-in
+```{r, echo=FALSE}
+ps <- readRDS("../Data/Phylo_objects/phylo-experimental-decontamPrevalence.rds")
+metadata <- microbiome::meta(ps)
+```
+
+# Chao1 variance
+## Plot variance
+
+Overall age groups plot by treatment
+```{r}
+chao.violin <- ggplot(metadata, aes(Treatment, log(Chao1))) +
+  geom_violin() +
+  geom_boxplot(width = 0.25, alpha = 0.2) +
+  theme_classic()
+
+chao.violin
+```
+
+
+Test for homogeneity of variance among treatment groups
+```{r}
+bartlett.test(log(metadata$Chao1), metadata$Treatment)
+```
+
+# Shannon variance
+## Plot variance
+
+Overall age groups plot by treatment
+```{r}
+shannon.violin <- ggplot(metadata, aes(Treatment, Shannon)) +
+  geom_violin() +
+  geom_boxplot(width = 0.25, alpha = 0.2) +
+  theme_classic()
+
+shannon.violin
+```
+
+Test for homogeneity of variance among treatment groups
+```{r}
+bartlett.test(metadata$Shannon, metadata$Treatment)
+```
+
+# PD variance
+## Plot variance
+
+Overall age groups plot by treatment
+```{r}
+PD.violin <- ggplot(metadata, aes(Treatment, log(PD))) +
+  geom_violin() +
+  geom_boxplot(width = 0.25, alpha = 0.2) +
+  theme_classic()
+
+PD.violin
+```
+
+Test for homogeneity of variance among treatment groups
+```{r}
+bartlett.test(log(metadata$PD), metadata$Treatment)
+```

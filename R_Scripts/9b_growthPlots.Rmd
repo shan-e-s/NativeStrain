@@ -1,0 +1,55 @@
+---
+title: "R Notebook"
+---
+
+```{r}
+rm(list=ls())
+```
+
+# libraries
+```{r}
+library(jtools)
+library(interactions)
+library(tidyverse)
+
+library(phyloseq)
+library(microbiome)
+```
+
+# read in data
+```{r}
+ps <- readRDS("../Data/Phylo_objects/phylo-experimental-decontamPrevalence.rds")
+metadata <- microbiome::meta(ps)
+```
+
+```{r}
+#str(metadata)
+
+# set age as factor
+metadata$Age.category <- factor(metadata$Age.category, levels = c("D8", "D15", "Adult"))
+```
+
+```{r}
+load(file = "../Data/R_savedObjects/01_growthmodels.rda")
+```
+
+# time lagged
+
+```{r}
+mod5.plot <- interact_plot(mod5, pred = log.chao.d8, modx = Treatment,  interval = TRUE, in.type = "confidence", partial.residuals = TRUE, data = mod5@frame, x.label = "Log-Chao1 (D8)", y.label = "Weight g (D15)", legend.main = "", modx.labels = c("Control", "Treatment")) +
+  scale_y_continuous(breaks = scales::pretty_breaks(n = 5), limits = c(10, 22)) +
+  theme_classic()
+
+mod5.plot
+
+ggsave("Figure4.pdf", plot = mod5.plot, device = "pdf", path = "../Figures/", width = 14, height = 11, units = "cm", dpi = 300)
+```
+
+```{r}
+mod6.plot <- interact_plot(mod6, pred = Shannon.d8, modx = Treatment,  interval = TRUE, in.type = "confidence", partial.residuals = TRUE, data = mod6@frame, x.label = "Shannon (D8)", y.label = "Weight g (D15)", legend.main = "", modx.labels = c("Control", "Treatment")) +
+  scale_y_continuous(breaks = scales::pretty_breaks(n = 5), limits = c(10, 22)) +
+  theme_classic()
+
+mod6.plot
+```
+

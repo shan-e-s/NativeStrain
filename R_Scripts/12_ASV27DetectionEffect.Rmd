@@ -1,0 +1,127 @@
+---
+title: "R Notebook"
+---
+
+# pnas reviewer Q
+Were the effects of treatment on weight stronger in birds where ASV27 was positively identified? 
+
+```{r}
+rm(list=ls())
+```
+
+```{r}
+library(phyloseq)
+library(tidyverse)
+library(microbiome)
+library(compositions)
+library(vegan)
+```
+
+# read in data
+```{r}
+ps <- readRDS("../Data/Phylo_objects/phylo-experimental-decontamPrevalence.rds")
+metadata <- microbiome::meta(ps)
+```
+
+Add log.chao and PD variable
+```{r}
+metadata$log.chao <- log(metadata$Chao1)
+metadata$log.PD <- log(metadata$PD)
+
+```
+
+```{r}
+# make otu count dataframe ands extract vector of asv27
+otu.df <- data.frame(as(otu_table(ps), "matrix"))
+asv27 <- otu.df[,"ASV27"]
+
+asv27.df <- cbind(ps@sam_data[,c("Nest", "Sample.ID", "Treatment", "Age.category")], asv27)
+
+asv27.df$YesNo <- ifelse(asv27.df$asv27>0, "Yes", "No")
+
+```
+
+combine asv info with metadata
+```{r}
+metadata <- cbind(metadata, asv27.df)
+```
+
+run growth analysis code and incorporate asvdf
+```{r}
+# create D8 and D15 dfs
+d8.df <- metadata[metadata$Age.category=="D8",c("Bird.ID","Sample.ID", "Weight_g", "Chao1", "Shannon", "log.chao", "YesNo")] #, "scaled.mass.d8", "Site","Nest","Treatment",
+d15.df <- metadata[metadata$Age.category=="D15",c("Bird.ID","Sample.ID", "Wing_mm","Tarsus_mm","Weight_g", "Chao1", "Shannon", "YesNo")] # , "scaled.mass.d15"
+
+# append .D8 and .D15 to appropriate columns
+# rename columns with appendage
+d8.df <- dplyr::rename(d8.df, Sample.ID.d8=Sample.ID, Weight_g.d8=Weight_g, Chao1.d8=Chao1, Shannon.d8=Shannon, log.chao.d8=log.chao, YesNo.d8 = YesNo)
+d15.df <- dplyr::rename(d15.df, Sample.ID.d15=Sample.ID, Weight_g.d15=Weight_g, Chao1.d15=Chao1, Shannon.d15=Shannon, YesNo.d15 = YesNo)
+
+# merge dfs on bird id
+paired.df <- merge(d8.df, d15.df, by="Bird.ID", all.x=T, all.y=T)
+
+paired.df <- merge(paired.df, metadata[,c("Bird.ID", "Site","Nest","Treatment", "BroodSize.D8", "BroodSize.D15",
+                                          "firstEggLayDate", "lastEggLayDate")], by="Bird.ID", all.x=T)
+# rows being duplicated when bird ID occurs twice in metadata i.e. when D8 and D15 measured
+# distinct drops duplicate rows
+paired.df <- distinct(paired.df)
+```
+
+Adding minimum scaled value of main explanatory variable (log.chao.d8) to that variable to make plots consistent with model output
+```{r}
+paired.df$log.chao.d8 <- paired.df$log.chao.d8 - min(paired.df$log.chao.d8, na.rm = T)
+paired.df$Shannon.d8 <- paired.df$Shannon.d8 - min(paired.df$Shannon.d8, na.rm = T)
+```
+
+# analysis
+
+Now run with asv27-yesno
+```{r}
+mod5.logchao.yesNo.int <- lmer(Weight_g.d15 ~  Treatment * YesNo.d8 + Treatment * log.chao.d8 + Weight_g.d8 + firstEggLayDate + BroodSize.D8 +(1|Site/Nest), data = paired.df)
+summary(mod5.logchao.yesNo.int)
+
+mod5.logchao.yesNo <- lmer(Weight_g.d15 ~  YesNo.d8 + Treatment * log.chao.d8 + Weight_g.d8 + firstEggLayDate + BroodSize.D8 +(1|Site/Nest), data = paired.df)
+summary(mod5.logchao.yesNo)
+```
+
+however is this biased because their will be loads of individuals which were control birds and so asv27 would not be detected
+```{r}
+mod5.logchao.yesNo.treatment.only <- lmer(Weight_g.d15 ~  YesNo.d8 +  log.chao.d8 + Weight_g.d8 + firstEggLayDate + BroodSize.D8 +(1|Site/Nest), data = subset(paired.df, paired.df$Treatment== "L. kimchicus"))
+summary(mod5.logchao.yesNo.treatment.only)
+```
+
+```{r}
+ggplot(paired.df, aes(YesNo.d8, Weight_g.d15)) +
+  geom_boxplot()
+
+ggplot(paired.df, aes(YesNo.d8, Weight_g.d15)) +
+  geom_boxplot() +
+  facet_grid(~Treatment)
+
+ggplot(subset(paired.df, paired.df$Treatment== "L. kimchicus"), aes(YesNo.d8, Weight_g.d15)) +
+  geom_boxplot()
+```
+
+
+```{r}
+chao.lm.coef <- summary(mod5.logchao.yesNo.treatment.only)$coefficients # returns summary table for conditional average
+
+rownames(chao.lm.coef) <- c("(Intercept)", "ASV27 detected (D8)", "log(Chao1)", "Weight g (D8)", "First egg lay date", "Brood size (D8)")
+
+#make df of lmer output
+chao.lm.coef.df <- as_tibble(chao.lm.coef, rownames="Independent variables") %>%
+  dplyr::rename("p"="Pr(>|t|)") %>% 
+  mutate_if(is.numeric, round, 3) %>%
+  mutate(p=ifelse(p==0,"<0.001",p)) %>% 
+  mutate(p=ifelse(p<=0.05,str_c(p," *"),p)) %>%
+  mutate(p=ifelse(p>=0.05 & p<=0.06,str_c(p,"  ."),p))
+
+
+# make df into kable
+## this is in html, doesnt render in word doc # but can copy-paste
+results.table <- kable(chao.lm.coef.df, format = "html", table.attr = "style = \"color: black;\"") %>%
+  kableExtra::kable_styling(full_width = F) #%>%
+  #save_kable("alpha-kable__________.png") # this line saves as .png in Reports/
+
+results.table
+```

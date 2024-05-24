@@ -1,0 +1,101 @@
+---
+title: "DADA quality"
+<--output: html_notebook-->
+---
+
+Set working directory
+```{r}
+rm(list=ls())
+#getwd()
+```
+
+Library appropriate packages
+```{r}
+library(dada2)
+library(ggplot2)
+```
+
+Path to fastq files. These may be kept outside wd due to space/crowding constraints.
+```{r}
+#path <- ("../../fastq/")
+path <- ("/Users/shane/Desktop/Lab_work/3_Sequencing/SummerSequencingFastq") # Mac
+#ifelse(.Platform$OS.type=="unix", path.base <- "../../fastq/", path.base <- "C:/Users/ssomers/Projects/fastq/") # server or PC
+```
+
+*Sometimes* getting error when creating plots with all fastq but not when using practice directory. Maybe a specific file is causing error? Perhaps a file with no reads?
+* Error in d$value$value : $ operator is invalid for atomic vectors
+```{r}
+#path <- paste0(path.base,"Run1")
+#list.files(path)
+
+# Forward and reverse fastq filenames have format: SAMPLENAME_R1_001.fastq and SAMPLENAME_R2_001.fastq
+## $ anchors end of string inregex
+fnFs <- sort(list.files(path, pattern="_R1_001.fastq.gz$", full.names = TRUE))
+fnRs <- sort(list.files(path, pattern="_R2_001.fastq.gz$", full.names = TRUE))
+# Extract sample names, assuming filenames have format: SAMPLENAME_XXX.fastq
+sample.names <- sapply(strsplit(basename(fnFs), "_"), `[`, 1)
+
+# Assess quality of Forward reads
+#plotQualityProfile(fnFs[1:5])
+qualityPlotF <- plotQualityProfile(fnFs, aggregate = T)  +
+  scale_x_continuous(breaks = seq(0,300, by =20)) +
+  geom_vline(xintercept = 15) +
+  geom_hline(yintercept = 30) +
+  geom_hline(yintercept = 25)
+  # geom_vline(xintercept = 270)
+  
+qualityPlotF
+
+# check reverse reads
+qualityPlotR <- plotQualityProfile(fnRs, aggregate = T) +
+  scale_x_continuous(breaks = seq(0,300, by =20)) +
+  geom_vline(xintercept = 15) +
+  geom_hline(yintercept = 30) +
+  geom_hline(yintercept = 25)
+
+qualityPlotR
+
+# The median quality score at each position is shown by the green line
+# truncate when quality scores drop below 25-30
+```
+
+```{r}
+#save(qualityPlotF, qualityPlotR, file = "../Data/qualityPlotsAll.rda")
+load("../Figures/qualityPlotsAll.rda")
+```
+
+```{r}
+qualityPlotF  +
+  geom_vline(xintercept = 230)
+
+qualityPlotR +
+  geom_vline(xintercept = 5)
+```
+
+fastq all have 301bp which makes sense.
+```{r}
+library(ShortRead)
+fn <- fnFs[10]
+#trimmed <- "~/Desktop/Sample01_trim_R1.fastq"
+srq <- readFastq(fn)
+seqlen.tab <- table(width(srq)) # Table of how many RSVs have a given length in nts
+seqlen.tab
+seqlens <- as.integer(names(seqlen.tab))
+counts <- as.integer(seqlen.tab)
+plot(x=seqlens, y=counts)
+plot(x=seqlens, y=log10(counts))
+```
+
+Check lengths for cutadapted fastq.
+```{r}
+fn <- fnRs[1]
+#trimmed <- "~/Desktop/Sample01_trim_R1.fastq"
+srq <- readFastq(fn)
+seqlen.tab <- table(width(srq)) # Table of how many RSVs have a given length in nts
+seqlen.tab
+seqlens <- as.integer(names(seqlen.tab))
+counts <- as.integer(seqlen.tab)
+plot(x=seqlens, y=counts)
+plot(x=seqlens, y=log10(counts))
+```
+

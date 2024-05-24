@@ -1,0 +1,133 @@
+---
+title: "R Notebook"
+---
+
+Look at relative abundance of firmicutes to see if diversity effect of treatment is being driven by increase in firmicutes
+
+```{r}
+rm(list=ls())
+```
+
+```{r}
+library(phyloseq)
+library(microbiome)
+library(tidyverse)
+library(lme4)
+library(wec)
+library(DHARMa)
+library(kableExtra)
+```
+
+```{r}
+ps <- readRDS("../Data/Phylo_objects/phylo-experimental-decontamPrevalence.rds")
+
+metadata <- microbiome::meta(ps)
+```
+
+Recalculate number of reads following decontam
+```{r}
+metadata$NumberOfReads <- sample_sums(ps)
+ps@sam_data$NumberOfReads <- sample_sums(ps)
+```
+
+Create and save a melted df of data glommed to phyla level
+```{r}
+#sample_data(phylo.spring) <- metadata.scaled
+ps.glom <-  tax_glom(ps, "Phylum", NArm = TRUE)
+mot <- psmelt(ps.glom)
+
+```
+
+```{r}
+firmicutes.df <- mot[mot$Phylum=="Firmicutes",]
+```
+
+```{r, echo=FALSE}
+# set age as factor
+firmicutes.df$Age.category <- factor(firmicutes.df$Age.category, levels = c("D8", "D15", "Adult"))
+```
+
+## WEC
+Create weighted contrast encoding, specifying "Adult" as omitted category in first variable and D8 omitted in second variable
+```{r}
+firmicutes.df$Age.category.wec1 <- firmicutes.df$Age.category
+contrasts(firmicutes.df$Age.category.wec1) <- contr.wec(firmicutes.df$Age.category, "Adult")
+contrasts(firmicutes.df$Age.category.wec1)
+
+firmicutes.df$Age.category.wec2 <- firmicutes.df$Age.category
+contrasts(firmicutes.df$Age.category.wec2) <- contr.wec(firmicutes.df$Age.category, "D8")
+contrasts(firmicutes.df$Age.category.wec2)
+```
+
+# Model
+
+## dummy coded model
+```{r}
+binomial.response <- c(firmicutes.df$Abundance/firmicutes.df$NumberOfReads)
+
+bin.firmicutes <- glmer(binomial.response ~ Treatment + Age.category + (1|Site/Nest/Bird.ID), family= binomial, weights = NumberOfReads, data = firmicutes.df)
+summary(bin.firmicutes)
+```
+
+## wec model
+```{r}
+binomial.response <- c(firmicutes.df$Abundance/firmicutes.df$NumberOfReads)
+
+bin.firmicutes.wec1 <- glmer(binomial.response ~ Treatment + Age.category.wec1 + (1|Site/Nest/Bird.ID), family= binomial, weights = NumberOfReads, data = firmicutes.df)
+summary(bin.firmicutes.wec1)
+```
+
+```{r}
+binomial.response <- c(firmicutes.df$Abundance/firmicutes.df$NumberOfReads)
+
+bin.firmicutes.wec2 <- glmer(binomial.response ~ Treatment + Age.category.wec2 + (1|Site/Nest/Bird.ID), family= binomial, weights = NumberOfReads, data = firmicutes.df)
+summary(bin.firmicutes.wec2)
+```
+
+
+# Check models
+
+```{r}
+simulationOutput <- simulateResiduals(fittedModel = bin.firmicutes, n = 250)
+plot(simulationOutput)
+```
+
+```{r}
+simulationOutput <- simulateResiduals(fittedModel = bin.firmicutes.wec1, n = 250)
+plot(simulationOutput)
+```
+
+```{r}
+simulationOutput <- simulateResiduals(fittedModel = bin.firmicutes.wec2, n = 250)
+plot(simulationOutput)
+```
+
+# results
+
+Use wec models
+```{r}
+firmic.wec1.coef <- summary(bin.firmicutes.wec1)$coefficients # returns summary table for wec1 model omitting adult
+firmic.wec2.coef <- summary(bin.firmicutes.wec2)$coefficients["Age.category.wec2Adult",] #gets adult estimates
+# 
+firmic.coef <- rbind(firmic.wec1.coef, firmic.wec2.coef)
+# 
+rownames(firmic.coef) <- c("(Intercept)", "Treatment (L. kimchicus)", "Age (D8)","Age (D15)", "Age (Adult)")
+
+#make df of lmer output
+firmic.coef.df <- as_tibble(firmic.coef, rownames="Independent variables") %>%
+  dplyr::rename("p"="Pr(>|z|)") %>% 
+  mutate_if(is.numeric, round, 3) %>%
+  mutate(p=ifelse(p==0,"<0.001",p)) %>% 
+  mutate(p=ifelse(p<=0.05,str_c(p," *"),p)) %>%
+  mutate(p=ifelse(p>=0.05 & p<=0.06,str_c(p,"  ."),p))
+
+
+# make df into kable
+## this is in html, dosnt render in word doc # but can copy-paste
+results.table <- kable(firmic.coef.df, format = "html", table.attr = "style = \"color: black;\"") %>%
+  kableExtra::kable_styling(full_width = F) #%>%
+  #save_kable("alpha-kable__________.png") # this line saves as .png in Reports/
+
+results.table
+```
+

@@ -1,0 +1,193 @@
+---
+title: "R Notebook"
+---
+
+How does L. kimchicus treatment affect the microbiome: plots
+
+```{r}
+rm(list=ls())
+```
+
+```{r}
+#devtools::install_github("thomazbastiaanssen/Tjazi")
+
+library(tidyverse)
+library(phyloseq)
+library(microbiome)
+library(Tjazi)
+library(ggbeeswarm)
+library(metafolio)
+library(compositions)
+library(vegan)
+library(cowplot)
+```
+
+# read in data
+
+```{r}
+ps <- readRDS("../Data/Phylo_objects/phylo-experimental-decontamPrevalence.rds")
+metadata <- microbiome::meta(ps)
+
+metadata$Age.category    = factor(metadata$Age.category, levels = c("D8", "D15", "Adult"))
+```
+
+# Raw plots
+# alpha diversity
+
+Simply use metadata alpha div for plotting
+```{r}
+alpha_diversity <- metadata[,c("Sample.ID", "Treatment", "SampleType", "Shannon", "Chao1", "PD")]
+```
+
+Change treatment level L kimchicus to 'Treatment'
+```{r}
+alpha_diversity$Treatment <- ifelse(alpha_diversity$Treatment == "L. kimchicus", "Treatment", "Control")
+```
+
+Log chao and Faiths PD
+```{r}
+alpha_diversity$log.chao <- log(alpha_diversity$Chao1)
+alpha_diversity$log.PD <- log(alpha_diversity$PD)
+
+alpha_diversity <- alpha_diversity[,!colnames(alpha_diversity) %in% c("Chao1")] %>%
+   dplyr::rename("log(Chao1)" = "log.chao") # drop raw Chao1 in favour of log chao1
+
+alpha_diversity <- alpha_diversity[,!colnames(alpha_diversity) %in% c("PD")] %>%
+   dplyr::rename("log(PD)" = "log.PD")
+```
+
+
+What is the weird extreme shannon entropy outlier, it has also moved from control to probiotic here compared to 06_ script?
+* highest diversity bird in metadata is KB25xCxD8xP3 a 'probiotic' bird
+* highest shannon entropy bird in alpha diversity is DW15xCxD15xP3
+* there is no outlier in the metadata (i.e. not Tjazi calculated alpha div) it seems unless ive changed something since
+```{r}
+
+#Plot alpha diversity all at once using pipes
+all.alpha.tjazi <- alpha_diversity %>%
+#Wrangle the data to long format for easy plotting
+  pivot_longer(!c(Treatment, SampleType, Sample.ID)) %>%
+  #Pipe it all directly into ggplot2
+  ggplot(aes(x     = Treatment,
+             y     = value,
+             fill  = Treatment,
+             #shape = Sex,
+             group = Treatment)) +
+  geom_boxplot(alpha = 1/2, coef = 100) +
+  geom_jitter(width = 0.2,size = 1, cex = 3, alpha = 0.35) +
+  facet_wrap(~name, scales = "free") + theme_bw()  +
+  scale_fill_manual(values = c("Control"        = "#49b7fc",
+                                "Treatment" = "#ff7b00")) +
+  theme(axis.title.x = element_blank(), legend.title = element_blank()) +
+  ylab("Diversity") +
+  xlab("") +
+  theme_classic()
+
+all.alpha.tjazi
+
+ggsave("Figure1.pdf", plot = all.alpha.tjazi, device = "pdf", path = "../Figures/", width = 15, height = 10, units = "cm", dpi = 300)
+```
+
+# Beta diversity (PCA)
+
+```{r}
+ps <- readRDS("../Data/Phylo_objects/phylo-experimental-decontamPrevalence.rds")
+```
+
+## No repeats
+```{r}
+set.seed(1189)
+metadata.NoRepeats <- metadata %>% 
+    group_by(Bird.ID) %>%
+    sample_n(1)
+
+dropped.samples <- setdiff(metadata$Sample.ID, metadata.NoRepeats$Sample.ID)
+
+# metadata.even <- metadata %>% 
+#     group_by(bird.ID) %>%
+#     sample_n(min(table(metadata$bird.ID)))
+
+table(metadata$Age.category)
+table(metadata.NoRepeats$Age.category)
+
+phylo.NoRepeats <- subset_samples(ps, Sample.ID %in%  metadata.NoRepeats$Sample.ID)
+
+meta.noRepeat <- meta(phylo.NoRepeats)
+
+# filter out rare taxa
+ps.5pcFilt <- filter_taxa(phylo.NoRepeats, function(x) sum(x > 1) > (0.05*length(x)), TRUE)
+
+# tjazi approach below
+clr.asvTable <- t(Tjazi::clr_c(t(ps.5pcFilt@otu_table))) 
+
+# getting 1 samples with all NAs, so i will simply drop those
+clr.asvTable <- na.omit(clr.asvTable)
+# calculate aitchison dist
+aitchison.distances <- dist(clr.asvTable, method = "euclidean")
+```
+
+```{r}
+# code from bugs as features
+#Apply the base R principal component analysis function on our CLR-transformed data.
+#data.a.pca  <- prcomp(t(genus.exp))
+data.a.pca  <- prcomp(clr.asvTable)
+#Extract the amount of variance the first four components explain for plotting.
+pc1 <- round(data.a.pca$sdev[1]^2/sum(data.a.pca$sdev^2),4) * 100
+pc2 <- round(data.a.pca$sdev[2]^2/sum(data.a.pca$sdev^2),4) * 100
+#Extract the scores for every sample for the first four components for plotting.
+pca  = data.frame(PC1 = data.a.pca$x[,1],
+                  PC2 = data.a.pca$x[,2])
+
+#subset metadata to just relevant samples, as dropped samples with NAs
+meta.noRepeat.pca <- meta.noRepeat[rownames(meta.noRepeat) %in% rownames(clr.asvTable),]
+
+#Add relevant information from the metadata
+pca$Sample.ID        = meta.noRepeat.pca$Sample.ID
+pca$Treatment        = meta.noRepeat.pca$Treatment
+pca$Treatment <- ifelse(pca$Treatment == "L. kimchicus", "Treatment", "Control")
+pca$Site             = meta.noRepeat.pca$Site
+pca$Age.category = factor(meta.noRepeat.pca$Age.category, levels = c("D8", "D15", "Adult"))
+```
+
+
+```{r}
+noRepeats_beta.correction  <- ggplot(pca, aes(x  = PC1,
+                             y  = PC2,
+                             fill= Treatment,
+                             colour  = Treatment,
+                             group   = Treatment)) +
+  #Create the points and ellipses
+  stat_ellipse(geom = "polygon", alpha = 1/4) +
+  geom_point(size=3, colour = "black", pch=21) +
+  #Adjust appearance
+  scale_fill_manual(values   = c("Control" = "#49b7fc", "Treatment" = "#ff7b00")) +
+  scale_colour_manual(values = c("Control" = "#49b7fc", "Treatment" = "#ff7b00")) +
+  guides(fill = guide_legend(override.aes = list(shape = c(21)))) +
+  #Adjust labels
+  xlab(paste("PC1: ", pc1,  "%", sep="")) +
+  ylab(paste("PC2: ", pc2,  "%", sep="")) +
+  facet_grid(~Age.category) +
+  theme_classic() +
+  theme(legend.title = element_blank())
+
+noRepeats_beta.correction
+
+ggsave("Figure3.pdf", plot = noRepeats_beta.correction, device = "pdf", path = "../Figures/", width = 15, height = 10, units = "cm", dpi = 300)
+```
+
+
+Facet by site
+* separate PCA for each site might be clearer
+```{r}
+
+noRepeats_beta.site <- 
+noRepeats_beta.correction +
+    #Adjust appearance
+  scale_fill_manual(values   = c("Control" = "#49b7fc", "Treatment" = "#ff7b00")) +
+  scale_colour_manual(values = c("Control" = "#49b7fc", "Treatment" = "#ff7b00")) +
+  facet_wrap(~Site, nrow = 2)
+
+noRepeats_beta.site
+
+ggsave("Figure_S1.pdf", plot = noRepeats_beta.site, device = "pdf", path = "../Figures/", width = 15, height = 10, units = "cm", dpi = 300)
+```

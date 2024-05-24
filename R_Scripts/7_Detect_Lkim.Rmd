@@ -1,0 +1,165 @@
+---
+title: "R Notebook"
+---
+
+Script to blast all sequences against L kimchicus WGS to check for L kimchicus in birds
+
+Note rBLAST relies on command line blast+ already being installed on computer
+* need to add path to blast to PATH with 
+  Sys.setenv(PATH = paste(Sys.getenv("PATH"), "/usr/local/ncbi/blast/bin", sep= ":"))
+
+```{r}
+rm(list=ls())
+```
+
+```{r}
+#install.packages('rBLAST', repos = 'https://mhahsler.r-universe.dev')
+library(rBLAST)
+library(taxonomizr)
+library(tidyverse)
+library(microbiome)
+library(gridExtra)
+```
+
+
+```{r}
+## create a database
+seq <- readDNAStringSet("../Data/WGS_L_kimchicus/54138_Lkimchicus.fasta")
+```
+
+write the FASTA file
+* writes fasta file at path provided
+```{r}
+writeXStringSet(seq, filepath = file.path("../Data/rBLAST_db/", "seqs.fasta"))
+```
+
+```{r}
+makeblastdb(file.path("../Data/rBLAST_db/", "seqs.fasta"), dbtype = "nucl")
+```
+
+```{r}
+db <- blast(file.path("../Data/rBLAST_db/", "seqs.fasta"))
+
+```
+
+```{r}
+ps <- readRDS("../Data/Phylo_objects/phylo-experimental-decontamPrevalence.rds")
+
+```
+
+# blast against all seqs
+```{r}
+dna.all <- ps@refseq
+```
+
+```{r}
+blast.query.all <- predict(db, dna.all)
+```
+
+save blast query as csv
+```{r}
+#top.blast.matches <- blast.query.all[order(blast.query.all$Bits, decreasing = TRUE),]
+write.csv(blast.query.all, file = "../Data/R_savedObjects/blastQuery.csv")
+```
+
+## investigate specific ASVs
+
+### ASV27
+Most highly ranked blast hit is ASV27 which isnt lactobacillus but Secundilactobacillus
+* L kimchicus on NCBI is listed as Secundilactobacillus as well!
+
+Check prevalence of Secundilactobacillus (ASV27) in all birds
+* present in 6 control birds and 44 probiotic birds
+* subset to nestlings only has adults could conceivably raid other nests pots
+* what about another Secundilactobacillus or even another random firmicutes?
+```{r}
+# make otu count dataframe ands extract vector of asv27
+otu.df <- data.frame(as(otu_table(ps), "matrix"))
+asv27 <- otu.df[,"ASV27"]
+
+asv27.df <- cbind(ps@sam_data[,c("Nest", "Sample.ID", "Treatment", "Age.category")], asv27)
+
+asv27.df$YesNo <- ifelse(asv27.df$asv27>0, "Yes", "No")
+
+table(asv27.df$Treatment, asv27.df$YesNo)
+table(asv27.df$YesNo,  asv27.df$Nest, asv27.df$Treatment)
+
+# subset to nestlings
+asv27.df.nestlings <- asv27.df[!asv27.df$Age.category=="Adult",]
+table(asv27.df.nestlings$Treatment, asv27.df.nestlings$YesNo)
+
+```
+
+Use Chi square test to validate greater number of asv27 presence in treatment group than control group
+```{r}
+dat <- as.matrix(table(asv27.df$Treatment, asv27.df$YesNo))
+dat
+# use chi-square
+chisq.test(dat)
+chisq.test(dat)$expected
+```
+
+Is ASV27 abundance much higher in treatment vs control birds
+```{r}
+ggplot(subset(asv27.df, asv27.df$YesNo=="Yes"), aes(Treatment, asv27)) +
+  geom_boxplot() + ylim(0,1000)
+
+mean(subset(asv27.df, asv27.df$YesNo=="Yes" & asv27.df$Treatment=="Control")$asv27)
+mean(subset(asv27.df, asv27.df$YesNo=="Yes" & !asv27.df$Treatment=="Control")$asv27)
+
+```
+
+### Other ASVs
+other asv's to investigate:
+* ASV648 found in 4 L kim birds and no control,
+* ASV11086 found in 1 L kim bird and no controls,
+* ASV3868 found in 1 L kim bird and no controls
+```{r}
+# make otu count dataframe ands extract vector of asvxx
+otu.df <- data.frame(as(otu_table(ps), "matrix"))
+asv_x_ <- otu.df[,"ASV459"]
+
+asv_x_.df <- cbind(ps@sam_data[,c("Nest", "Sample.ID", "Treatment", "Age.category")], asv_x_)
+
+asv_x_.df$YesNo <- ifelse(asv_x_.df$asv_x_>0, "Yes", "No")
+
+table(asv_x_.df$Treatment, asv_x_.df$YesNo)
+```
+
+## Systematic check
+
+```{r}
+top.blast.matches <- blast.query.all[order(blast.query.all$bitscore, decreasing = TRUE),]
+top.blast.matches <- top.blast.matches[1:20,]
+```
+
+```{r}
+check.taxa <- dput(top.blast.matches$qseqid)
+
+for (i in check.taxa) {
+otu.df <- data.frame(as(otu_table(ps), "matrix"))
+
+asv <- otu.df[,i]
+
+asv.df <- cbind(ps@sam_data[,c("Sample.ID", "Treatment", "NumberOfReads")], asv)
+
+asv.df$YesNo <- ifelse(asv.df$asv >0, "Yes", "No")
+
+my.table <- table(asv.df$Treatment, asv.df$YesNo)
+
+
+print(ggplot(asv.df, aes(x = Treatment, y = asv, color = Treatment)) +
+  geom_boxplot() +
+ # ylim(c(0,10000)) +
+  theme_classic() +
+  # scale_color_manual(values = c("start" = "#1b9e77",
+  #                               "mid" = "#d95f02",
+  #                              "end" = "#7570b3"), name = "Sample day") +
+  annotation_custom(tableGrob(my.table)))
+
+}
+```
+
+```{r}
+tax.df <- tax.df %>% rownames_to_column()
+```

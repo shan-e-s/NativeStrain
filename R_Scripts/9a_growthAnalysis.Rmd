@@ -1,0 +1,376 @@
+---
+title: "R Notebook"
+---
+
+Analysis of treatment effect on body weight
+
+```{r}
+rm(list=ls())
+```
+
+# libraries
+```{r}
+#install.packages("lme4")
+library(lme4)
+library(lmerTest)
+library(tidyverse)
+
+library(phyloseq)
+library(microbiome)
+library(kableExtra)
+library(DHARMa)
+```
+
+# read in data
+```{r}
+ps <- readRDS("../Data/Phylo_objects/phylo-experimental-decontamPrevalence.rds")
+metadata <- microbiome::meta(ps)
+```
+
+```{r}
+#str(metadata)
+
+# set age as factor
+metadata$Age.category <- factor(metadata$Age.category, levels = c("D8", "D15", "Adult"))
+```
+
+## Backwards diff coding
+```{r}
+my.backward.diff = matrix(c(-2/3, 1/3, 1/3, -1/3, -1/3, 2/3), ncol = 2)
+my.backward.diff
+```
+
+
+Add log.chao and PD variable
+```{r}
+metadata$log.chao <- log(metadata$Chao1)
+metadata$log.PD <- log(metadata$PD)
+
+```
+
+## Standardize variables
+
+```{r}
+# centre and scale
+numeric.predictors <- c("Wing_mm","Tarsus_mm","Weight_g", "Chao1", "Shannon", "PD", "BroodSize.D8", "BroodSize.D15", "firstEggLayDate", "lastEggLayDate", "log.chao", "log.PD") #Weight_g.scaled
+metadata.scaled <- metadata
+metadata.scaled[,numeric.predictors] <- scale(metadata.scaled[,numeric.predictors], scale = TRUE, center = TRUE)
+```
+
+
+```{r}
+metadata.scaled$Age.category.BDC <- factor(metadata.scaled$Age.category, levels = c("D8", "D15", "Adult"))
+levels(metadata.scaled$Age.category.BDC) # verify: 1week,2week,adult
+#assigning the backward difference coding to ageBinned
+contrasts(metadata.scaled$Age.category.BDC) = my.backward.diff
+```
+
+Create nestling only dataframe and scale separately
+```{r}
+metadata.nestling <- subset(x = metadata, subset = metadata$Age.category %in% c("D8", "D15"))
+metadata.nestling[,numeric.predictors] <- scale(metadata.nestling[,numeric.predictors], scale = TRUE, center = TRUE)
+```
+
+# create paired dataframe
+
+I will create the paired df from the original metadata and rescale separately
+```{r}
+# create D8 and D15 dfs
+d8.df <- metadata[metadata$Age.category=="D8",c("Bird.ID","Sample.ID", "Wing_mm","Tarsus_mm","Weight_g", "Chao1", "Shannon", "log.chao", "PD", "log.PD")] #, "scaled.mass.d8", "Site","Nest","Treatment",
+d15.df <- metadata[metadata$Age.category=="D15",c("Bird.ID","Sample.ID", "Wing_mm","Tarsus_mm","Weight_g", "Chao1", "Shannon", "PD", "log.PD")] # , "scaled.mass.d15"
+
+# append .D8 and .D15 to appropriate columns
+# rename columns with appendage
+d8.df <- dplyr::rename(d8.df, Sample.ID.d8=Sample.ID, Wing_mm.d8=Wing_mm, Tarsus_mm.d8=Tarsus_mm, 
+                Weight_g.d8=Weight_g, Chao1.d8=Chao1, Shannon.d8=Shannon, log.chao.d8=log.chao, PD.d8=PD, log.PD.d8=log.PD)
+d15.df <- dplyr::rename(d15.df, Sample.ID.d15=Sample.ID, Wing_mm.d15=Wing_mm, Tarsus_mm.d15=Tarsus_mm, 
+                 Weight_g.d15=Weight_g, Chao1.d15=Chao1, Shannon.d15=Shannon, PD.d15=PD, log.PD.d15=log.PD)
+
+# merge dfs on bird id
+paired.df <- merge(d8.df, d15.df, by="Bird.ID", all.x=T, all.y=T)
+
+paired.df <- merge(paired.df, metadata[,c("Bird.ID", "Site","Nest","Treatment", "BroodSize.D8", "BroodSize.D15", "firstEggLayDate", "lastEggLayDate")], by="Bird.ID", all.x=T)
+# rows being duplicated when bird ID occurs twice in metadata i.e. when D8 and D15 measured
+# distinct drops duplicate rows
+paired.df <- distinct(paired.df)
+```
+
+Rescale paired df
+* not scaling weight at d15
+
+```{r}
+#dput(colnames(paired.df))
+numeric.paired <- c( "Wing_mm.d8", "Tarsus_mm.d8", "Weight_g.d8", "Chao1.d8", 
+                     "Shannon.d8",  "Wing_mm.d15", "Tarsus_mm.d15",
+                     "Chao1.d15", "Shannon.d15","BroodSize.D8", "BroodSize.D15", "log.chao.d8", "PD.d8", "PD.d15", "log.PD.d8", "log.PD.d15") #"Weight_g.d15"
+
+#paired.df.scaled <- paired.df
+paired.df[,numeric.paired] <- scale(paired.df[,numeric.paired], scale = TRUE, center = TRUE)
+
+```
+
+Adding minimum scaled value of main explanatory variable (log.chao.d8) to that variable to make plots consistent with model output
+```{r}
+paired.df$log.chao.d8 <- paired.df$log.chao.d8 - min(paired.df$log.chao.d8, na.rm = T)
+paired.df$Shannon.d8 <- paired.df$Shannon.d8 - min(paired.df$Shannon.d8, na.rm = T)
+paired.df$log.PD.d8 <- paired.df$PD.d8 - min(paired.df$log.PD.d8, na.rm = T)
+```
+
+Repeat samples only
+```{r}
+repeat.df <- paired.df[!is.na(paired.df$Weight_g.d8) & !is.na(paired.df$Weight_g.d15),]
+```
+
+# Plot
+
+No apparent difference except probiotic D8 look less variable than control D8
+
+```{r}
+ggplot(metadata.scaled, aes(Treatment, Weight_g, fill = Age.category)) +
+  geom_boxplot() +
+  theme_classic()
+```
+
+D8 nestlings' weight is less variable in treatment than control
+```{r}
+metadata.nst <- subset(x = metadata, subset = metadata$Age.category %in% c("D8"))
+bartlett.test(metadata.nst$Weight_g, metadata.nst$Treatment)
+```
+
+
+Pretty normal
+```{r}
+hist(metadata.scaled$Weight_g)
+```
+
+# Analysis, weight
+
+## All birds: treatment effect on weight
+
+Using firstEggLayDate instead of Date
+Using brood size at D8 because that will be closer to max brood size
+No effect of treatment without diversity term
+Tried chao and shannon, doesnt change results
+Added logged chao1 following CC recommendation. Doesnt change results
+```{r}
+mod1 <- lmer(Weight_g ~ Treatment + Age.category.BDC + firstEggLayDate + BroodSize.D8 + log.chao +(1|Site/Nest/Bird.ID), data = metadata.scaled)
+summary(mod1)
+```
+
+No interaction between treatment and age
+no interaction between treatment and diversity
+Added logged chao1 following CC recommendation. Result doesnt change qualitatively
+```{r}
+mod2 <- lmer(Weight_g ~ Treatment * log.chao + Treatment*Age.category.BDC + firstEggLayDate + BroodSize.D8 + (1|Site/Nest/Bird.ID), data = metadata.scaled)
+summary(mod2)
+```
+
+```{r}
+mod2.shannon <- lmer(Weight_g ~ Treatment * Shannon + Treatment*Age.category.BDC + firstEggLayDate + BroodSize.D8 + (1|Site/Nest/Bird.ID), data = metadata.scaled)
+summary(mod2.shannon)
+```
+```{r}
+mod2.PD <- lmer(Weight_g ~ Treatment * log.PD + Treatment*Age.category.BDC + firstEggLayDate + BroodSize.D8 + (1|Site/Nest/Bird.ID), data = metadata.scaled)
+summary(mod2.PD)
+```
+
+## Nestling: treatment effect on weight
+
+No effect of treatment on weight
+No change when diversity term added
+No interaction between diversity x treatment
+No interaction between treatment x age
+Adding log.chao, no qualitative change
+```{r}
+mod3 <- lmer(Weight_g ~ Treatment * Age.category + log.chao  + firstEggLayDate + BroodSize.D8 + (1|Site/Nest/Bird.ID), data = metadata.nestling)
+summary(mod3)
+```
+
+No effect of treatment on weight
+No change when diversity term added
+```{r}
+mod4 <- lmer(Weight_g ~ Treatment * Age.category + firstEggLayDate + BroodSize.D8 + Shannon + (1|Site/Nest/Bird.ID), data = metadata.nestling)
+summary(mod4)
+```
+
+# Analysis, time-lag
+## Time lag Chao
+
+* significant interaction between treatment and chao, and including interaction makes chao significant
+  * D8 chao diversity positively predicts D15 weight but this effect is much smaller in treatment birds
+* changed to log.chao following CC recommendation, treatment is now significant
+```{r}
+mod5 <- lmer(Weight_g.d15 ~  Treatment * log.chao.d8 + Weight_g.d8 + firstEggLayDate + BroodSize.D8 +(1|Site/Nest), data = paired.df)
+summary(mod5)
+```
+
+```{r}
+simulationOutput <- simulateResiduals(fittedModel = mod5, n = 250)
+plot(simulationOutput)
+```
+
+## time lag shannon
+Only d8 weight predicts d15 weight whether or not shannon term included
+* interaction between treatment and shannon is not significant
+```{r}
+mod6 <- lmer(Weight_g.d15 ~  Treatment * Shannon.d8 + Weight_g.d8 + firstEggLayDate + BroodSize.D8 +(1|Site/Nest), data = paired.df)
+summary(mod6)
+```
+
+## time lag faiths PD
+
+```{r}
+mod7 <- lmer(Weight_g.d15 ~  Treatment * log.PD.d8 + Weight_g.d8 + firstEggLayDate + BroodSize.D8 +(1|Site/Nest), data = paired.df)
+summary(mod7)
+```
+
+# save results
+```{r}
+save(mod1, mod2, mod2.shannon, mod3, mod4, mod5, mod6, file = "../Data/R_savedObjects/01_growthmodels.rda")
+```
+
+# Results tables
+
+```{r}
+chao.lm.coef <- summary(mod2)$coefficients # returns summary table for conditional average
+
+rownames(chao.lm.coef) <- c("(Intercept)", "Treatment (L. kimchicus)", "log(Chao1)", "Age (D15-D8)", 
+"Age (Adult-D15)", "First egg lay date", "Brood size (D8)", "Treatment (L. kimchicus) : log(Chao1)", "Treatment (L. kimchicus) : Age (D15)", "Treatment (L. kimchicus) : Age (Adult)")
+
+#make df of lmer output
+chao.lm.coef.df <- as_tibble(chao.lm.coef, rownames="Independent variables") %>%
+  dplyr::rename("p"="Pr(>|t|)") %>% 
+  mutate_if(is.numeric, round, 3) %>%
+  mutate(p=ifelse(p==0,"<0.001",p)) %>% 
+  mutate(p=ifelse(p<=0.05,str_c(p," *"),p)) %>%
+  mutate(p=ifelse(p>=0.05 & p<=0.06,str_c(p,"  ."),p))
+
+
+# make df into kable
+## this is in html, doesnt render in word doc # but can copy-paste
+results.table <- kable(chao.lm.coef.df, format = "html", table.attr = "style = \"color: black;\"") %>%
+  kableExtra::kable_styling(full_width = F) #%>%
+  #save_kable("alpha-kable__________.png") # this line saves as .png in Reports/
+
+results.table
+```
+
+
+
+```{r}
+shannon.lm.coef <- summary(mod2.shannon)$coefficients # returns summary table for conditional average
+
+rownames(shannon.lm.coef) <- c("(Intercept)", "Treatment (L. kimchicus)", "Shannon", "Age (D15-D8)",
+"Age (Adult-D15)", "First egg lay date", "Brood size (D8)", "Treatment (L. kimchicus) : Shannon", "Treatment (L. kimchicus) : Age (D15)", "Treatment (L. kimchicus) : Age (Adult)")
+
+#make df of lmer output
+shannon.lm.coef.df <- as_tibble(shannon.lm.coef, rownames="Independent variables") %>%
+  dplyr::rename("p"="Pr(>|t|)") %>% 
+  mutate_if(is.numeric, round, 3) %>%
+  mutate(p=ifelse(p==0,"<0.001",p)) %>% 
+  mutate(p=ifelse(p<=0.05,str_c(p," *"),p)) %>%
+  mutate(p=ifelse(p>=0.05 & p<=0.06,str_c(p,"  ."),p))
+
+
+# make df into kable
+## this is in html, doesnt render in word doc # but can copy-paste
+results.table <- kable(shannon.lm.coef.df, format = "html", table.attr = "style = \"color: black;\"") %>%
+  kableExtra::kable_styling(full_width = F) #%>%
+  #save_kable("alpha-kable__________.png") # this line saves as .png in Reports/
+
+results.table
+```
+
+```{r}
+PD.lm.coef <- summary(mod2.PD)$coefficients # returns summary table for conditional average
+
+rownames(PD.lm.coef) <- c("(Intercept)", "Treatment (L. kimchicus)", "Faith's PD", "Age (D15-D8)",
+"Age (Adult-D15)", "First egg lay date", "Brood size (D8)", "Treatment (L. kimchicus) : Faith's PD", "Treatment (L. kimchicus) : Age (D15)", "Treatment (L. kimchicus) : Age (Adult)")
+
+#make df of lmer output
+PD.lm.coef.df <- as_tibble(PD.lm.coef, rownames="Independent variables") %>%
+  dplyr::rename("p"="Pr(>|t|)") %>% 
+  mutate_if(is.numeric, round, 3) %>%
+  mutate(p=ifelse(p==0,"<0.001",p)) %>% 
+  mutate(p=ifelse(p<=0.05,str_c(p," *"),p)) %>%
+  mutate(p=ifelse(p>=0.05 & p<=0.06,str_c(p,"  ."),p))
+
+
+# make df into kable
+## this is in html, doesnt render in word doc # but can copy-paste
+results.table <- kable(PD.lm.coef.df, format = "html", table.attr = "style = \"color: black;\"") %>%
+  kableExtra::kable_styling(full_width = F) #%>%
+  #save_kable("alpha-kable__________.png") # this line saves as .png in Reports/
+
+results.table
+```
+
+```{r}
+chao.int.lm.coef <- summary(mod5)$coefficients # returns summary table for conditional average
+
+rownames(chao.int.lm.coef) <- c("(Intercept)", "Treatment (L. kimchicus)", "log(Chao1) (D8)", "Weight g (D8)", "First egg lay date", "Brood size (D8)", "Treatment (L. kimchicus) : Chao1 (D8)")
+
+#make df of lmer output
+chao.int.lm.coef.df <- as_tibble(chao.int.lm.coef, rownames="Independent variables") %>%
+  dplyr::rename("p"="Pr(>|t|)") %>% 
+  mutate_if(is.numeric, round, 3) %>%
+  mutate(p=ifelse(p==0,"<0.001",p)) %>% 
+  mutate(p=ifelse(p<=0.05,str_c(p," *"),p)) %>%
+  mutate(p=ifelse(p>=0.05 & p<=0.06,str_c(p,"  ."),p))
+
+
+# make df into kable
+## this is in html, dosnt render in word doc # but can copy-paste
+results.table <- kable(chao.int.lm.coef.df, format = "html", table.attr = "style = \"color: black;\"") %>%
+  kableExtra::kable_styling(full_width = F) #%>%
+  #save_kable("alpha-kable__________.png") # this line saves as .png in Reports/
+
+results.table
+```
+
+
+```{r}
+shannon.int.lm.coef <- summary(mod6)$coefficients # returns summary table for conditional average
+
+rownames(shannon.int.lm.coef) <- c("(Intercept)", "Treatment (L. kimchicus)", "Shannon (D8)", "Weight g (D8)", "First egg lay date", "Brood size (D8)", "Treatment (L. kimchicus) : Shannon (D8)")
+
+#make df of lmer output
+shannon.int.lm.coef.df <- as_tibble(shannon.int.lm.coef, rownames="Independent variables") %>%
+  dplyr::rename("p"="Pr(>|t|)") %>% 
+  mutate_if(is.numeric, round, 3) %>%
+  mutate(p=ifelse(p==0,"<0.001",p)) %>% 
+  mutate(p=ifelse(p<=0.05,str_c(p," *"),p)) %>%
+  mutate(p=ifelse(p>=0.05 & p<=0.06,str_c(p,"  ."),p))
+
+
+# make df into kable
+## this is in html, dosnt render in word doc # but can copy-paste
+results.table <- kable(shannon.int.lm.coef.df, format = "html", table.attr = "style = \"color: black;\"") %>%
+  kableExtra::kable_styling(full_width = F) #%>%
+  #save_kable("alpha-kable__________.png") # this line saves as .png in Reports/
+
+results.table
+```
+
+```{r}
+PD.int.lm.coef <- summary(mod7)$coefficients # returns summary table for conditional average
+
+rownames(PD.int.lm.coef) <- c("(Intercept)", "Treatment (L. kimchicus)", "Faith's PD (D8)", "Weight g (D8)", "First egg lay date", "Brood size (D8)", "Treatment (L. kimchicus) : Faith's PD (D8)")
+
+#make df of lmer output
+PD.int.lm.coef.df <- as_tibble(PD.int.lm.coef, rownames="Independent variables") %>%
+  dplyr::rename("p"="Pr(>|t|)") %>% 
+  mutate_if(is.numeric, round, 3) %>%
+  mutate(p=ifelse(p==0,"<0.001",p)) %>% 
+  mutate(p=ifelse(p<=0.05,str_c(p," *"),p)) %>%
+  mutate(p=ifelse(p>=0.05 & p<=0.06,str_c(p,"  ."),p))
+
+
+# make df into kable
+## this is in html, dosnt render in word doc # but can copy-paste
+results.table <- kable(PD.int.lm.coef.df, format = "html", table.attr = "style = \"color: black;\"") %>%
+  kableExtra::kable_styling(full_width = F) #%>%
+  #save_kable("alpha-kable__________.png") # this line saves as .png in Reports/
+
+results.table
+```

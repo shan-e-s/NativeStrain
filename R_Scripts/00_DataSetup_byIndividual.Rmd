@@ -1,0 +1,230 @@
+---
+title: "R Notebook"
+---
+
+Dataframe set-up file. Create metadata dataframe based on individual birds rather than on samples. This allows me to include data for birds that dont have microbiome data either because they werent sampled or the samples failed during library prep.
+
+Plan
+* create df with rows= nests x (clutchSize - nonviable eggs)
+* merge with paired df to link d8 and d15
+
+* label "not-measured" individuals
+
+* create 'When.Dead' variable for chicks
+  * not ringed & not sampled & not measured= before.D8 *except for unringed individuals that didnt produce sample: check for is.na(D8 biometrics) + NA sample*
+  * sampled or measured D8 but not D15 = between D8 and D15 *except for individuals that didnt produce D15 sample: check for D15 biometrics but sample NA*
+  * sampled or measured D15 but in ringed dead ID list = after D15 (about 3 individuals, check field notebook)
+  * none of the above = not dead
+* create list of dead pre-ringed using nest.ID + preRingedDead.ID
+* create list of ringed dead using Dead.ringed.ID
+* adults survival NA
+
+```{r}
+rm(list=ls())
+```
+
+# libraries
+```{r}
+library(tidyverse)
+```
+
+# read in data
+```{r}
+birdData <- read.csv("../Data/Dataframes_raw_csv/birdData.csv", header = TRUE)
+
+# remove duplicate/alternative samples
+birdData <- subset(birdData, !Main.sample=="Alternate")
+```
+
+Create new variables
+```{r}
+# Add brood size when sampled 
+nestRecords <- read.csv("../Data/Dataframes_raw_csv/NestRecords2021.csv", header = TRUE)
+#nest.data <- nest.data[,c("Nest", "BroodSize.D8", "BroodSize.D15")]
+
+# rename
+nestRecords <- rename(nestRecords, Nest = site.boxNumber)
+# only take nests for which we have birds
+nestRecords <- nestRecords[nestRecords$Nest %in% birdData$Nest,]
+```
+
+Create df with rows = nests x (clutchSize - nonviable eggs)
+```{r}
+# Create vector of all possible individuals
+all.nestlings <- c("Bird.ID", "Nest", "Chick.LetterID", "actualHatchDate")
+
+columns <- all.nestlings
+
+nestling.ID <- c("A","B","C","D","E","F","G","H")
+
+for (i in 1:nrow(nestRecords)) {
+  nest <- nestRecords[i, "Nest"] # make as character or otherwise convert from factor
+  viableEggs <- nestRecords[i, "finalClutchSize"] - nestRecords[i, "numberEggsNotViable"]
+  hatchDate <- nestRecords[i, "actualHatchDate"]
+  #print(c(as.character(nest), viableEggs))
+  for (j in 1:viableEggs) {
+    indiv <- paste(nest, nestling.ID[j], sep = ".")
+    nestling.row <- c(indiv, as.character(nest), nestling.ID[j], hatchDate)
+    all.nestlings <- rbind(all.nestlings, nestling.row)
+  }
+}
+
+all.nestlings <- all.nestlings[2:nrow(all.nestlings),]
+colnames(all.nestlings) <- columns
+
+#unique(subset(birdData, birdData$Age.code==1)$Bird.ID) # 119 unique Bird.IDs in birdData
+```
+
+Add age.code, Site, Treatment, Nest
+```{r}
+Age.code <- rep(1,nrow(all.nestlings))
+all.nestlings <- as.data.frame(cbind(all.nestlings, Age.code))
+```
+
+Create adult IDs
+```{r}
+all.adult.ID <- c("Bird.ID", "Nest", "Chick.LetterID", "actualHatchDate")
+for (i in 1:nrow(nestRecords)) {
+  nest <- as.character(nestRecords[i, "Nest"])
+  male.ID <- paste0(nest, ".M")
+  female.ID <- paste0(nest, ".Fe")
+  hatchDate <- nestRecords[i, "actualHatchDate"]
+  all.adult.ID <- rbind(all.adult.ID, c(female.ID, nest, "Fe", hatchDate))
+  all.adult.ID <- rbind(all.adult.ID, c(male.ID, nest, "M", hatchDate))
+}
+
+all.adult.ID <- all.adult.ID[2:nrow(all.adult.ID),]
+colnames(all.adult.ID) <- columns
+
+```
+
+Get measured adults age and set all unmeasured adults as age 4
+```{r}
+all.adult.ID <- merge(all.adult.ID, birdData[,c("Bird.ID", "Age.code")], all.x=T)
+
+all.adult.ID[is.na(all.adult.ID$Age.code),"Age.code"] <- 4
+```
+
+Combine adult and nestling info
+```{r}
+# add adult age codes as factor levels
+#levels(all.nestlings$Age.code) <- c(levels(all.nestlings$Age.code), 4,5,6)
+#levels(all.adult.ID$Age.code) <- c(levels(all.adult.ID$Age.code), 4,5,6)
+
+all.individuals <- rbind(all.nestlings, all.adult.ID)
+```
+
+
+Get treatments of nests
+```{r}
+Treatment.df <- distinct(birdData[,c("Nest", "Treatment", "Site")])
+```
+
+Match Site and Treatment to nest
+```{r}
+all.individuals <- merge(all.individuals, Treatment.df, all.x=TRUE)
+```
+
+##############################
+
+# create paired dataframe
+```{r}
+# create D8 and D15 dfs
+d8.df <- birdData[birdData$Age.category=="D8",c("Bird.ID","Sample.ID","Ring.Mark", "Wing_mm","Tarsus_mm","Weight_g")] 
+d15.df <- birdData[birdData$Age.category=="D15",c("Bird.ID","Sample.ID", "Ring.Mark", "Wing_mm","Tarsus_mm","Weight_g")]
+adult.df <- birdData[birdData$Age.category=="Adult",c("Bird.ID","Sample.ID", "Ring.Mark", "Wing_mm","Tarsus_mm","Weight_g")] 
+
+
+# rename columns with age appendage
+d8.df <- rename(d8.df, Sample.ID.d8=Sample.ID, Wing_mm.d8=Wing_mm, Tarsus_mm.d8=Tarsus_mm, Weight_g.d8=Weight_g)
+d15.df <- rename(d15.df, Sample.ID.d15=Sample.ID, Wing_mm.d15=Wing_mm, Tarsus_mm.d15=Tarsus_mm, Weight_g.d15=Weight_g)
+adult.df <- rename(adult.df, Sample.ID.adult=Sample.ID, Wing_mm.adult=Wing_mm, Tarsus_mm.adult=Tarsus_mm, Weight_g.adult=Weight_g)
+
+# merge dfs on bird id
+merged.nestling.df <- merge(d8.df, d15.df, by="Bird.ID", all.x=T, all.y=T)
+
+merged.all.df <- merge(merged.nestling.df, adult.df, by="Bird.ID", all.x=T, all.y=T) %>% mutate(Ring.Mark = coalesce(Ring.Mark.x, Ring.Mark.y, Ring.Mark)) %>% select(!Ring.Mark.x & !Ring.Mark.y)
+
+# exclude confusing individuals (no clear ID) incl. DW15, Kb25
+#merged.drop <- merged.df[!merged.df$Nest %in% c("DW15", "KB25"),]
+```
+
+Merge all individuals with paired DF
+* check no measured birds lost (ie no x's lost), maybe all.y.x=TRUE is sensible
+```{r}
+#all.individuals <- rename(as.data.frame(all.individuals), Bird.ID= all.individuals)
+#birdData.with.unmeasured <- merge(birdData, all.individuals, by= "Bird.ID", all.y=TRUE)
+
+# dont need "by" argument, as duplicate columns are named the same
+individual.DF.with.unmeasured <- merge(merged.all.df, all.individuals, all.y=TRUE)
+```
+
+Re-add nest, site, treatment, age-code
+*this is duplicating many rows for some reason. Trailing whitespace??*
+```{r}
+individual.DF.with.unmeasured <- merge(individual.DF.with.unmeasured, birdData[,c("Bird.ID", "Nest", "Site", "Treatment", "Age.code")], all.x = TRUE) # duplicates many rows for some reason
+
+# remove duplicate rows
+individual.DF.with.unmeasured <- distinct(individual.DF.with.unmeasured)
+
+#cbind(as.character(individual.DF.with.unmeasured.1$Bird.ID), as.character(individual.DF.with.unmeasured$Bird.ID)) # KB158.A duplicate: listed as control and probiotic
+```
+
+##############
+Create unmeasured vs measured variable
+```{r}
+unmeasured.df <- subset(all.individuals, !(all.individuals[,"Bird.ID"] %in% merged.all.df$Bird.ID))
+unmeasured <- rep("unmeasured", nrow(unmeasured.df))
+
+unmeasured.df <- cbind(unmeasured.df, unmeasured)
+
+individual.DF.with.unmeasured <- merge(individual.DF.with.unmeasured, unmeasured.df, all.x=T)
+individual.DF.with.unmeasured$unmeasured <- ifelse(is.na(individual.DF.with.unmeasured$unmeasured), "measured", "unmeasured")
+```
+
+
+##############
+Create 'when.dead' variable
+
+* create 'When.Dead' variable for chicks
+  * not ringed & not sampled & not measured= before.D8 *except for unringed individuals that didnt produce sample: check for is.na(D8 biometrics) + NA sample*
+  * sampled or measured D8 but not D15 = between D8 and D15 *except for individuals that didnt produce D15 sample: check for D15 biometrics but sample NA*
+  * sampled or measured D15 but in ringed dead ID list = after D15 (about 3 individuals, check field notebook)
+  * none of the above = not dead
+* create list of dead pre-ringed using nest.ID + preRingedDead.ID
+* create list of ringed dead using Dead.ringed.ID
+* adults survival NA *assumed all adults survived*
+
+*this needs to be verified that its working as expected*
+```{r}
+iDF <- individual.DF.with.unmeasured
+#colnames(iDF)
+
+#found.dead.post.exp <- c() # chicks found in nest at final nest checks in August, died post D15
+dead.post.ringed <- str_trim(unlist(str_split(unlist(str_split(unlist(nestRecords$postRingedDeadID), ";")), ",")), side="both")
+dead.post.ringed <- dead.post.ringed[dead.post.ringed!=""] # remove empty strings
+
+when.dead <- rep("", nrow(iDF))
+i <- 1
+for (i in 1:nrow(iDF)) {
+  if (!(iDF[i,"Bird.ID"] %in% birdData$Bird.ID) && iDF[i, "Age.code"]==1) {
+    when.dead[i] <- "before.D8"
+  } else if (iDF[i,"unmeasured"]=="measured" && iDF[i, "Age.code"]==1 && (is.na(iDF[i, "Wing_mm.d15"]) | is.na(iDF[i, "Weight_g.d15"]))) {
+     when.dead[i] <- "before.D15"
+  } else if (iDF[i,"unmeasured"]=="measured" && iDF[i, "Age.code"]==1 && !(is.na(iDF[i, "Wing_mm.d15"]) | is.na(iDF[i, "Weight_g.d15"])) && iDF[i,"Ring.Mark"] %in% dead.post.ringed) {
+     when.dead[i] <- "after.D15"
+  } else {when.dead[i] <- "survived"}
+}
+
+iDF.2 <- cbind(iDF, when.dead)
+
+# check after.d15
+#i <- 116
+#iDF[i,"unmeasured"]=="measured" && iDF[i, "Age.code"]==1 && !(is.na(iDF[i, "Wing_mm.d15"]) | is.na(iDF[i, "Weight_g.d15"])) && iDF[i,"Ring.Mark"] %in% dead.post.ringed
+
+```
+
+```{r}
+write.csv(iDF.2, file = "../Data/Dataframes_R_out/individual_DF.csv")
+```
+
